@@ -30,3 +30,34 @@ Evidentia の星の数は、GRADE や Oxford CEBM (Centre for Evidence-Based Med
    二次情報しか見つからない場合は、その旨を `caution` に明記し、星は1段階以上下げて保守的に評価する。
 3. エビデンスは更新される。半年〜1年に一度は `last_reviewed` を見直すことが望ましい
    (自動化は [[roadmap]] の Phase 3 で検討)。
+
+## 優先する情報源(ドメイン)
+
+検索は汎用のWeb検索を使うが、以下のドメインを優先的に信頼する。PubMed本体やGoogle Scholarへの
+直接アクセス手段は無いが、これらのドメインで見つかる情報はPubMed/PMC収載論文や主要ガイドラインと
+実質的に重なる。
+
+**英語・国際(一次エビデンスの主軸)**
+- `pubmed.ncbi.nlm.nih.gov` / `ncbi.nlm.nih.gov` (PubMed Central)
+- `cochranelibrary.com` / `cochrane.org`
+- `nejm.org`, `thelancet.com`, `jamanetwork.com`, `bmj.com`
+- `who.int`, `cdc.gov`, `nih.gov`(NHLBI/NIAなど下部組織含む)
+- `uspreventiveservicestaskforce.org`, `fda.gov`
+
+**日本語(国内ガイドライン・検診年齢・薬事承認状況の確認用)**
+- `mhlw.go.jp`(厚生労働省)
+- `ncc.go.jp` / `ganjoho.jp`(国立がん研究センター・がん情報サービス)
+- `j-circ.or.jp`(日本循環器学会)
+- `jhsnet.net`(日本頭痛学会)
+- `joa.or.jp`(日本整形外科学会)
+- `jasso.or.jp`(日本肥満学会)
+
+## 検索言語の方針
+
+- **英語**を主軸にする。RCT・メタ解析・国際的な診療ガイドラインは国籍を問わずほぼ英語で発表・要約されるため、
+  質の高い一次エビデンスを探す際は英語検索を基本とする。
+- **日本語**は、日本在住者にとって実務上重要な差分(検診対象年齢、薬剤の国内承認状況、日本人特有の
+  リスク因子・基準値など)を確認するために併用する。特に医薬品・検診・肥満基準(BMI等)は国によって
+  推奨が異なることがあるため、日本語での確認を省略しない。
+- 英語・日本語以外の言語(独仏中韓等)は追加しない。臨床上重要なエビデンスは最終的にほぼ英語で
+  公表・要約されるため、言語を増やしてもレビューの手間が増えるだけで得られるものが少ないと判断する。
