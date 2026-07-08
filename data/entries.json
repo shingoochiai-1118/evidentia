@@ -446,5 +446,145 @@
     ],
     "date_added": "2026-07-08",
     "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "processed-meat-colorectal-cancer-risk",
+    "title": "加工肉(ハム・ソーセージ等)の習慣的な摂取は大腸がんリスクを上げる",
+    "category": "cancer",
+    "tags": [
+      "食事",
+      "加工肉",
+      "大腸がん",
+      "避けるべき習慣"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "国際的な発がん性分類(IARC Group 1)+ 800件以上の研究レビュー",
+    "summary": {
+      "basic": "ハムやソーセージ、ベーコンなどの「加工肉」を毎日食べる習慣は、大腸がんのリスクを上げることが、世界保健機関(WHO)の専門機関であるIARCによって認められています。IARCは加工肉を「人に対して発がん性がある」という、たばこと同じ最も高いグループに分類しています(ただし、リスクの大きさ自体はたばこよりずっと小さいです)。目安として、1日50g(ソーセージ1〜2本程度)を毎日食べ続けると、大腸がんのリスクが約18%上がると計算されています。",
+      "general": "IARC(国際がん研究機関)は800件以上の研究を検証した上で、加工肉(ハム・ソーセージ・ベーコン等)を「人に対して発がん性がある(Group 1)」に分類し、赤身肉(牛・豚肉等)は「おそらく発がん性がある(Group 2A)」に分類した。加工肉は主に大腸がんとの関連が最も強く支持されており、1日50gの摂取ごとに大腸がんリスクが約18%上昇すると推定されている。",
+      "professional": "IARC Monograph Vol.114にて加工肉はGroup 1(sufficient evidence、主に大腸がん)、赤身肉はGroup 2A(limited evidence+強い機序的裏付け、大腸がん・膵臓がん・前立腺がんとの関連)に分類。用量反応推定で加工肉50g/日あたりCRCリスク約18%増。"
+    },
+    "practical_takeaway": "加工肉を絶対に食べないという必要はないが、日常的に大量に食べる習慣がある場合は頻度・量を見直す価値がある。IARCの分類は「発がん性の強さ」ではなく「証拠の確実性」を示す点に注意(Group 1=喫煙と同じ確実性レベルだが、リスクの大きさは全く異なる)。",
+    "caution": "「IARC Group 1=たばこと同じくらい危険」という誤解が広まりやすいが、分類はハザードの有無に関する証拠の確実性を示すものであり、リスクの大きさ(マグニチュード)は別問題。加工肉のリスク上昇は喫煙による肺がんリスク上昇よりはるかに小さい。",
+    "sources": [
+      {
+        "name": "WHO: Q&A on carcinogenicity of red meat and processed meat",
+        "url": "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat",
+        "type": "government_summary"
+      },
+      {
+        "name": "IARC: Monographs evaluate consumption of red meat and processed meat (press release)",
+        "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "alcohol-cancer-no-safe-level",
+    "title": "アルコールはがんに関して「安全な量」が存在しない",
+    "category": "cancer",
+    "tags": [
+      "飲酒",
+      "アルコール",
+      "がん",
+      "避けるべき習慣"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "国際的な発がん性分類(IARC Group 1, 1987年〜)+ WHOの安全域なし声明(2023)",
+    "summary": {
+      "basic": "お酒(アルコール)は、量に関わらずがんのリスクを上げることが分かっています。IARC(WHOの専門機関)は1987年からアルコールを「人に対して発がん性がある」という、たばこと同じ最も高いグループに分類しています。2023年にWHOは「がんに関して安全な飲酒量というものは存在しない」とはっきり発表しました。少量でも、口・のど・食道・肝臓・大腸・乳房のがんのリスクを上げることが分かっています。",
+      "general": "IARCは1987年、アルコール飲料を「人に対して発がん性がある(Group 1)」に分類した(口腔・咽頭・喉頭・食道・肝臓のがん、後に大腸がん・乳がんも追加)。2023年、WHOは「がんと健康に関して安全な飲酒量は確立できない」との声明を発表し、少量の飲酒でも関連するがんのリスクが上昇することを明言している。",
+      "professional": "IARC Group 1(1987年〜、口腔・咽頭・喉頭・食道扁平上皮癌・肝細胞癌、2007/2009年に大腸がん・女性乳がん追加、エタノール及びアセトアルデヒドも同じくGroup 1)。WHO(2023, Lancet Public Health)は閾値なしの用量反応関係を明言し、no safe level of alcohol consumption with respect to cancer riskとの立場。"
+    },
+    "practical_takeaway": "「飲むなら少量までは安全」というラインは、がんに関する限り存在しない。飲酒量を減らす、または飲まないという選択自体が、がんリスクの観点では最もシンプルな予防策になる。",
+    "caution": "「適量なら健康に良い」という通説(特に心臓病について)は、別エントリー(メンデルランダム化研究)で疑問視されている。がんに関しては「適量」という概念自体が当てはまらない点に注意。",
+    "sources": [
+      {
+        "name": "WHO Europe: Alcohol and cancer fact sheet",
+        "url": "https://www.who.int/europe/news-room/fact-sheets/item/alcohol-and-cancer",
+        "type": "government_summary"
+      },
+      {
+        "name": "NEJM: The IARC Perspective on Alcohol Reduction or Cessation and Cancer Risk",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMsr2306723",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "moderate-alcohol-heart-benefit-myth",
+    "title": "「適量飲酒は心臓に良い」説は、近年の研究で疑問視されている",
+    "category": "cardio",
+    "tags": [
+      "飲酒",
+      "アルコール",
+      "定説の見直し",
+      "赤ワイン"
+    ],
+    "stars": 3,
+    "status": "myth_revised",
+    "evidence_level": "メンデルランダム化研究群(観察研究の交絡バイアスを補正する手法)",
+    "summary": {
+      "basic": "「赤ワインなど、お酒を少しだけ飲む人は心臓病になりにくい」という話を聞いたことがあるかもしれません。これは長年、生活習慣を比べる調査で繰り返し報告されてきました。しかし、遺伝子の情報を使ったより厳密な研究(メンデルランダム化研究)で調べ直すと、この「少量の飲酒は心臓に良い」という関係は、実は見えなくなる、あるいは逆に悪い方向に出ることが分かってきました。「お酒を飲む人はもともと生活習慣が良い人が多い」という別の理由で、見かけ上そう見えていた可能性が高いのです。",
+      "general": "「適量の飲酒は心血管疾患を予防する」という説は、多数の観察研究で支持されてきた。しかし、交絡因子の影響を受けにくいメンデルランダム化研究(遺伝的変異を利用した因果推論の手法)では、少量〜中等量の飲酒による心血管疾患リスク低下は支持されず、血圧・BMI・中性脂肪など複数の心血管危険因子には悪影響を示す関連が確認されている。「飲酒者は非飲酒者より他の生活習慣も健康的である」という交絡が、観察研究での見かけ上のベネフィットを生んでいた可能性が指摘されている。",
+      "professional": "観察研究におけるJカーブ型(適量飲酒者で最も低リスク)の関連は、複数のメンデルランダム化研究・メタ解析において再現されず、むしろ血圧・BMI・空腹時血糖・中性脂肪といったCVD危険因子への負の関連が示されている。Mendelian randomizationはconfounding・逆因果に頑健なため、観察研究における「健康な飲酒者バイアス」の存在を示唆する。現時点でRCTエビデンスも「適量飲酒の心保護効果」を支持していない。"
+    },
+    "practical_takeaway": "「心臓のために少量のお酒を飲み始める」ことを積極的に選ぶ医学的根拠は乏しい。すでに飲酒習慣がある場合に無理にやめる必要性を主張するものではないが、「健康のために飲む」という理由づけは見直した方が良い。",
+    "caution": "個人差や飲酒パターン(頻度・種類)による違いは研究間で議論が続いており、完全に決着した話ではない。ただし「適量飲酒=心臓に良い」と単純に言い切れる状況ではなくなっている。",
+    "sources": [
+      {
+        "name": "PMC: Moderate Alcohol Use and Cardiovascular Disease from Mendelian Randomization",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3712994/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "NCBI Bookshelf: Cardiovascular Disease - Review of Evidence on Alcohol and Health",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK614695/",
+        "type": "evidence_review"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "sedentary-behavior-independent-risk",
+    "title": "座りすぎ(座位行動)は運動量とは別に独立した健康リスクになる",
+    "category": "cardio",
+    "tags": [
+      "座りすぎ",
+      "座位行動",
+      "運動不足",
+      "避けるべき習慣"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "メタ解析(133万人規模)+ 用量反応解析",
+    "summary": {
+      "basic": "たとえ運動をしっかりしていても、座っている時間が長いこと自体が、心臓病などで亡くなるリスクを上げることが分かっています。133万人を対象にした研究では、1日10時間座っている人は1日1時間しか座らない人より、亡くなるリスクが最大52%も高いという結果でした(運動量を考慮しても34%高い)。ただし、1日30〜40分程度のややきつい運動をすると、座りすぎによるリスクの上昇をかなり打ち消せることも分かっています。",
+      "general": "座位行動(座っている時間)は、余暇の運動量とは独立した健康リスク要因であることが、133万人規模のメタ解析で示されている。座位時間が1日10時間の場合、1時間の場合と比べて全死亡リスクが52%高く(運動量未調整)、運動量を調整してもなお34%高いという用量反応関係が確認された。1日8時間、心血管死亡については6時間を超えるあたりからリスク上昇が顕著になる。1日30〜40分の中〜高強度の運動は、座りすぎによる死亡リスク上昇をかなり相殺できることも示されている。",
+      "professional": "座位行動はPA非依存の心血管・代謝リスク因子であり、量-反応メタ解析(n=1,331,468)にて総座位時間・TV視聴時間と全死亡・CVD死亡に有意な正の関連(PA補正後も有意)。座位10h/日 vs 1h/日でリスク上昇34%(PA調整後)/52%(未調整)。リスク上昇はCVD死亡で座位6h/日、全死亡で8h/日を超えると顕著。MVPA 30〜40分/日でsitting-mortality関連はほぼ相殺される。"
+    },
+    "practical_takeaway": "デスクワークが多い人は、1時間に1回は立ち上がって歩く、通勤や休憩時に軽く体を動かすなど「座りっぱなしを減らす」工夫を。すでに運動習慣がある人も、それとは別に座位時間そのものを減らす価値がある。目安として1日30〜40分の中強度以上の運動は座りすぎのリスクをかなり相殺できる。",
+    "caution": "運動をたくさんしていれば座位時間は気にしなくて良い、というわけではない(独立したリスク要因のため)。ただし運動量を増やすことでリスクの多くは打ち消せるため、過度に恐れる必要もない。",
+    "sources": [
+      {
+        "name": "Systematic review: Sedentary behaviour and risk of all-cause, CVD and cancer mortality (dose-response meta-analysis)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6133005/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "PMC: Time Spent Sitting as an Independent Risk Factor for Cardiovascular Disease",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7092398/",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
   }
 ]
