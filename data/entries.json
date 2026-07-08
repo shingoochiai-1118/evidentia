@@ -586,5 +586,77 @@
     ],
     "date_added": "2026-07-08",
     "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "early-peanut-introduction-allergy-prevention",
+    "title": "ピーナッツを生後6か月頃から早期に与えると、ピーナッツアレルギーの発症を大幅に減らせる",
+    "category": "children",
+    "tags": [
+      "アレルギー予防",
+      "離乳食",
+      "ピーナッツ",
+      "食物アレルギー",
+      "乳幼児",
+      "定説の見直し"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "大規模RCT(LEAP試験)+ 国際的な多学会合同ガイドライン(2021年改訂)",
+    "summary": {
+      "basic": "以前は「アレルギーが心配な食べ物は遅く与えた方が良い」と考えられていましたが、今は逆で、ピーナッツなどはむしろ早めに(生後6か月頃から、遅くとも1歳になる前に)少しずつ食べさせた方が、後になってピーナッツアレルギーになりにくいことが、きちんとした実験(LEAP試験)でわかっています。特にアレルギー体質になりやすい(重い湿疹や卵アレルギーがある)赤ちゃんでは、5歳時点でのピーナッツアレルギーが81%も少なくなりました。",
+      "general": "重度の湿疹または卵アレルギーを持つハイリスク乳児を対象としたLEAP試験(NEJM, 2015)では、生後4〜11か月からピーナッツを定期的に食べさせた群は、避けた群に比べて5歳時点のピーナッツアレルギー発症が81%少なかった。この結果を受け、2021年の多学会合同コンセンサスでは、生後6か月頃(遅くとも生後4か月以降)からピーナッツ・卵を含む食品を導入することが、全ての乳児に推奨されるようになった。5〜6歳で一時的にピーナッツを中断した追跡調査(LEAP-On)でも、早期導入群は74%低いアレルギー発症率を維持していた。",
+      "professional": "LEAP試験(NEJM 2015, N=640, 高リスク乳児[重症湿疹and/or卵アレルギー])にて生後4-11か月からのピーナッツ早期導入群は5歳時ピーナッツアレルギー発症81%減(ITT解析)。LEAP-On試験(1年間の中断後)でも74%減を維持し長期的な免疫寛容を示唆。2021年多学会合同コンセンサスガイドラインは生後6か月頃(4か月以降)からのアレルゲン含有食品導入を全乳児に推奨、旧来の「遅延導入」パラダイムから転換。"
+    },
+    "practical_takeaway": "アレルギーが心配だからといって、ピーナッツや卵などを不必要に遅らせる必要はない。開始時期や進め方について不安がある場合(特に重い湿疹や卵アレルギーがある場合)は、小児科医・アレルギー専門医に相談の上ですすめるのが望ましい。",
+    "caution": "自己判断でいきなり大量に食べさせるのではなく、少量から医師の指導のもとで進めることが推奨される。すでに食物アレルギーの症状が出ている場合は、必ず専門医の管理下で行う。",
+    "sources": [
+      {
+        "name": "NEJM: Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy (LEAP)",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1414850",
+        "type": "RCT"
+      },
+      {
+        "name": "NIH: Introducing peanut in infancy prevents peanut allergy into adolescence (LEAP-Trio)",
+        "url": "https://www.nih.gov/news-events/news-releases/introducing-peanut-infancy-prevents-peanut-allergy-into-adolescence",
+        "type": "government_summary"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "breastfeeding-infant-infection-prevention",
+    "title": "母乳育児は乳幼児の呼吸器感染症による入院リスクを下げる",
+    "category": "children",
+    "tags": [
+      "感染症予防",
+      "母乳育児",
+      "乳幼児",
+      "呼吸器感染症"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "システマティックレビュー・メタ解析(コホート16件, 270万人以上)",
+    "summary": {
+      "basic": "母乳で育てられた赤ちゃんは、風邪やRSウイルスのような呼吸器の感染症で入院することが少ないことが、270万人以上のデータをまとめた研究でわかっています。お腹の感染症(下痢など)についてはそこまではっきりした差は出ていませんが、呼吸器の感染症については母乳育児の効果がはっきり見られました。WHOは生後6か月までは母乳だけで育てること(完全母乳)を推奨しています。",
+      "general": "16件のコホート研究(270万人以上の子どもを対象)を統合したシステマティックレビュー・メタ解析では、完全母乳育児を受けた乳児は、消化器感染症による入院については有意ではないもののやや少なく、呼吸器感染症による入院については明確に少ないという結果が示された。RSウイルス感染症についても、母乳育児(特に完全母乳)が入院・重症化のリスクを下げることが複数の研究で確認されている。WHOは生後6か月までの完全母乳育児と、その後2歳以上まで母乳を継続しながら適切な離乳食を進めることを推奨している。",
+      "professional": "SR/メタ解析(コホート16件, n>2,700,000)にてexclusive breastfeeding群でGI感染症入院は非有意な減少、呼吸器感染症入院は有意な減少を認めた(年齢層を通じて一貫)。RSV関連アウトカム(入院・ICU入室・死亡)についても母乳育児(特に完全母乳)が保護的に関連し、1か月の母乳育児でもICU入室リスク低下と関連。WHO(2001)は生後6か月間の完全母乳育児、その後2年以上の継続母乳+適切な補完食を推奨。"
+    },
+    "practical_takeaway": "母乳育児が可能な状況であれば、生後6か月までの完全母乳育児は呼吸器感染症予防の観点でも推奨される。ただし母乳育児が困難な事情がある場合も多く、できる範囲で行うことが大切で、無理に完全母乳にこだわりすぎる必要はない。",
+    "caution": "母乳育児ができない・しない選択をした場合でも、適切な人工乳育児で健康に育てることは十分可能。この情報は母乳育児を強制するものではなく、あくまで感染症予防という一つの観点でのエビデンス。",
+    "sources": [
+      {
+        "name": "Systematic review: Breastfeeding and risk of hospitalisation in children under five",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12926449/",
+        "type": "systematic_review"
+      },
+      {
+        "name": "PMC: Exclusive Breastfeeding and Childhood Morbidity: A Narrative Review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9691199/",
+        "type": "narrative_review"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
   }
 ]

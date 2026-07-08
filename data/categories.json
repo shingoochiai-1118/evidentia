@@ -4,5 +4,6 @@
   { "id": "obesity", "label": "肥満予防", "labelEn": "Obesity Prevention", "color": "#f0b429" },
   { "id": "antiaging", "label": "アンチエイジング", "labelEn": "Anti-aging", "color": "#b39ddb" },
   { "id": "musculoskeletal", "label": "肩こり・腰痛対策", "labelEn": "Neck & Back Pain", "color": "#7fb0e0" },
-  { "id": "headache", "label": "頭痛(嫁向け)", "labelEn": "Headache", "color": "#f2789f" }
+  { "id": "headache", "label": "頭痛(嫁向け)", "labelEn": "Headache", "color": "#f2789f" },
+  { "id": "children", "label": "子ども向け", "labelEn": "For Children", "color": "#8fcf7a" }
 ]
