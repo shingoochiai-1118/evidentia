@@ -362,6 +362,18 @@ main {
   width: fit-content;
 }
 
+.debate-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(79, 209, 197, 0.12);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  width: fit-content;
+}
+
 .sources {
   font-size: 0.78rem;
   color: var(--text-muted);

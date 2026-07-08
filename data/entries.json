@@ -341,5 +341,110 @@
     ],
     "date_added": "2026-07-08",
     "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "oily-fish-intake-cvd-mortality",
+    "title": "青魚(サーモン・サバなど)を食品として食べる習慣は心血管死亡リスクの低下と関連する",
+    "category": "cardio",
+    "tags": [
+      "食事",
+      "魚",
+      "オメガ3",
+      "青魚"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "メタ解析(前向きコホート25件, n=2,027,512)",
+    "summary": {
+      "basic": "サーモンやサバなどの脂がのった魚をよく食べる人は、心臓の病気で亡くなるリスクが低いことが、200万人以上を調べた世界中の研究をまとめた調査でわかっています。魚を1日20gくらい多く食べると、リスクが少しずつ下がっていく関係も見られました。おもしろいのは、魚の油を「成分だけ取り出したサプリ」ではこれほどはっきりした効果が出ていない、という点です。",
+      "general": "25件の前向きコホート研究(合計203万人、心血管死亡103,734件)を統合したメタ解析では、魚の摂取量が多いほど心血管疾患死亡リスクが低く(相対リスク0.91)、海洋性オメガ3脂肪酸の摂取量が多いほどさらにリスクが低い(相対リスク0.87)という用量反応関係が確認された。1日20gの魚、または80mgの海洋性オメガ3の摂取増加ごとに、リスクが約4%低下する計算になる。",
+      "professional": "前向きコホートのメタ解析(25研究, n=2,027,512, CVD死亡103,734件)にて魚摂取とCVD死亡リスクに逆相関(RR 0.91, 95%CI 0.85–0.98)、海洋性n-3 PUFA摂取量ではRR 0.87(95%CI 0.85–0.89)。用量反応解析で魚20g/日または海洋性n-3 80mg/日の増加ごとにCVD死亡リスク約4%低下。単離n-3サプリのRCT(VITAL等)より観察研究での食品由来摂取の関連の方が一貫して強く出ている点が対照的。"
+    },
+    "practical_takeaway": "サプリで置き換えるより、週2〜3回程度、サーモン・サバ・イワシなどの青魚を食事に取り入れることを優先する。",
+    "caution": "観察研究(コホート)であり、魚をよく食べる人は他の生活習慣も良好な傾向がある可能性(交絡)を完全には排除できない。ただし複数の独立したコホートで一貫した結果が出ている点は評価できる。",
+    "sources": [
+      {
+        "name": "Meta-analysis: Intake of Fish and Marine n-3 PUFA and Risk of CVD Mortality",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8308510/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Umbrella review: Fish Consumption and Risk of Chronic Disease",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490170/",
+        "type": "umbrella_review"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "cruciferous-vegetables-cancer-mixed-evidence",
+    "title": "ブロッコリーなどアブラナ科野菜のがん予防効果は、がんの種類によって結果がまちまち",
+    "category": "cancer",
+    "tags": [
+      "食事",
+      "野菜",
+      "ブロッコリー",
+      "定説の見直し"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "観察研究(コホート・症例対照)のメタ解析、がん種により結果不一致",
+    "summary": {
+      "basic": "ブロッコリーなどの野菜には、体に良いとされる「スルフォラファン」という成分が含まれていて、がん細胞の増殖を抑えるような働きが実験室ではわかっています。でも、実際に人間を対象にした研究をがんの種類別に見ていくと、「乳がん」や「大腸がん」では「特に関連なし」という結果が多く、「肺がん」では一部の研究でリスクが下がる結果も出ている、というように、がんの種類によって結果がバラバラです。「ブロッコリーを食べればがんが防げる」と言い切れるほどの強い証拠は、今のところありません。",
+      "general": "アブラナ科野菜(ブロッコリー等)に含まれるスルフォラファン等のイソチオシアネートには、発がん物質の解毒促進やアポトーシス誘導など、抗がん作用が示唆されるメカニズムが多数報告されている。しかし人間でのコホート研究・メタ解析の結果はがん種によって一貫しない。乳がん・大腸がんのメタ解析では明確な関連は認められず、肺がんでは一部の大規模コホート(週5皿以上摂取の女性)でリスク低下が示された。卵巣がんは症例対照研究では関連ありだがコホート研究では認められていない。",
+      "professional": "グルコシノレート由来イソチオシアネート(スルフォラファン等)によるHDAC阻害・p16/APC再活性化等の機序はin vitro/動物モデルで支持されるが、ヒト観察研究のがん種別結果はheterogeneous。乳がん・CRCのメタ解析ではnull、肺がんはNHS/HPFS等一部コホートで高摂取群のリスク低下、卵巣がんはcase-control陽性・コホート陰性と不一致。高品質な介入試験(RCT)は乏しく、機序的妥当性とヒト有効性の間にギャップがある。"
+    },
+    "practical_takeaway": "野菜摂取全般(食物繊維・ビタミン・抗酸化物質の総合的な摂取源として)は引き続き推奨されるが、「ブロッコリーだけでがんが防げる」という過度な期待は禁物。バランスの良い食事の一部として捉えるのが妥当。",
+    "caution": "「スーパーフード」的な語られ方をしがちだが、がん種によっては人での効果が確認されていないものも多い。強い健康強調表示には注意。",
+    "sources": [
+      {
+        "name": "NCI: Cruciferous Vegetables and Cancer Prevention",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cruciferous-vegetables-fact-sheet",
+        "type": "government_summary"
+      },
+      {
+        "name": "Systematic review: Broccoli Consumption and Risk of Cancer (observational studies)",
+        "url": "https://www.mdpi.com/2072-6643/16/11/1583",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "allium-vegetables-onion-garlic-mixed-evidence",
+    "title": "玉ねぎ・ニンニクのがん予防効果は全体として支持されず、心血管への効果はわずか",
+    "category": "cancer",
+    "tags": [
+      "食事",
+      "玉ねぎ",
+      "ニンニク",
+      "定説の見直し"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "観察研究のメタ解析(22研究のプール解析)+ サプリのRCT(限定的)",
+    "summary": {
+      "basic": "玉ねぎやニンニク(アリウム野菜)は昔から「がんに効く」と言われてきましたが、22件の研究をまとめた大きな調査では、がん全体との関連ははっきり「なし」という結果でした。それどころか、大腸がんについては「ニンニクのサプリを摂ると逆にリスクが上がるかもしれない」という報告もあります(まだ確定した話ではありません)。一方、心臓や血管については、ニンニクに血液をサラサラにするような小さな効果があるという実験結果もあります。",
+      "general": "アリウム野菜(玉ねぎ・ニンニク等)のがん予防効果について、22研究をプールした解析では、がん全体との有意な関連は認められなかった。大腸がんに限ると、アリウム野菜摂取・ニンニクサプリのいずれもリスク低下と関連せず、ニンニクサプリはむしろ大腸がんリスクを上げた可能性を示す報告もある(要外部検証)。一方、胃がんについては高摂取でリスク低下を示すメタ解析があり、部位によって結果が分かれる。心血管系については、ニンニクサプリに抗血小板作用や動脈硬化マーカー改善を示す臨床試験があり、こちらは小さいながらも一定の裏付けがある。",
+      "professional": "アリウム野菜/ガーリックサプリのがんリスクに関するSR/メタ解析(22研究)にて全体としてnull association。CRCサブ解析ではアリウム野菜・ガーリックサプリともにリスク低下と関連せず、ガーリックサプリはリスク増加を示唆する報告あり(要外部検証)。胃がんはメタ解析で高摂取群のリスク低下を報告。CVD領域ではガーリックサプリのRCTで抗血小板作用・atherogenic marker改善が報告され、モデストながら心血管保護的効果を支持する知見がある。"
+    },
+    "practical_takeaway": "「がん予防」を主目的に玉ねぎ・ニンニクのサプリを摂る根拠は乏しい。通常の食事の一部として楽しむ分には問題ないが、過度な健康効果を期待しない方が良い。",
+    "caution": "ニンニクサプリと大腸がんリスクに関する報告は限定的なデータに基づくため、過度に恐れる必要はないが、「とにかく摂れば良い」というものでもない点に注意。",
+    "sources": [
+      {
+        "name": "Systematic review/meta-analysis: Allium Vegetables, Garlic Supplements, and Risk of Cancer",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8985597/",
+        "type": "systematic_review"
+      },
+      {
+        "name": "Meta-analysis: Allium vegetables and garlic supplements do not reduce risk of colorectal cancer",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24681077/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
   }
 ]

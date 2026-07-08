@@ -217,6 +217,11 @@ function renderCard(entry) {
     badge.className = "myth-badge";
     badge.textContent = "⚠️ 定説の見直し";
     card.appendChild(badge);
+  } else if (entry.status === "under_debate") {
+    const badge = document.createElement("span");
+    badge.className = "debate-badge";
+    badge.textContent = "🔀 評価が分かれている";
+    card.appendChild(badge);
   }
 
   const h2 = document.createElement("h2");
