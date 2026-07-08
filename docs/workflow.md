@@ -17,7 +17,7 @@
 この記事を評価してEvidentiaに追加して: <URLまたは記事の内容>
 ```
 
-複数まとめて渡してもよい。カテゴリを指定したい場合(例: 「これは片頭痛カテゴリで」)は一言添える。
+複数まとめて渡してもよい。カテゴリを指定したい場合(例: 「これは頭痛カテゴリで」)は一言添える。
 
 ## Claude側の手順(このプロジェクトで新規エントリーを追加する際に従うこと)
 
@@ -25,18 +25,19 @@
    引用元の一次情報(論文・ガイドライン)まで遡って確認する。見つからない場合は `caution` にその旨を明記し、
    星は保守的に付ける。
 2. `docs/evidence-rating.md` の基準に沿って星(1〜5)と `evidence_level` を決める。
-3. `data/categories.json` にある6カテゴリ(cancer / cardio / obesity / antiaging / musculoskeletal / migraine)
+3. `data/categories.json` にある6カテゴリ(cancer / cardio / obesity / antiaging / musculoskeletal / headache)
    のいずれかに分類する。当てはまらない場合はユーザーに確認する。
-   **注意**: antiaging(アンチエイジング)・musculoskeletal(肩こり・腰痛)・migraine(片頭痛)の3カテゴリは、
+   **注意**: antiaging(アンチエイジング)・musculoskeletal(肩こり・腰痛)・headache(頭痛)の3カテゴリは、
    厳密な「予防」だけでなく「改善・対策」のアプローチも対象に含む。この3カテゴリで情報を探す/評価する際は、
    「発症を防ぐ」エビデンスだけに絞らず、「すでにある症状を改善する」エビデンスも同様に価値があるものとして扱う。
+   headache(頭痛)カテゴリは片頭痛(migraine)と緊張性頭痛(tension-type headache)の両方を対象とする。
 4. `data/entries.json` に以下のスキーマでエントリーを追記する(配列の末尾に追加でよい、並び順はサイト側で制御される)。
 
 ```json
 {
   "id": "kebab-case-の一意なID",
   "title": "結論が一目でわかる日本語タイトル",
-  "category": "cancer | cardio | obesity | antiaging | musculoskeletal | migraine",
+  "category": "cancer | cardio | obesity | antiaging | musculoskeletal | headache",
   "tags": ["タグ1", "タグ2"],
   "stars": 1〜5,
   "status": "well_established | myth_revised | under_debate",
@@ -62,7 +63,7 @@
 以下を行う。
 
 1. `data/entries.json` と `data/candidates.json` を読み、既存エントリーと重複しないテーマを選ぶ。
-   6カテゴリ(cancer / cardio / obesity / antiaging / musculoskeletal / migraine)のうち、
+   6カテゴリ(cancer / cardio / obesity / antiaging / musculoskeletal / headache)のうち、
    まだ手薄なカテゴリ([[roadmap]] Phase 1参照)を優先する。
 2. Web検索で各カテゴリにつき1〜3件、一次情報(ガイドライン改定・RCT・メタ解析)ベースの候補を探す。
    検索対象ドメイン・検索言語の方針は [[evidence-rating]] を参照(英語を主軸に、検診年齢や薬剤の
