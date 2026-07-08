@@ -1,0 +1,8 @@
+[
+  { "id": "cancer", "label": "がん予防", "labelEn": "Cancer Prevention", "color": "#e08a9a" },
+  { "id": "cardio", "label": "心疾患・脳血管疾患予防", "labelEn": "Cardio & Stroke Prevention", "color": "#4fd1c5" },
+  { "id": "obesity", "label": "肥満予防", "labelEn": "Obesity Prevention", "color": "#f0b429" },
+  { "id": "antiaging", "label": "アンチエイジング", "labelEn": "Anti-aging", "color": "#b39ddb" },
+  { "id": "musculoskeletal", "label": "肩こり・腰痛", "labelEn": "Neck & Back Pain", "color": "#7fb0e0" },
+  { "id": "migraine", "label": "片頭痛(嫁向け)", "labelEn": "Migraine", "color": "#f2789f" }
+]

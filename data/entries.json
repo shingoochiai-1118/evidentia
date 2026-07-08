@@ -1,0 +1,93 @@
+[
+  {
+    "id": "aerobic-exercise-cvd-prevention",
+    "title": "有酸素運動 週150〜300分で心血管疾患・全死亡リスクが低下する",
+    "category": "cardio",
+    "tags": ["運動", "有酸素運動", "生活習慣"],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "国際ガイドライン(WHO)+ 多数のメタ解析",
+    "summary": "WHOの2020年身体活動ガイドラインは、成人は中強度の有酸素運動を週150〜300分、または高強度なら週75〜150分(もしくはその組み合わせ)行うことを推奨している。この水準の活動量は、心血管疾患死亡率・全死亡率の低下、高血圧や2型糖尿病の発症リスク低下などと関連することが多数の研究で確認されている。",
+    "practical_takeaway": "早歩き・ジョギング・サイクリングなどを週5日30分程度を目安に。筋力トレーニングも週2回以上組み合わせるとさらに良い。",
+    "caution": "",
+    "sources": [
+      { "name": "WHO Guidelines on Physical Activity and Sedentary Behaviour (2020)", "url": "https://www.who.int/europe/publications/i/item/9789240014886", "type": "guideline" },
+      { "name": "WHO Guidelines on Physical Activity and Sedentary Behaviour – NCBI Bookshelf", "url": "https://www.ncbi.nlm.nih.gov/books/NBK566046/", "type": "guideline" }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "mediterranean-diet-cvd-prevention",
+    "title": "地中海食(オリーブオイル・ナッツ中心)が心血管疾患リスクを約3割下げる",
+    "category": "cardio",
+    "tags": ["食事", "地中海食", "オリーブオイル"],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "大規模RCT(PREDIMED)+ 複数のシステマティックレビュー(アンブレラレビュー)",
+    "summary": "スペインで実施された大規模RCT「PREDIMED」では、心血管疾患高リスク者が地中海食(エキストラバージンオリーブオイルまたはミックスナッツを追加)を続けたグループは、対照食群に比べて主要心血管イベントの相対リスクが約30%低下した(中央値4.8年追跡)。この結果はその後の複数のアンブレラレビューでも支持されている。",
+    "practical_takeaway": "精製穀物・赤身肉・菓子類を減らし、野菜・魚・豆類・ナッツ・オリーブオイルを中心とした食事パターンに寄せる。",
+    "caution": "2013年の原論文は無作為化手順の一部に誤りがあったため2018年に一度撤回され、再解析の上で訂正版が再発表された経緯がある(結論そのものは維持)。エビデンスが自己修正されていく過程の好例として付記しておく。",
+    "sources": [
+      { "name": "PREDIMED trial overview", "url": "https://www.tandfonline.com/doi/full/10.3109/08037051.2013.793882", "type": "RCT" },
+      { "name": "Harvard: PREDIMED Study Retraction and Republication", "url": "https://nutritionsource.hsph.harvard.edu/2018/06/22/predimed-retraction-republication/", "type": "explainer" },
+      { "name": "Umbrella review: Mediterranean diet for CVD prevention", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11795232/", "type": "umbrella_review" }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "omega3-supplement-cvd-limited-benefit",
+    "title": "オメガ3(魚油)サプリは健康な人の心血管イベント予防効果が明確ではない",
+    "category": "cardio",
+    "tags": ["サプリメント", "オメガ3", "定説の見直し"],
+    "stars": 3,
+    "status": "myth_revised",
+    "evidence_level": "大規模RCT(VITAL試験, N≈25,871)",
+    "summary": "心血管疾患の予防効果があるとされてきたオメガ3脂肪酸サプリだが、2018年発表のVITAL試験(50歳以上の健康な米国人約2.6万人を5年追跡)では、1日1gのオメガ3サプリ摂取は心筋梗塞・脳卒中・心血管死からなる主要心血管イベントを統計学的に有意には減らさなかった。ただし普段の魚摂取量が少ない集団ではベネフィットが見られた可能性を示すサブグループ結果もある。",
+    "practical_takeaway": "サプリに頼るより、まず週2回程度の魚(特に青魚)を食事に取り入れることを優先する。中性脂肪が非常に高い場合など特定の状況では処方薬レベルのオメガ3が別途検討されることもあるため、その場合は主治医に相談を。",
+    "caution": "他の大規模メタ解析では中性脂肪高値者や二次予防(既往のある人)では一定の有用性を示す報告もあり、対象集団によって結論が変わる点に注意。",
+    "sources": [
+      { "name": "NEJM: Marine n-3 Fatty Acids and Prevention of CVD and Cancer (VITAL trial)", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1811403", "type": "RCT" },
+      { "name": "NHLBI: Omega-3s for heart health? Benefits and risks", "url": "https://www.nhlbi.nih.gov/news/2024/omega-3s-heart-health-exploring-potential-benefits-and-risks", "type": "government_summary" }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "colonoscopy-screening-colorectal-cancer",
+    "title": "大腸内視鏡検診は大腸がんの罹患・死亡を減らすが、効果の大きさは研究により幅がある",
+    "category": "cancer",
+    "tags": ["がん検診", "大腸がん", "内視鏡"],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "メタ解析(RCT7件, n=663,319)+ 大規模RCT(NordICC)",
+    "summary": "7件のRCTを統合したメタ解析では、内視鏡検診(大腸内視鏡・S状結腸鏡)群で大腸がん死亡率が26%低下したと報告されている。一方、2022年発表の大規模RCT「NordICC」では、受診勧奨群の死亡率低下は10年時点で10%(統計学的に非有意)にとどまったが、罹患率については有意な低下が確認された。NordICCでは実際に内視鏡を受けた人が招待者の約42%にとどまった点も結果に影響している可能性がある。",
+    "practical_takeaway": "大腸がん検診(便潜血検査や内視鏡)は各国のガイドラインで推奨されている。効果は実際の受診率(コンプライアンス)に左右されるため、勧められたら実際に受けることが重要。",
+    "caution": "「内視鏡を受ければ必ず死亡率が26%下がる」と単純化するのは不正確。効果の大きさは研究デザインや受診率によって変動する、というのがより正確な理解。",
+    "sources": [
+      { "name": "Meta-analysis: Effectiveness of sigmoidoscopy/colonoscopy screening", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10972922/", "type": "meta_analysis" },
+      { "name": "NordICC trial design paper", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5435368/", "type": "RCT" }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "magnesium-migraine-prevention",
+    "title": "マグネシウムは片頭痛予防に「おそらく有効」(中程度のエビデンス)",
+    "category": "migraine",
+    "tags": ["サプリメント", "マグネシウム", "片頭痛", "嫁向け"],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "学会ガイドライン(AHS/AAN, Level B, 2012)→ 後続レビューではGrade C相当に下方修正",
+    "summary": "米国頭痛学会(AHS)と米国神経学会(AAN)は2012年、片頭痛予防治療のエビデンスレビューでマグネシウムを「Level B(おそらく効果あり、治療選択肢として検討すべき)」と評価した。ただし2017年のシステマティックレビューではGrade C(効果がある可能性)相当と、やや慎重な評価になっている。",
+    "practical_takeaway": "酸化マグネシウムで1日400〜500mg程度が目安として使われることが多い。頭痛外来などで実際に併用提案されることがある選択肢の一つ。",
+    "caution": "下痢などの消化器症状が出ることがあり、腎機能が低下している場合は摂取量に注意が必要。開始前に主治医・薬剤師に相談を。",
+    "sources": [
+      { "name": "American Migraine Foundation: Magnesium and Migraine", "url": "https://americanmigrainefoundation.org/resource-library/magnesium/", "type": "patient_guideline" },
+      { "name": "NCBI Bookshelf: Magnesium as an Alternative/Adjunct for Migraine (evidence summary)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK475799/table/app4.t2/", "type": "evidence_review" }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  }
+]
