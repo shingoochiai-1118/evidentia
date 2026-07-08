@@ -27,6 +27,9 @@
 2. `docs/evidence-rating.md` の基準に沿って星(1〜5)と `evidence_level` を決める。
 3. `data/categories.json` にある6カテゴリ(cancer / cardio / obesity / antiaging / musculoskeletal / migraine)
    のいずれかに分類する。当てはまらない場合はユーザーに確認する。
+   **注意**: antiaging(アンチエイジング)・musculoskeletal(肩こり・腰痛)・migraine(片頭痛)の3カテゴリは、
+   厳密な「予防」だけでなく「改善・対策」のアプローチも対象に含む。この3カテゴリで情報を探す/評価する際は、
+   「発症を防ぐ」エビデンスだけに絞らず、「すでにある症状を改善する」エビデンスも同様に価値があるものとして扱う。
 4. `data/entries.json` に以下のスキーマでエントリーを追記する(配列の末尾に追加でよい、並び順はサイト側で制御される)。
 
 ```json
