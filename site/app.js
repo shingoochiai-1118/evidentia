@@ -20,6 +20,10 @@ async function init() {
   state.entries = entries;
   state.categories = categories;
 
+  const params = new URLSearchParams(window.location.search);
+  const tagParam = params.get("tag");
+  if (tagParam) state.tagFilter = tagParam;
+
   renderChips();
   setupLevelToggle();
   syncLevelButtons();

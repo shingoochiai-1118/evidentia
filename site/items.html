@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Evidentia — 食品・運動別</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Evidentia">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%AD%90%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-mark">✦</span>
+    <div class="brand-text">
+      <h1>Evidentia</h1>
+      <p class="tagline">家族の健康維持のために根拠のある知識を集める</p>
+    </div>
+  </div>
+  <nav class="view-tabs" aria-label="表示の切り替え">
+    <a href="index.html" class="view-tab">カテゴリ別</a>
+    <a href="items.html" class="view-tab active">食品・運動別</a>
+  </nav>
+</header>
+
+<main>
+  <p class="results-meta">個別の食品・運動ごとに、エビデンスの有無を一覧できます。グレー表示は「まだ調べていません」という意味です。★があるものをクリックすると詳細記事に移動します。</p>
+
+  <h2 class="item-section-title">運動</h2>
+  <div class="item-grid" id="exercise-grid"></div>
+
+  <h2 class="item-section-title">食品</h2>
+  <div class="item-grid" id="food-grid"></div>
+</main>
+
+<footer class="site-footer">
+  <p>信頼度は医療ガイドラインの考え方(GRADE / Oxford CEBM)を参考にした独自基準です。詳細は <code>docs/evidence-rating.md</code> を参照。個々の健康判断は必ず主治医にご相談ください。</p>
+</footer>
+
+<script src="items.js"></script>
+</body>
+</html>

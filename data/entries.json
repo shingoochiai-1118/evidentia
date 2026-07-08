@@ -798,5 +798,75 @@
     ],
     "date_added": "2026-07-08",
     "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "dark-chocolate-cardiovascular-blood-pressure",
+    "title": "ダークチョコレート(高カカオ)は血圧など心血管系の指標を改善する",
+    "category": "cardio",
+    "tags": [
+      "食事",
+      "ダークチョコレート",
+      "カカオ",
+      "フラバノール"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "メタ解析(RCT31件, 血圧等の中間指標)+ メンデルランダム化研究",
+    "summary": {
+      "basic": "カカオ含有量の多いダークチョコレートには「フラバノール」という成分が含まれていて、血管を広げて血圧を下げる働きがあることが、複数の実験でわかっています。2週間以上ダークチョコレートやココア飲料を摂った実験をまとめた調査では、血圧が少し下がるという結果が出ています。遺伝子を使った研究でも、チョコレートをよく摂る人は高血圧になりにくい傾向が示されています。ただし、実際に「心臓病になりにくくなる」というところまでは、まだはっきり証明されていません。",
+      "general": "カカオのフラバノールには血管拡張作用があり、31件の研究を統合したメタ解析では、2週間以上のダークチョコレート・ココア飲料摂取により収縮期・拡張期血圧が有意に低下することが示されている。血管内皮機能(FMD)も改善するとの報告がある。メンデルランダム化研究では、ダークチョコレート摂取と本態性高血圧リスク低下(OR 0.73)との関連が示唆されている。ただし、これらは主に血圧や血管機能といった中間指標に基づくものであり、心筋梗塞や脳卒中などの臨床アウトカムそのものを減らすという直接的な証拠はまだ確立していない。",
+      "professional": "カカオフラバノールのNO産生促進による血管拡張作用が機序として支持される。メタ解析(31 studies)にて2週間以上のcocoa/dark chocolate摂取で収縮期・拡張期血圧の有意な低下、FMD +2%の改善。MR study(Mendelian randomization)にてdark chocolate摂取と本態性高血圧リスクに逆相関(OR 0.73, 95%CI 0.60-0.88)、静脈血栓塞栓症にも示唆的な逆相関(OR 0.69)。中間バイオマーカーレベルのエビデンスが中心で、hard outcome(MACE等)を評価したRCTは不足。"
+    },
+    "practical_takeaway": "普通の(乳成分や砂糖の多い)チョコレートではなく、カカオ含有率70%以上などの高カカオのダークチョコレートを、間食として少量(1日20〜30g程度)楽しむ範囲であれば、血圧など心血管系の指標にプラスに働く可能性がある。",
+    "caution": "糖分・脂肪分・カロリーも高いため、食べ過ぎれば体重増加のリスクとのトレードオフになる。「チョコレートを食べれば健康になる」という単純な話ではない。",
+    "sources": [
+      {
+        "name": "Meta-analysis: Effects of chocolate, cocoa, and flavan-3-ols on cardiovascular health",
+        "url": "https://ajcn.nutrition.org/article/S0002-9165(23)02692-8/fulltext",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Scientific Reports: Dark chocolate intake and cardiovascular diseases (Mendelian randomization)",
+        "url": "https://www.nature.com/articles/s41598-023-50351-6",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "coffee-consumption-mortality-cvd-reduction",
+    "title": "コーヒーを1日3〜4杯飲む習慣は、心血管疾患死亡・全死亡リスクの低下と関連する",
+    "category": "cardio",
+    "tags": [
+      "食事",
+      "コーヒー",
+      "カフェイン",
+      "飲料"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "メタ解析(コホート31〜36件, 100万人超)",
+    "summary": {
+      "basic": "コーヒーを1日3〜4杯くらい飲む人は、まったく飲まない人に比べて、心臓の病気や、あらゆる原因で亡くなるリスクが低い傾向があることが、160万人以上を対象にした研究でわかっています。全死亡リスクは1日4杯で16%、心血管の病気による死亡リスクは1日3杯で21%低いという結果でした。ただし、飲めば飲むほど良いわけではなく、4杯を超えるとそれ以上のメリットは見られませんでした。",
+      "general": "31件のコホート研究(160万人以上)を統合したメタ解析では、コーヒー摂取量と全死亡・心血管疾患死亡リスクとの間に非線形の逆相関が見られ、全死亡リスクは1日4杯で16%、心血管死亡リスクは1日3杯で21%それぞれ最も低下した。別のメタ解析(36研究、127万人以上)でも、1日3.5杯程度の摂取で心血管疾患リスクが最も低い(相対リスク0.85)と報告されている。糖尿病患者を対象とした研究でも、1日4杯の摂取で全死亡・心血管死亡リスクの低下が確認されている。摂取量が多くなりすぎるとメリットが頭打ちになる(非線形)点が特徴。",
+      "professional": "用量反応メタ解析(31 studies, N=1,610,543)にて全死亡・CVD死亡と非線形の逆相関、最大リスク低下は全死亡で4杯/日(-16%)、CVD死亡で3杯/日(-21%)。別のメタ解析(36 studies, N=1,279,804, CVDイベント36,352件)ではCVDリスクの非線形関連を確認、3.5杯/日相当でRR 0.85が最低点。2型糖尿病患者サブグループでも4杯/日でHR 0.79(全死亡)/0.60(CVD死亡)。高摂取域(>4-5杯/日)ではベネフィットの頭打ち・消失がみられる。"
+    },
+    "practical_takeaway": "コーヒーを飲む習慣がある場合、1日3〜4杯程度は心血管の健康にとってむしろプラスに働く可能性がある。ただし「たくさん飲むほど良い」わけではないので、目安量を超えて無理に増やす必要はない。",
+    "caution": "妊娠中、特定の心疾患(不整脈等)がある場合、カフェインに敏感な人などは摂取量に注意が必要。糖分・クリームを大量に加えたコーヒー飲料は別の健康リスク(糖分過多)を伴う点にも注意。",
+    "sources": [
+      {
+        "name": "Meta-analysis: Coffee consumption and mortality from all causes, CVD, and cancer (dose-response)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25156996/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "PMC: Long-Term Coffee Consumption and Risk of Cardiovascular Disease (dose-response meta-analysis)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3945962/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
   }
 ]

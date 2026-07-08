@@ -17,14 +17,17 @@ PC/iPhoneからいつでも参照できる自分専用のハブを作る。
 
 ```
 data/
-  categories.json   カテゴリ定義(6領域)
+  categories.json   カテゴリ定義(7領域)
   entries.json      情報エントリー本体(このファイルが増えていく)
+  items.json        食品・運動アイテムの一覧(items.htmlで使用)
 docs/
   evidence-rating.md  星の付け方の基準(GRADE/Oxford CEBMベース)
   workflow.md         新しい情報を追加する時の手順
   roadmap.md          プロジェクトのロードマップ
 site/
-  index.html / style.css / app.js   閲覧用の静的サイト(ビルド不要)
+  index.html / app.js     カテゴリ別の閲覧ページ(ビルド不要)
+  items.html / items.js   食品・運動別の一覧ページ
+  style.css               共通スタイル
 ```
 
 ## 使い方

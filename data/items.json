@@ -1,0 +1,19 @@
+[
+  { "id": "walking-running", "label": "ウォーキング・ランニング", "type": "exercise", "icon": "🏃", "matchTags": ["有酸素運動"] },
+  { "id": "strength-training", "label": "筋トレ", "type": "exercise", "icon": "🏋️", "matchTags": ["筋トレ"] },
+  { "id": "hiit", "label": "HIIT", "type": "exercise", "icon": "🔥", "matchTags": ["HIIT"] },
+  { "id": "yoga", "label": "ヨガ", "type": "exercise", "icon": "🧘", "matchTags": ["ヨガ"] },
+  { "id": "stretching", "label": "ストレッチ", "type": "exercise", "icon": "🤸", "matchTags": ["ストレッチ"] },
+  { "id": "fish", "label": "魚(サーモン・サバ等)", "type": "food", "icon": "🐟", "matchTags": ["魚", "青魚"] },
+  { "id": "broccoli", "label": "ブロッコリー", "type": "food", "icon": "🥦", "matchTags": ["ブロッコリー"] },
+  { "id": "onion", "label": "玉ねぎ", "type": "food", "icon": "🧅", "matchTags": ["玉ねぎ"] },
+  { "id": "dark-chocolate", "label": "ダークチョコレート", "type": "food", "icon": "🍫", "matchTags": ["ダークチョコレート"] },
+  { "id": "coffee", "label": "コーヒー", "type": "food", "icon": "☕", "matchTags": ["コーヒー"] },
+  { "id": "yogurt", "label": "ヨーグルト", "type": "food", "icon": "🥣", "matchTags": ["ヨーグルト"] },
+  { "id": "tomato", "label": "トマト", "type": "food", "icon": "🍅", "matchTags": ["トマト"] },
+  { "id": "cabbage", "label": "キャベツ", "type": "food", "icon": "🥬", "matchTags": ["キャベツ"] },
+  { "id": "egg", "label": "卵", "type": "food", "icon": "🥚", "matchTags": ["卵"] },
+  { "id": "avocado", "label": "アボカド", "type": "food", "icon": "🥑", "matchTags": ["アボカド"] },
+  { "id": "processed-meat", "label": "加工肉", "type": "food", "icon": "🌭", "matchTags": ["加工肉"] },
+  { "id": "alcohol", "label": "お酒", "type": "food", "icon": "🍷", "matchTags": ["アルコール", "飲酒"] }
+]
