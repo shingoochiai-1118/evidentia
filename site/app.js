@@ -4,16 +4,25 @@ const state = {
   activeCategory: "all",
   query: "",
   sort: "stars_desc",
+  starFilter: 0,
+  mythOnly: false,
+  tagFilter: null,
+  level: "general",
 };
 
 async function init() {
+  state.level = localStorage.getItem("evidentia_level") || "general";
+
   const [entries, categories] = await Promise.all([
     fetch("../data/entries.json").then((r) => r.json()),
     fetch("../data/categories.json").then((r) => r.json()),
   ]);
   state.entries = entries;
   state.categories = categories;
+
   renderChips();
+  setupLevelToggle();
+  syncLevelButtons();
   render();
 
   document.getElementById("search").addEventListener("input", (e) => {
@@ -24,11 +33,46 @@ async function init() {
     state.sort = e.target.value;
     render();
   });
+  document.getElementById("star-filter").addEventListener("change", (e) => {
+    state.starFilter = Number(e.target.value);
+    render();
+  });
+  document.getElementById("myth-toggle").addEventListener("click", (e) => {
+    state.mythOnly = !state.mythOnly;
+    e.currentTarget.setAttribute("aria-pressed", String(state.mythOnly));
+    render();
+  });
+  document.getElementById("cards").addEventListener("click", (e) => {
+    const tagBtn = e.target.closest(".tag-pill");
+    if (tagBtn) {
+      const tag = tagBtn.dataset.tag;
+      state.tagFilter = state.tagFilter === tag ? null : tag;
+      render();
+    }
+  });
+}
+
+function setupLevelToggle() {
+  document.querySelectorAll(".level-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.level = btn.dataset.level;
+      localStorage.setItem("evidentia_level", state.level);
+      syncLevelButtons();
+      render();
+    });
+  });
+}
+
+function syncLevelButtons() {
+  document.querySelectorAll(".level-btn").forEach((btn) => {
+    btn.setAttribute("aria-checked", String(btn.dataset.level === state.level));
+  });
 }
 
 function renderChips() {
   const container = document.getElementById("category-chips");
   const all = document.createElement("button");
+  all.type = "button";
   all.className = "chip active";
   all.textContent = "すべて";
   all.dataset.id = "all";
@@ -36,6 +80,7 @@ function renderChips() {
 
   for (const cat of state.categories) {
     const btn = document.createElement("button");
+    btn.type = "button";
     btn.className = "chip";
     btn.textContent = cat.label;
     btn.dataset.id = cat.id;
@@ -59,9 +104,18 @@ function starString(n) {
   return "★".repeat(n) + "☆".repeat(5 - n);
 }
 
+function summaryFor(entry) {
+  if (!entry.summary) return "";
+  if (typeof entry.summary === "string") return entry.summary;
+  return entry.summary[state.level] || entry.summary.general || "";
+}
+
 function matchesQuery(entry, q) {
   if (!q) return true;
-  const haystack = [entry.title, entry.summary, entry.practical_takeaway, ...(entry.tags || [])]
+  const summaryText = entry.summary && typeof entry.summary === "object"
+    ? Object.values(entry.summary).join(" ")
+    : entry.summary || "";
+  const haystack = [entry.title, summaryText, entry.practical_takeaway, ...(entry.tags || [])]
     .join(" ")
     .toLowerCase();
   return haystack.includes(q);
@@ -86,18 +140,56 @@ function sortEntries(entries) {
 function render() {
   const filtered = state.entries.filter((e) => {
     const catOk = state.activeCategory === "all" || e.category === state.activeCategory;
-    return catOk && matchesQuery(e, state.query);
+    const starOk = state.starFilter === 0 || e.stars >= state.starFilter;
+    const mythOk = !state.mythOnly || e.status === "myth_revised";
+    const tagOk = !state.tagFilter || (e.tags || []).includes(state.tagFilter);
+    return catOk && starOk && mythOk && tagOk && matchesQuery(e, state.query);
   });
   const sorted = sortEntries(filtered);
 
   const grid = document.getElementById("cards");
   grid.innerHTML = "";
-  document.getElementById("results-meta").textContent = `${sorted.length}件の情報`;
+
+  const meta = document.getElementById("results-meta");
+  meta.innerHTML = "";
+  const countSpan = document.createElement("span");
+  countSpan.textContent = `${sorted.length}件の情報`;
+  meta.appendChild(countSpan);
+  if (state.tagFilter) {
+    const tagChip = document.createElement("button");
+    tagChip.type = "button";
+    tagChip.className = "active-tag-chip";
+    tagChip.textContent = `タグ: ${state.tagFilter} ✕`;
+    tagChip.addEventListener("click", () => {
+      state.tagFilter = null;
+      render();
+    });
+    meta.appendChild(tagChip);
+  }
+
   document.getElementById("empty-state").hidden = sorted.length > 0;
 
   for (const entry of sorted) {
     grid.appendChild(renderCard(entry));
   }
+
+  setupClampedSummaries();
+}
+
+function setupClampedSummaries() {
+  document.querySelectorAll("#cards .summary.clamped").forEach((el) => {
+    if (el.scrollHeight > el.clientHeight + 2) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "expand-btn";
+      btn.textContent = "続きを読む";
+      btn.addEventListener("click", () => {
+        el.classList.toggle("clamped");
+        btn.textContent = el.classList.contains("clamped") ? "続きを読む" : "閉じる";
+      });
+      el.insertAdjacentElement("afterend", btn);
+    }
+  });
 }
 
 function renderCard(entry) {
@@ -114,6 +206,8 @@ function renderCard(entry) {
   const stars = document.createElement("span");
   stars.className = "stars";
   stars.title = entry.evidence_level;
+  stars.setAttribute("role", "img");
+  stars.setAttribute("aria-label", `信頼度 5段階中${entry.stars}`);
   stars.textContent = starString(entry.stars);
   top.append(tag, stars);
   card.appendChild(top);
@@ -135,8 +229,8 @@ function renderCard(entry) {
   card.appendChild(level);
 
   const summary = document.createElement("p");
-  summary.className = "summary";
-  summary.textContent = entry.summary;
+  summary.className = "summary clamped";
+  summary.textContent = summaryFor(entry);
   card.appendChild(summary);
 
   if (entry.practical_takeaway) {
@@ -170,8 +264,10 @@ function renderCard(entry) {
   const tagsRow = document.createElement("div");
   tagsRow.className = "tags";
   for (const t of entry.tags || []) {
-    const pill = document.createElement("span");
-    pill.className = "tag-pill";
+    const pill = document.createElement("button");
+    pill.type = "button";
+    pill.className = "tag-pill" + (state.tagFilter === t ? " active" : "");
+    pill.dataset.tag = t;
     pill.textContent = t;
     tagsRow.appendChild(pill);
   }
