@@ -4,11 +4,14 @@ async function init() {
     fetch("../data/items.json").then((r) => r.json()),
   ]);
 
-  const exerciseGrid = document.getElementById("exercise-grid");
-  const foodGrid = document.getElementById("food-grid");
+  const grids = {
+    exercise: document.getElementById("exercise-grid"),
+    food: document.getElementById("food-grid"),
+    supplement: document.getElementById("supplement-grid"),
+  };
 
   for (const item of items) {
-    const grid = item.type === "exercise" ? exerciseGrid : foodGrid;
+    const grid = grids[item.type] || grids.food;
     grid.appendChild(renderItemCard(item, entries));
   }
 }

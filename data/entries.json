@@ -78,7 +78,7 @@
     "category": "cardio",
     "tags": [
       "サプリメント",
-      "オメガ3",
+      "オメガ3サプリ",
       "定説の見直し"
     ],
     "stars": 3,
@@ -864,6 +864,76 @@
         "name": "PMC: Long-Term Coffee Consumption and Risk of Cardiovascular Disease (dose-response meta-analysis)",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3945962/",
         "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "folic-acid-neural-tube-defect-prevention",
+    "title": "妊娠を考え始めたら、葉酸サプリで神経管閉鎖障害のリスクを減らせる",
+    "category": "children",
+    "tags": [
+      "サプリメント",
+      "葉酸",
+      "妊娠前",
+      "神経管閉鎖障害"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "USPSTF/WHO推奨(Grade A相当)+ 複数のRCT・システマティックレビュー",
+    "summary": {
+      "basic": "妊娠を考え始めたら(妊娠する前から)、葉酸という栄養素のサプリを1日400〜800マイクログラムほど摂ることで、赤ちゃんの脳や脊髄の重い先天性の異常(神経管閉鎖障害)になるリスクを大きく減らせることが、多くの研究でわかっています。アメリカの専門委員会(USPSTF)やWHOも、妊娠を考えている、またはその可能性がある女性全員に葉酸サプリを摂ることを強く推奨しています。",
+      "general": "USPSTFは、妊娠を計画している、または妊娠する可能性のあるすべての女性に対し、1日0.4〜0.8mg(400〜800マイクログラム)の葉酸サプリメントを摂取することを推奨している(エビデンスの確実性: 高)。WHOも、妊娠を試み始めてから妊娠12週までの葉酸サプリメント摂取(1日400マイクログラム)を推奨している。食品への葉酸強化が行われていない環境でのRCTでは、0.8mgの葉酸を含むマルチビタミンにより神経管閉鎖障害のリスクが明確に低下することが示されている。少なくとも妊娠1か月前から開始し、妊娠2〜3か月まで継続することが望ましいとされる。",
+      "professional": "USPSTF(2017)はpericonceptional folic acid 0.4-0.8mg/日についてconvincing evidence(Level A)でNTDリスク低下を認定。WHO推奨は妊娠企図開始〜妊娠12週まで400μg/日。食品強化前環境でのRCTでは0.8mgマルチビタミンによるNTD発生率の有意な低下(古典的なHungarian RCT等)。通常用量での重篤な有害事象のエビデンスは認められない。"
+    },
+    "practical_takeaway": "妊娠を考え始めた時点(できれば妊娠の少なくとも1か月前)から、葉酸サプリメントの摂取を開始するのが望ましい。多くの妊婦用マルチビタミンにも含まれている。",
+    "caution": "摂取量の目安は個人の状況(神経管閉鎖障害の既往家族歴など)によって異なる場合があるため、婦人科医・産科医に相談することが望ましい。",
+    "sources": [
+      {
+        "name": "USPSTF: Folic Acid Supplementation to Prevent Neural Tube Defects",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication",
+        "type": "guideline"
+      },
+      {
+        "name": "WHO: Periconceptional folic acid supplementation to prevent neural tube defects",
+        "url": "https://www.who.int/tools/elena/interventions/folate-periconceptional",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-07-08",
+    "last_reviewed": "2026-07-08"
+  },
+  {
+    "id": "calcium-supplement-fracture-cardiovascular-controversy",
+    "title": "カルシウムサプリ単体での骨折予防効果は限定的で、心血管リスクをめぐる議論も続いている",
+    "category": "antiaging",
+    "tags": [
+      "サプリメント",
+      "カルシウム",
+      "骨折予防",
+      "定説の見直し"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "メタ解析(骨折予防効果は限定的)+ 心血管リスクについて相反するメタ解析複数",
+    "summary": {
+      "basic": "「骨を強くするにはカルシウム」とよく言われますが、実は地域で普通に生活している高齢者を対象にした多くの実験では、カルシウムサプリだけを摂っても骨折を防ぐ効果ははっきり示されていません(ビタミンD不足が明らかな施設入所者などでは効果があったという報告はあります)。さらに、カルシウムサプリを摂ると心臓病のリスクがわずかに上がるかもしれない、という研究がある一方、そのような関連は見られないとする研究もあり、専門家の間でも意見が分かれています。",
+      "general": "地域在住の成人を対象とした多数の臨床試験では、カルシウムサプリメント単体による骨折予防効果は示されていない。一方、ビタミンD欠乏が明らかな施設入所高齢者を対象とした試験では骨折予防効果が確認されており、対象集団によって結論が異なる。心血管疾患リスクについても、一部のメタ解析ではカルシウムサプリによる心筋梗塞リスクの10〜20%上昇を示唆する一方、別のメタ解析では心血管イベント・全死亡との有意な関連は認められないとしており、結論が一致していない。",
+      "professional": "地域在住コホートでのCa単独サプリメンテーションはfracture riskの有意な低下を示さない(大規模trial evidence)。Ca+Vit D併用はVit D欠乏の施設入所高齢者でのみ骨折予防効果を示す。CVDアウトカムについてはメタ解析間で結果が相反し(一部でMIリスク+10-20%、他ではCHD/stroke/all-cause mortalityと非有意)、Mendelian randomizationでは循環血中Ca濃度とCVDリスクの関連が示唆されており、急性のCa上昇が関与する可能性が議論されている。"
+    },
+    "practical_takeaway": "骨の健康が心配な場合、サプリに頼る前に、乳製品・小魚・緑黄色野菜などの食品からのカルシウム摂取や、日光浴・運動によるビタミンD確保を優先する。サプリの要否は、骨密度検査の結果なども踏まえて医師と相談するのが望ましい。",
+    "caution": "特にビタミンD欠乏のない一般的な地域在住の成人が「念のため」サプリを追加する医学的根拠は乏しく、心血管リスクに関する議論が続いている以上、自己判断での大量摂取は避けるべき。",
+    "sources": [
+      {
+        "name": "PMC: Calcium Supplements and Risk of Cardiovascular Disease: A Meta-Analysis of Clinical Trials",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7910980/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "PMC: Calcium Supplementation - Efficacy and Safety",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11821691/",
+        "type": "systematic_review"
       }
     ],
     "date_added": "2026-07-08",
