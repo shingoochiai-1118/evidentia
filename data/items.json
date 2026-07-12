@@ -16,6 +16,7 @@
   { "id": "avocado", "label": "アボカド", "type": "food", "icon": "🥑", "matchTags": ["アボカド"] },
   { "id": "processed-meat", "label": "加工肉", "type": "food", "icon": "🌭", "matchTags": ["加工肉"] },
   { "id": "alcohol", "label": "お酒", "type": "food", "icon": "🍷", "matchTags": ["アルコール", "飲酒"] },
+  { "id": "ultra-processed-food", "label": "超加工食品", "type": "food", "icon": "🍟", "matchTags": ["超加工食品"] },
   { "id": "calcium", "label": "カルシウム", "type": "supplement", "icon": "🦴", "matchTags": ["カルシウム"] },
   { "id": "folic-acid", "label": "葉酸", "type": "supplement", "icon": "🤰", "matchTags": ["葉酸"] },
   { "id": "magnesium", "label": "マグネシウム", "type": "supplement", "icon": "💊", "matchTags": ["マグネシウム"] },
@@ -25,5 +26,6 @@
   { "id": "vitamin-c", "label": "ビタミンC", "type": "supplement", "icon": "🍊", "matchTags": ["ビタミンC"] },
   { "id": "multivitamin", "label": "マルチビタミン", "type": "supplement", "icon": "💊", "matchTags": ["マルチビタミン"] },
   { "id": "creatine", "label": "クレアチン", "type": "supplement", "icon": "💪", "matchTags": ["クレアチン"] },
-  { "id": "probiotics", "label": "乳酸菌・プロバイオティクス", "type": "supplement", "icon": "🦠", "matchTags": ["プロバイオティクス", "乳酸菌"] }
+  { "id": "probiotics", "label": "乳酸菌・プロバイオティクス", "type": "supplement", "icon": "🦠", "matchTags": ["プロバイオティクス", "乳酸菌"] },
+  { "id": "riboflavin", "label": "リボフラビン(ビタミンB2)", "type": "supplement", "icon": "💊", "matchTags": ["ビタミンB2", "リボフラビン"] }
 ]
