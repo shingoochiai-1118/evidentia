@@ -1,1 +1,126 @@
-[]
+[
+  {
+    "id": "riboflavin-vitamin-b2-migraine-prevention",
+    "title": "リボフラビン(ビタミンB2)高用量摂取は片頭痛予防に「おそらく有効」(Level B)",
+    "category": "headache",
+    "tags": ["サプリメント", "ビタミンB2", "リボフラビン", "片頭痛"],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "学会ガイドライン(AAN/AHS, Level B, 2012)+ 用量反応メタ解析(RCT12件, n=749)",
+    "summary": {
+      "basic": "リボフラビン(ビタミンB2)というビタミンをたくさん摂ると、片頭痛(ズキズキする頭痛)が起こる回数や長さが少し減るかもしれない、とアメリカの頭痛の専門家グループが認めています。ただし「絶対効く」というほど強い証拠ではなく、「たぶん効く」というレベルです。",
+      "general": "米国神経学会(AAN)と米国頭痛学会(AHS)は、片頭痛予防治療のエビデンスレビューでリボフラビンを「Level B(おそらく効果あり)」と評価している。さらに近年の用量反応メタ解析(12件のRCT、749人)では、1日400mgまでは摂取量が多いほど片頭痛の発作回数・持続時間の減少幅が大きくなる関係が示された。",
+      "professional": "AAN/AHS(2012)ガイドラインにてリボフラビンはLevel B(probably effective)。2024年の用量反応SR・メタ解析(RCT12件, n=749)では400mg/日までの線形用量反応関係が確認され、対照群比で発作頻度-1.39回、持続時間-1.36時間(いずれもP<0.001)。ただし成人での推奨可否には研究間のばらつきが残るとされる。"
+    },
+    "practical_takeaway": "予防目的で使う場合は400mg/日程度が研究で検証されている用量。市販の一般的なマルチビタミンの含有量よりかなり多く、片頭痛予防としては単剤のリボフラビンサプリで摂ることが前提となる。効果が出るまで数週間〜3か月程度かかる。",
+    "caution": "急性期の頭痛(すでに起きている頭痛)を鎮める薬ではなく予防目的。尿が濃い黄色になることがあるが無害。吐き気・下痢などの軽い副作用が報告されることがある。開始前に医師・薬剤師に相談することが望ましい。",
+    "sources": [
+      {
+        "name": "AAN/AHS Evidence-based guideline update: NSAIDs and other complementary treatments for episodic migraine prevention in adults (2012)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22529203/",
+        "type": "guideline"
+      },
+      {
+        "name": "The effect of riboflavin on the mean attack frequency, severity, and duration of migraine headaches: a systematic review and dose-response meta-analysis of clinical trials",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12949614/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-12",
+    "last_reviewed": "2026-07-12",
+    "proposed_date": "2026-07-12"
+  },
+  {
+    "id": "biofeedback-relaxation-exercise-tension-type-headache",
+    "title": "緊張型頭痛には運動療法・バイオフィードバック・リラクゼーション療法が有効な選択肢",
+    "category": "headache",
+    "tags": ["緊張型頭痛", "運動", "バイオフィードバック", "リラクゼーション"],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "欧州神経学会(EFNS)ガイドライン + 理学療法系統的レビュー・メタ解析(RCT複数)",
+    "summary": {
+      "basic": "肩や首がこって起こる「緊張型頭痛」には、薬だけでなく、体を動かす運動や、筋肉の力を抜くリラックス法、機械で自分の体の緊張具合を見ながら練習する「バイオフィードバック」という方法も効果があることが分かっています。ヨーロッパの頭痛の専門家グループも、こうした運動・リラックス系の対策を勧めています。",
+      "general": "欧州神経学会連合(EFNS)のガイドラインでは、筋電図(EMG)バイオフィードバックに明確な効果があるとされ、リラクゼーション訓練や認知行動療法も「おそらく有効」と評価されている。近年(2023〜2025年)の理学療法・運動療法に関する系統的レビューでも、首・肩の筋力トレーニングや弛緩法を含むアプローチが頭痛の強さ・頻度を短〜中期的に改善させることが報告されている。",
+      "professional": "EFNS guideline(2010)ではEMGバイオフィードバックに「documented effect」、リラクゼーション訓練・CBTは「most likely effective」と記載。理学療法単独については当時「robust scientific evidenceは乏しい」とされていたが、2023年SR(RCT9件)・2025年SR/MA(physiotherapy approaches)では頸肩部筋力トレーニング・筋弛緩アプローチが頭痛強度・持続時間を有意に改善したと報告され、エビデンスは強化されつつある。"
+    },
+    "practical_takeaway": "緊張型頭痛が続く場合、鎮痛薬だけに頼らず、首・肩の筋力トレーニングやストレッチ、姿勢指導、バイオフィードバックを用いたリラクゼーション法を試す価値がある。効果は数週間かけて現れることが多い。",
+    "caution": "薬物療法(アミトリプチリン等)に比べて即効性は低く、指導者(理学療法士等)のもとで継続することが前提。ガイドラインの版によって理学療法単独への評価に差があり、今後さらにエビデンスが更新される可能性がある。",
+    "sources": [
+      {
+        "name": "EFNS guideline on the treatment of tension-type headache - report of an EFNS task force",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20482606/",
+        "type": "guideline"
+      },
+      {
+        "name": "The efficacy of physiotherapy approaches in chronic tension-type headache: a systematic review and meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11934752/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-12",
+    "last_reviewed": "2026-07-12",
+    "proposed_date": "2026-07-12"
+  },
+  {
+    "id": "strengthening-exercise-office-worker-neck-shoulder-pain",
+    "title": "首・肩の筋力トレーニング(週1時間程度)はオフィスワーカーの肩こり・首の痛みを改善する",
+    "category": "musculoskeletal",
+    "tags": ["肩こり", "運動", "筋トレ", "デスクワーク"],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "系統的レビュー・メタ解析(RCT8件)+ 予防に関する系統的レビュー・メタ解析(RCT2件, 500人)",
+    "summary": {
+      "basic": "パソコン作業が多い人の肩こり・首の痛みは、首や肩の筋トレを週に1時間くらい続けると和らぐことが、複数の研究をまとめた調査で分かっています。ストレッチだけ、持久力トレーニングだけでは、まだ効果がはっきりしていません。",
+      "general": "オフィスワーカーを対象とした系統的レビュー・メタ解析(RCT8件)によると、首・肩を対象にした筋力トレーニングを週に約1時間行うことで、痛みが臨床的に意味のある程度改善する。ストレッチのみ・持久力トレーニングのみのエビデンスはまだ限定的。別のメタ解析では、運動プログラムを続けることで新たに肩こり・首の痛みが起こるリスク自体も下がる可能性が示されている(中程度のエビデンス)。",
+      "professional": "SR/MA(RCT8件)にて筋力トレーニング(neck/shoulder strengthening、目安週60分)は対照(無治療)比でLevel II evidenceの痛み改善効果を示す(p=0.002)。持久力・ストレッチ単独のエビデンスは各1試験のみで限定的。予防効果についてはRCT2件(n=500)による中程度エビデンスで新規発症リスクの低下が報告されている。関連するCochraneレビューでは職場教育・人間工学的介入単独は疼痛軽減に有意差を示さなかった。"
+    },
+    "practical_takeaway": "デスクワークによる肩こり・首の痛みには、ストレッチだけで済ませず、首・肩を対象にした筋力トレーニングを週1時間程度の目安で取り入れると改善が期待できる。",
+    "caution": "エビデンスの中心は「すでに痛みがある人の改善」であり、予防効果に関するエビデンスは中程度にとどまる。職場での人間工学教育・姿勢指導だけでは、痛みそのものを減らす効果は明確でない(欠勤減少効果は別途報告あり)。",
+    "sources": [
+      {
+        "name": "Effectiveness of exercise in office workers with neck pain: A systematic review and meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6093121/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Effectiveness of Exercise Interventions for Preventing Neck Pain: A Systematic Review With Meta-analysis of Randomized Controlled Trials (JOSPT)",
+        "url": "https://www.jospt.org/doi/10.2519/jospt.2023.12063",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-12",
+    "last_reviewed": "2026-07-12",
+    "proposed_date": "2026-07-12"
+  },
+  {
+    "id": "ultra-processed-food-weight-gain-obesity-risk",
+    "title": "超加工食品を中心とした食事は、同じカロリー表示でも食べ過ぎ・体重増加につながる",
+    "category": "obesity",
+    "tags": ["超加工食品", "食事", "体重増加", "肥満"],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "NIH入院クロスオーバーRCT(n=20)+ 用量反応メタ解析(43研究)+ 多国籍前向きコホート研究",
+    "summary": {
+      "basic": "スナック菓子やインスタント食品のような「超加工食品」ばかり食べる食事は、たとえカロリーや栄養成分表示が同じでも、自然と食べ過ぎてしまい体重が増えやすいことが、アメリカ国立衛生研究所(NIH)の実験で確かめられました。世界中の別の大規模な調査でも、同じような結果が繰り返し報告されています。",
+      "general": "NIHが行った入院クロスオーバー試験では、カロリー・糖質・脂質・食物繊維などを揃えた2種類の食事(超加工食品中心 vs 未加工・低加工食品中心)を同じ人に2週間ずつ好きなだけ食べてもらったところ、超加工食品の期間は1日あたり平均500kcal以上多く摂取し体重が増加、未加工食品の期間は体重が減少した。43件の観察研究を統合した用量反応メタ解析や欧州9か国の多国籍コホート研究でも、超加工食品の摂取量が多いほど肥満・体重増加のリスクが高いという一貫した関連が示されている。",
+      "professional": "Hall et al. 2019(NIH入院代謝病棟でのランダム化クロスオーバー試験, n=20)では、超加工食提示期にad libitum摂取エネルギーが対照(未加工食)比+508±106kcal/日(p=0.0001)、体重+0.9±0.3kg(p=0.009)、未加工食期は-0.9±0.3kg(p=0.007)。43研究の用量反応メタ解析(2021)ではUPF摂取10%増加ごとに過体重・肥満・腹部肥満リスクがそれぞれ7%・6%・5%上昇。EPIC-PANACEA等の多国籍前向きコホートでも摂取量最高五分位群で過体重・肥満への5年間の新規発症リスクが15〜16%高いと報告。"
+    },
+    "practical_takeaway": "パッケージのカロリー・栄養成分表示が同じでも、超加工食品(スナック菓子、清涼飲料、加工肉、インスタント食品等)中心の食事は食べ過ぎにつながりやすい。未加工・低加工の食材(野菜、果物、魚、肉、穀物そのもの等)を中心にした食事に置き換えることを意識する。",
+    "caution": "因果関係を示した中心的なRCTはNIHの1件のみで、参加者数は20人と少なく、期間も2週間ずつと短い(ただし食事内容を厳密に統制した入院試験)。「超加工食品」の分類(NOVA分類)自体に定義上の議論があり、超加工食品の中でも種類によってリスクの大きさは異なりうる点に注意。",
+    "sources": [
+      {
+        "name": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake (Hall et al. 2019, Cell Metabolism)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7946062/",
+        "type": "RCT"
+      },
+      {
+        "name": "Ultra-processed food consumption and adult obesity risk: a systematic review and dose-response meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34190668/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-12",
+    "last_reviewed": "2026-07-12",
+    "proposed_date": "2026-07-12"
+  }
+]
