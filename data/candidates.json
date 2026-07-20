@@ -1,1 +1,143 @@
-[]
+[
+  {
+    "id": "yoga-chronic-low-back-pain",
+    "title": "ヨガは慢性腰痛の痛み・機能障害を改善するが、通常の運動療法を上回るわけではない",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "ヨガ",
+      "運動療法"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "システマティックレビューの包括的評価(RCT多数、GRADE中〜非常に低)",
+    "summary": {
+      "basic": "ヨガ(ゆっくり体を動かしながら呼吸を整える運動)を続けると、腰の痛みが長く続いている人の痛みや動きにくさが、何もしないより和らぎやすいことがわかっています。ただしヨガだからといって、普通の体操やストレッチより特別優れているわけではなく、効果は同じくらいです。",
+      "general": "複数のシステマティックレビューをまとめた研究によると、慢性腰痛に対してヨガは何もしない/通常ケアと比べて短期〜中期(4週〜4か月程度)で痛みや機能障害を改善する。ただし通常の運動療法・理学療法と比べると効果に大きな差はなく、12か月後には効果がはっきりしなくなる報告もある。安全性は通常の運動と同程度で、重篤な有害事象の報告は少ない。",
+      "professional": "複数のSRを統合したオーバービューでは、非運動対照群との比較で疼痛VAS平均差-11.05(95%CI -14.22〜-7.88、短期)等の改善を認めたが、運動対照群との比較では有意差なし(MD -0.78, 95%CI -1.62〜0.06)。GRADE評価では中等度30アウトカム・低42・非常に低20と質にばらつきがあり、統合対象のSR自体の方法論的質も10件が「批判的に低い」と評価されている。12か月時点の長期効果は不明瞭。"
+    },
+    "practical_takeaway": "慢性腰痛があり、体を動かす習慣を作りたい人にとって、ヨガは既存の運動療法と並ぶ選択肢の一つになる。ただし「ヨガでなければならない」わけではなく、続けやすい運動療法を選ぶことが大切。",
+    "caution": "効果は通常の運動療法と同程度であり、ヨガ特有の優位性を示す強い根拠はない。長期(12か月以降)の効果は不明瞭。急性の強い痛みがある場合は自己判断で始めず医療者に相談する。",
+    "sources": [
+      {
+        "name": "Yoga compared to non-exercise or physical therapy exercise on pain, disability, and quality of life for patients with chronic low back pain: A systematic review and meta-analysis of RCTs",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7462307/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Efficacy and safety of yoga for the management of chronic low back pain: an overview of systematic reviews",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10641484/",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-07-20",
+    "last_reviewed": "2026-07-20",
+    "proposed_date": "2026-07-20"
+  },
+  {
+    "id": "vitamin-d-supplement-musculoskeletal-pain-mixed-evidence",
+    "title": "ビタミンDサプリメントが慢性的な筋骨格系の痛みを和らげる効果は、研究間で結論が一致していない",
+    "category": "musculoskeletal",
+    "tags": [
+      "サプリメント",
+      "腰痛",
+      "ビタミンD"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "システマティックレビュー・メタ解析(複数、結果不一致)",
+    "summary": {
+      "basic": "「ビタミンDが足りないと体のあちこちが痛くなる」と言われることがありますが、ビタミンDのサプリメントを飲んでも、長引く体の痛みが和らぐかどうかは、研究によって「効果なし」「少し効果あり」と結果が分かれていて、まだはっきりしていません。",
+      "general": "慢性的な筋骨格系の痛みに対するビタミンDサプリメントの効果を調べた複数のメタ解析では、結果が一致していない。「効果なし」とする解析がある一方、「痛みのスコアがわずかに改善する」とする解析もあり、研究間で結論が割れている。大規模なプラセボ対照試験でも、痛みの頻度・強さを減らさなかったとする報告がある。",
+      "professional": "慢性非特異的筋骨格痛(CNMP)に関するメタ解析(RCT3件)ではSMD 0.004(95%CI -0.248〜0.256)とプラセボ差なしで「通説に反しビタミンD補充はCNMPに有効でない」と結論。一方、慢性広範痛や慢性腰痛を対象とした別のメタ解析では有意なpain score改善を報告するものもあり、対象集団・評価尺度により結果が一致しない。全体として質の高いエビデンスの蓄積待ちの段階。"
+    },
+    "practical_takeaway": "慢性的な体の痛みだけを理由にビタミンDサプリメントを摂ることについて、現時点で明確な根拠はない。ビタミンD不足(骨粗鬆症リスク等)が別途確認されている場合は、その目的での補充を医療者と相談するのが望ましい。",
+    "caution": "ビタミンD欠乏症そのものへの補充(骨の健康等)とは別の話。研究間で結果が一致しておらず、今後の質の高い研究で結論が変わる可能性がある。",
+    "sources": [
+      {
+        "name": "Does vitamin D supplementation alleviate chronic nonspecific musculoskeletal pain? A systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26861032/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Updated Meta-analysis Reveals Limited Efficacy of Vitamin D Supplementation in Chronic Low Back Pain",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11535934/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-20",
+    "last_reviewed": "2026-07-20",
+    "proposed_date": "2026-07-20"
+  },
+  {
+    "id": "sauna-bathing-cardiovascular-mortality",
+    "title": "サウナ入浴の頻度が多い人ほど心血管死亡・全死亡リスクが低い(観察研究)",
+    "category": "antiaging",
+    "tags": [
+      "サウナ",
+      "生活習慣",
+      "心血管"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "大規模前向きコホート研究(フィンランドKIHD研究等、追跡20年以上)",
+    "summary": {
+      "basic": "フィンランドで行われた長期の追跡調査では、サウナに週に何度も入る人ほど、心臓の病気や突然死で亡くなる割合が低いという結果が出ています。ただしこれは「サウナ好きの人を長年観察した結果」であり、サウナに入ること自体が原因だと完全に証明されたわけではありません。",
+      "general": "フィンランドの大規模コホート研究(KIHD研究など、追跡20年以上)では、サウナ入浴の頻度が週1回の人と比べ、週2〜3回の人は心血管疾患死亡リスクが約3割低く、週4〜7回の人は約7割低いという用量反応関係が示された。全死亡リスクについても同様の傾向がある。ただしこれは観察研究であり、サウナ好きな人はもともと健康的な生活習慣を持つ可能性(交絡)なども指摘されている。",
+      "professional": "フィンランドの前向きコホート(KIHD研究、男性2,315人、追跡中央値20.7年)にて、サウナ入浴頻度週2〜3回でCVD死亡のHR 0.71、週4〜7回でHR 0.30(週1回比)。別の前向きコホート(n=1,688、追跡中央値15.0年)でも同様の用量反応関係を確認。ただしいずれも観察研究であり、交絡因子(社会経済状態・心肺持久力等)の影響を完全には排除できていない点に留意。"
+    },
+    "practical_takeaway": "サウナ入浴を習慣にすることは、心血管の健康にとって有害というエビデンスはなく、観察研究では良い関連が一貫して見られる。ただし「サウナに入れば長生きする」と因果関係として断定できる段階ではない。",
+    "caution": "すべて観察研究(コホート研究)であり、ランダム化比較試験による因果関係の証明はまだない。高血圧や心疾患がある人が高温のサウナを利用する場合は医師に相談することが望ましい。",
+    "sources": [
+      {
+        "name": "Sauna bathing is associated with reduced cardiovascular mortality and improves risk prediction in men and women: a prospective cohort study",
+        "url": "https://link.springer.com/article/10.1186/s12916-018-1198-0",
+        "type": "cohort"
+      },
+      {
+        "name": "Joint associations of sauna bathing and cardiorespiratory fitness on cardiovascular and all-cause mortality risk: a long-term prospective cohort study",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/07853890.2017.1387927",
+        "type": "cohort"
+      }
+    ],
+    "date_added": "2026-07-20",
+    "last_reviewed": "2026-07-20",
+    "proposed_date": "2026-07-20"
+  },
+  {
+    "id": "time-restricted-eating-caloric-restriction-weight-loss",
+    "title": "時間制限食(16:8等)はカロリー制限に上乗せしても、追加の減量効果はわずかで根拠も弱い",
+    "category": "obesity",
+    "tags": [
+      "食事",
+      "間欠的断食",
+      "減量",
+      "食事タイミング"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "メタ解析(RCT7件, 458人、GRADE低〜非常に低)",
+    "summary": {
+      "basic": "「16時間食べない・8時間だけ食べる」といった時間を区切る食事法(時間制限食)は、ただカロリーを減らす食事と比べて、体重がほんの少し(2kgほど)多く減るという研究結果があります。ただしこの差はとても小さく、研究の質もあまり高くないため、「時間を区切ればやせやすくなる」と言い切るのは早すぎます。",
+      "general": "7件のRCT(計458人)を統合したメタ解析では、時間制限食(TRE)とカロリー制限を組み合わせた群は、カロリー制限のみの群と比べて、8〜14週間で体重が平均2.11kg、体脂肪が0.75kg、ウエスト周囲径が1.27cm多く減少した。ただし血糖値や脂質など血液検査値には上乗せ効果は見られず、研究期間も短く、GRADE評価による証拠の確実性は「低い〜非常に低い」とされている。",
+      "professional": "TRE+CR vs CR単独のメタ解析(RCT7件/9介入, n=458, 追跡8-14週)にて体重差-2.11kg(95%CI -2.68〜-1.54)、脂肪量差-0.75kg(95%CI -1.35〜-0.16)、腹囲差-1.27cm(95%CI -2.36〜-0.19)とTRE+CR群で有意に大きい減少を認めたが、血液生化学パラメータには上乗せ効果なし。GRADE評価は低〜非常に低確実性で、盲検化不能・研究間異質性・介入プロトコルのばらつき等の限界がある。"
+    },
+    "practical_takeaway": "時間制限食は「継続しやすいカロリー制限の一形式」として選択肢にはなり得るが、通常のカロリー制限を大きく上回る魔法の効果を期待すべきではない。習慣として続けやすいかどうかで選ぶのが現実的。",
+    "caution": "効果量は小さく、研究期間も8〜14週間と短い。長期(1年以上)の効果やリバウンドについては十分検証されていない。エビデンスの確実性はGRADEで低〜非常に低いと評価されている。",
+    "sources": [
+      {
+        "name": "Effectiveness of Time-Restricted Eating with Caloric Restriction vs. Caloric Restriction for Weight Loss and Health: Meta-Analysis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10708501/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Time-restricted eating with calorie restriction on weight loss and cardiometabolic risk: a systematic review and meta-analysis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10630127/",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-07-20",
+    "last_reviewed": "2026-07-20",
+    "proposed_date": "2026-07-20"
+  }
+]

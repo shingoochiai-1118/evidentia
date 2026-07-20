@@ -1078,5 +1078,44 @@
     ],
     "date_added": "2026-07-12",
     "last_reviewed": "2026-07-12"
+  },
+  {
+    "id": "cgrp-monoclonal-antibody-migraine-prevention",
+    "title": "CGRP関連抗体薬は、既存薬で効果不十分な片頭痛患者への新しい予防選択肢として確立している",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "薬物治療",
+      "予防薬"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "診療ガイドライン(独・日本頭痛学会)+ネットワークメタ解析(RCT多数)",
+    "summary": {
+      "basic": "片頭痛(ズキズキする強い頭痛発作)を予防するための新しいタイプの注射薬(CGRP関連抗体)は、これまでの飲み薬で効果が出なかった人でも、頭痛が起きる日数を大きく減らせることが、たくさんの研究でわかっています。日本でも保険で使える薬になっています。",
+      "general": "CGRP(片頭痛の発症に関わる脳内物質)の働きを抑える抗体医薬(エレヌマブ・フレマネズマブ・ガルカネズマブなど)は、従来の飲み薬(β遮断薬・抗てんかん薬等)を2種類以上試しても効果不十分だった患者向けの予防薬として、複数の診療ガイドラインで推奨されている。ネットワークメタ解析では月間片頭痛日数を平均2〜5日程度減らす効果が確認されており、忍容性も比較的良好とされる。日本頭痛学会も暫定ガイドラインを公表しており、国内で保険適用されている。",
+      "professional": "独・S1ガイドライン追補では既存予防薬5剤以上(β遮断薬・フルナリジン・トピラマート・バルプロ酸・アミトリプチリン等)不応/不耐の患者(慢性片頭痛はonabotulinumtoxinA不応例含む)に抗CGRP抗体薬を推奨。RCTでは50%レスポンダー率がepisodic 30-62% vs プラセボ17-38%、chronic 27-57% vs 15-40%、月間片頭痛日数減少はepisodic 2.9-4.7日・chronic 4.3-6.6日。慢性片頭痛対象のベイジアンネットワークメタ解析(RCT10件)でもgalcanezumab 120mgでプラセボ比MD -2.7日(95%CrI -4.8〜-0.83)等、全抗体で有効性を確認。日本頭痛学会の暫定ガイドラインでもガルカネズマブ・フレマネズマブ・エレヌマブについて厚労省最適使用推進ガイドラインに基づく使用が整理されている。"
+    },
+    "practical_takeaway": "複数の飲み薬による片頭痛予防で十分な効果が得られなかった場合、CGRP関連抗体薬という選択肢があることを知っておき、頭痛専門医に相談する価値がある。",
+    "caution": "処方薬であり自己判断での使用はできず、頭痛専門医の判断が前提となる。妊娠・授乳中や心血管疾患・脳卒中既往、炎症性腸疾患がある場合は使用に注意が必要とされる。日本ではガルカネズマブ・フレマネズマブ・エレヌマブが厚労省最適使用推進ガイドラインのもと保険適用されているが、対象薬剤や適用条件は国により異なる場合があるため、詳細は医師の判断に従うこと。",
+    "sources": [
+      {
+        "name": "Prevention of migraine with monoclonal antibodies against CGRP (German S1 guideline addition)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7650107/",
+        "type": "guideline"
+      },
+      {
+        "name": "Efficacy and Safety of Anti-CGRP Monoclonal Antibodies in Prevention of Chronic Migraine: A Bayesian Network Meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10811399/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "日本頭痛学会: CGRP関連新規片頭痛治療薬ガイドライン(暫定版)",
+        "url": "https://www.jhsnet.net/guideline_CGRP.html",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-07-20",
+    "last_reviewed": "2026-07-20"
   }
 ]
