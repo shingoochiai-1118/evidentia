@@ -78,15 +78,16 @@ function renderChips() {
   const all = document.createElement("button");
   all.type = "button";
   all.className = "chip active";
-  all.textContent = "すべて";
+  all.textContent = `すべて (${state.entries.length})`;
   all.dataset.id = "all";
   container.appendChild(all);
 
   for (const cat of state.categories) {
+    const count = state.entries.filter((e) => e.category === cat.id).length;
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "chip";
-    btn.textContent = cat.label;
+    btn.textContent = `${cat.label} (${count})`;
     btn.dataset.id = cat.id;
     container.appendChild(btn);
   }

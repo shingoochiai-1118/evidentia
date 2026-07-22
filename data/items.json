@@ -4,6 +4,7 @@
   { "id": "hiit", "label": "HIIT", "type": "exercise", "icon": "🔥", "matchTags": ["HIIT"] },
   { "id": "yoga", "label": "ヨガ", "type": "exercise", "icon": "🧘", "matchTags": ["ヨガ"] },
   { "id": "stretching", "label": "ストレッチ", "type": "exercise", "icon": "🤸", "matchTags": ["ストレッチ"] },
+  { "id": "sauna", "label": "サウナ", "type": "exercise", "icon": "🧖", "matchTags": ["サウナ"] },
   { "id": "fish", "label": "魚(サーモン・サバ等)", "type": "food", "icon": "🐟", "matchTags": ["魚", "青魚"] },
   { "id": "broccoli", "label": "ブロッコリー", "type": "food", "icon": "🥦", "matchTags": ["ブロッコリー"] },
   { "id": "onion", "label": "玉ねぎ", "type": "food", "icon": "🧅", "matchTags": ["玉ねぎ"] },
