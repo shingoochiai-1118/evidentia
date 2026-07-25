@@ -1186,5 +1186,35 @@
     ],
     "date_added": "2026-07-20",
     "last_reviewed": "2026-07-20"
+  },
+  {
+    "id": "walking-education-low-back-pain-recurrence-prevention",
+    "title": "個別化ウォーキング+教育プログラムは腰痛の再発までの期間をほぼ2倍に延ばす",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "運動",
+      "ウォーキング",
+      "再発予防"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "大規模RCT(WalkBack試験、n=701、The Lancet 2024)",
+    "summary": {
+      "basic": "腰痛が一度治った後も、決められた歩き方のプログラムを続けると、痛みがぶり返しにくくなることが分かりました。オーストラリアで701人を対象にした研究で、正しく歩く習慣をつけた人たちは、何もしなかった人たちに比べて、腰痛が再発するまでの期間がおよそ2倍も長くなりました。特別な道具は要らず、ただ歩くだけなので、誰でも始めやすい方法です。",
+      "general": "一度良くなった腰痛は再発しやすいことが知られていますが、理学療法士の指導のもとで個別化したウォーキングプログラムと教育を6か月間(6回のセッション)受けたグループは、再発までの期間が中央値208日となり、何もしなかったグループの112日より大幅に長くなりました。特別な機器を使わず費用対効果も高いため、腰痛の再発予防として広く勧められる方法です。",
+      "professional": "オーストラリアの多施設RCT(WalkBack試験、n=701)で、非特異的腰痛の回復後に個別化・漸進的ウォーキング+教育介入(理学療法士による6回のセッション、6か月間)を実施した群は、対照群(無治療)に比べ腰痛再発までの期間中央値が208日 vs 112日と有意に延長した(The Lancet, 2024)。医療機関受診や就労への影響も約半減し、費用対効果も高いと報告されている。"
+    },
+    "practical_takeaway": "腰痛が一度治った後も、無理のない範囲でウォーキングを習慣化することが、再発予防に役立つ可能性があります。特別な器具や高強度の運動は不要です。",
+    "caution": "この研究は非特異的腰痛(明確な器質的原因がない腰痛)が回復した人を対象としており、急性の強い痛みや神経症状を伴う腰痛には当てはまりません。歩行プログラムは理学療法士による個別指導・教育とセットで行われた点にも留意してください。",
+    "sources": [
+      {
+        "name": "Effectiveness and cost-effectiveness of an individualised, progressive walking and education intervention for the prevention of low back pain recurrence (WalkBack trial) — The Lancet",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)00755-4/fulltext",
+        "type": "RCT"
+      }
+    ],
+    "date_added": "2026-07-26",
+    "last_reviewed": "2026-07-26"
   }
 ]
