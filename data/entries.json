@@ -1216,5 +1216,129 @@
     ],
     "date_added": "2026-07-26",
     "last_reviewed": "2026-07-26"
+  },
+  {
+    "id": "spinal-manipulation-therapy-low-back-pain",
+    "title": "スパイナルマニピュレーション(整体・カイロプラクティック的手技)は腰痛に対しNSAIDsと同程度の効果",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "整体・カイロプラクティック",
+      "スパイナルマニピュレーション"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "システマティックレビュー・臨床ガイドライン多数(急性腰痛でNSAIDsと同程度の効果)",
+    "summary": {
+      "basic": "腰やせぼねまわりを手でぐっと押したり動かしたりする施術(整体やカイロプラクティックに近い方法)は、腰痛を和らげるのに役立つことが分かっています。効果の大きさは、痛み止めの薬(消炎鎮痛薬)を飲んだときと同じくらいです。多くの診療ガイドラインで、運動療法などと組み合わせる治療の選択肢の一つとして勧められています。",
+      "general": "脊椎(背骨)まわりへの手技療法であるスパイナルマニピュレーション(SMT)は、急性腰痛に対してNSAIDs(消炎鎮痛薬)と同程度の中等度の痛み改善効果があることが複数の研究で示されています。慢性腰痛に対しても、運動療法など他の推奨治療と同等以上の効果が報告されており、多くの診療ガイドラインで集学的ケアの一部として推奨されています。",
+      "professional": "急性腰痛を対象としたシステマティックレビューでは、SMTによる痛み改善効果はNSAIDsとほぼ同程度(100点満点中SMTで9.9点減 vs NSAIDsで8.4点減)と報告されている。慢性腰痛においてもSMTは運動療法・理学療法など他の推奨治療と同等以上の効果を示すとされる。現在の臨床診療ガイドラインはほぼ例外なくSMTを脊椎由来疼痛の治療選択肢の一つとして推奨しているが、American College of Physiciansはエビデンスの強さを「低い」と位置づけており、単独治療ではなく多角的治療の一部としての位置づけが一般的である。"
+    },
+    "practical_takeaway": "腰痛に対して整体・カイロプラクティックなどの手技療法を検討する場合、単独ではなく運動療法など他の治療と組み合わせることで、より効果的な可能性があります。",
+    "caution": "効果の大きさは消炎鎮痛薬と同程度であり「劇的に効く」治療ではありません。American College of Physiciansはエビデンスの強さ自体は「低い」としています。神経症状(しびれ・脱力等)を伴う腰痛や骨粗鬆症がある場合は施術前に医師に相談してください。施術者の資格・技術による差も大きいとされています。",
+    "sources": [
+      {
+        "name": "Spinal Manipulation: What You Need To Know — NCCIH (NIH)",
+        "url": "https://www.nccih.nih.gov/health/spinal-manipulation-what-you-need-to-know",
+        "type": "patient_guideline"
+      },
+      {
+        "name": "Clinical Effectiveness and Efficacy of Chiropractic Spinal Manipulation for Spine Pain",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8915715/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-26",
+    "last_reviewed": "2026-07-26"
+  },
+  {
+    "id": "short-sleep-duration-abdominal-obesity-risk",
+    "title": "短い睡眠時間は腹部肥満(内臓脂肪型肥満)のリスク上昇と関連する",
+    "category": "obesity",
+    "tags": [
+      "睡眠",
+      "肥満",
+      "腹部肥満",
+      "避けるべき習慣"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "前向きコホート研究のメタ解析(7研究、19万人超)",
+    "summary": {
+      "basic": "睡眠時間が短すぎると、お腹まわりに脂肪がつきやすくなる(内臓脂肪型の肥満になりやすい)ことが、たくさんの研究をまとめた調査で分かっています。睡眠不足の人は、ちゃんと眠れている人に比べて、お腹まわりが太りやすい傾向がありました。",
+      "general": "7件の前向きコホート研究(約19万人)をまとめたメタ解析では、睡眠時間が短い人は標準的な睡眠時間の人に比べて、お腹まわりに脂肪がつく「腹部肥満(内臓脂肪型肥満)」のリスクが約8%高いことが示されました。一方、睡眠時間が長すぎることについては、明確な関連は見られませんでした。",
+      "professional": "7件の前向きコホート研究(n=194,342)を統合したシステマティックレビュー・メタ解析において、短時間睡眠は標準的な睡眠時間と比較して腹部肥満(abdominal/central obesity)リスクの有意な上昇と関連した(RR 1.08, 95%CI 1.04–1.12)。一方、長時間睡眠との明確な関連は認められなかった。"
+    },
+    "practical_takeaway": "極端な睡眠不足を避け、十分な睡眠時間を確保することは、腹部への脂肪蓄積(内臓脂肪型肥満)を防ぐ観点からも意味があると考えられます。",
+    "caution": "観察研究(コホート研究)に基づく関連であり、効果量も8%程度とそれほど大きくありません。睡眠を改善すれば必ず痩せるという因果関係を直接証明したものではなく、生活習慣全体の乱れなど他の要因が影響している可能性もあります。",
+    "sources": [
+      {
+        "name": "Short sleep duration is associated with higher risk of central obesity in adults: A systematic review and meta-analysis of prospective cohort studies — Obesity Science & Practice",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11149606/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-26",
+    "last_reviewed": "2026-07-26"
+  },
+  {
+    "id": "higher-protein-diet-weight-management",
+    "title": "高たんぱく食(カロリーの25〜30%程度)は体重管理に中程度の効果",
+    "category": "obesity",
+    "tags": [
+      "食事",
+      "たんぱく質",
+      "満腹感",
+      "減量"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "システマティックレビュー・メタ解析(RCT37件)",
+    "summary": {
+      "basic": "ふだんの食事でたんぱく質を少し多めにとると、満腹感を感じやすくなり、体重が減りやすくなることが研究で分かっています。37個の研究をまとめた調査では、たんぱく質を多くとったグループは、そうでないグループに比べて平均1.6kgほど体重が少なくなりました。ただし、これは「続けられた人」に限った話で、効果はそれほど大きくありません。",
+      "general": "37件の介入研究をまとめたメタ解析では、たんぱく質摂取量を増やした群は対照群に比べて平均1.6kgの体重減少がみられました。カロリー全体に占めるたんぱく質の割合を25〜30%程度まで高めると、満腹感が高まり自然と摂取エネルギーが減る効果が期待できますが、効果の大きさは食事療法をどれだけ継続できたかに大きく左右されます。",
+      "professional": "37件のRCT等を対象としたシステマティックレビュー・メタ解析(エネルギー比18〜59E%の幅で高たんぱく食を検討)では、対照群比で平均-1.6kg(95%CI -2.0〜-1.2)の体重減少が認められ、高たんぱく食(エネルギー比25〜30%)は体重管理に中程度の有益な効果を持つと結論づけられている。急性摂食試験では満腹感・満腹ホルモンの上昇が確認されるが、次の食事でのエネルギー摂取量への影響は一貫しない。効果は食事アドヒアランスに強く依存する。"
+    },
+    "practical_takeaway": "減量や体重維持を目指す場合、たんぱく質を多めに(全体のカロリーの25〜30%程度を目安に)摂ることで満腹感が得やすくなり、食事管理を続けやすくなる可能性があります。",
+    "caution": "効果は「継続できた場合」に限られ、たんぱく質を増やすだけで自動的に痩せるわけではありません。腎機能に問題がある方は、高たんぱく食を始める前に医師に相談してください。",
+    "sources": [
+      {
+        "name": "Are Dietary Proteins the Key to Successful Body Weight Management? A Systematic Review and Meta-Analysis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8468854/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-26",
+    "last_reviewed": "2026-07-26"
+  },
+  {
+    "id": "grip-strength-all-cause-mortality-older-adults",
+    "title": "握力が強いほど高齢者の全死亡リスクが低い(がん死亡との明確な関連はなし)",
+    "category": "antiaging",
+    "tags": [
+      "筋力",
+      "握力",
+      "サルコペニア",
+      "死亡リスク"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "前向きコホート研究(28か国、地域住民12万人超)",
+    "summary": {
+      "basic": "握る力(握力)が強い人ほど、将来長生きしやすいことが、ヨーロッパを中心とした28か国・12万人以上を対象にした研究で分かりました。ただし、握力ががんで亡くなるリスクを下げるかどうかは、この研究ではっきりとは確認されませんでした。",
+      "general": "28か国(欧州27か国とイスラエル)の地域住民12万人以上(平均年齢64歳)を約7年間追跡した研究では、握力が強いほど全死亡リスクが低いという関連が確認されました。特に65歳以上では、握力が強いほど死亡リスクが下がり続ける傾向が見られましたが、65歳未満では男性42kg・女性25kg程度を超えると、それ以上のメリットは頭打ちになりました。",
+      "professional": "28か国の地域住民121,383人(男性54,807人、女性66,576人、平均年齢約64歳)を中央値7.4年追跡した前向きコホート研究において、握力の増分と全死亡リスクとの間に逆相関の用量反応関係が認められた。65歳未満では男性42kg・女性25kgの閾値まで直線的な関連を示しその後プラトーとなったのに対し、65歳以上では閾値なく全域で直線的な逆相関を示した。なお、がん死亡との頑健な関連は認められなかった。"
+    },
+    "practical_takeaway": "握力自体を鍛えることが目的というより、レジスタンストレーニング(筋トレ)などで全身の筋力を維持することが、加齢に伴う死亡リスクの低減につながる可能性があります。",
+    "caution": "観察研究(コホート研究)に基づく関連であり、握力を人為的に上げる介入が寿命を延ばすことを直接証明したものではありません。基礎疾患による筋力低下が先に死亡リスクを上げている可能性(逆の因果関係)も否定できません。また、がん死亡との明確な関連は今回のデータでは確認されませんでした。",
+    "sources": [
+      {
+        "name": "Associations of handgrip strength with all-cause and cancer mortality in older adults: a prospective cohort study in 28 countries — Age and Ageing",
+        "url": "https://academic.oup.com/ageing/article/51/5/afac117/6593705",
+        "type": "cohort"
+      }
+    ],
+    "date_added": "2026-07-26",
+    "last_reviewed": "2026-07-26"
   }
 ]
