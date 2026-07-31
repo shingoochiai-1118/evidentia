@@ -1340,5 +1340,65 @@
     ],
     "date_added": "2026-07-26",
     "last_reviewed": "2026-07-26"
+  },
+  {
+    "id": "daycare-quality-cognitive-development",
+    "title": "質の高い保育園・幼稚園に通うことは、子どもの認知発達に良い影響を与える",
+    "category": "children",
+    "tags": ["保育園", "幼稚園", "集団保育", "認知発達"],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "複数のシステマティックレビュー・メタ解析(縦断研究中心)",
+    "summary": {
+      "basic": "保育園や幼稚園に通うこと自体より、そこでの「関わり方の質」が子どもの頭の発達に大きく影響することが、たくさんの研究をまとめた調査でわかっています。先生が子ども一人ひとりとよく関わってくれる質の高い園に通うと、特に家庭の状況が厳しい子どもほど、その後の学力に良い影響が出やすいとされています。",
+      "general": "早期教育・保育(ECEC)の質と子どもの発達に関する複数のメタ解析では、施設の設備や人員配置などの「構造的な質」よりも、保育者と子どもの関わり方といった「プロセスの質」が発達と関連することが一貫して示されている。特に低所得世帯の子どもで学力面の効果が大きく、家庭環境による格差を縮める可能性が指摘されている。ただし効果量自体は小さめであることが多い。",
+      "professional": "ECEC質に関するメタ解析(PLOS ONE, 2023)では、構造的質指標は子どものアウトカムと有意な関連を示さなかった一方、プロセス質指標はほとんどのアウトカムと小〜中程度の有意な関連を示した。別のシステマティックレビュー・メタ解析でも、質の高いECECへの参加が低所得層の子どもの認知発達に対しより大きな正の効果を持ち、家庭環境格差を縮める「equalizer」効果を持つ可能性が示唆されている。"
+    },
+    "practical_takeaway": "園を選ぶ際は、設備や規模だけでなく、保育者が子ども一人ひとりとどう関わっているか(声かけ・観察・個別対応の丁寧さ)を確認することが、認知発達の観点からは特に重要。",
+    "caution": "効果量は多くの研究で小〜中程度であり、「保育園・幼稚園に通えば必ず学力が伸びる」という単純な話ではない。研究の多くは観察研究であり、家庭環境などの交絡因子を完全には排除できていない。",
+    "sources": [
+      {
+        "name": "Early childhood education and care quality and associations with child outcomes: A meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10212181/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "The impact of early childhood education and care-based interventions on child physical activity, anthropometrics, fundamental movement skills, cognitive functioning, and social-emotional wellbeing: A systematic review and meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11711080/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-07-31",
+    "last_reviewed": "2026-07-31"
+  },
+  {
+    "id": "daycare-attendance-increased-infection-risk",
+    "title": "保育園・幼稚園への入園開始年齢が早いほど、感染症にかかる回数が長期的に増える傾向がある",
+    "category": "children",
+    "tags": ["保育園", "幼稚園", "集団保育", "感染症", "中耳炎"],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "大規模全国コホート研究(デンマーク、対象100万人超)+前向きコホート研究",
+    "summary": {
+      "basic": "保育園に通い始めると、風邪や中耳炎などにかかりやすくなることが、多くの研究でわかっています。特に通い始めてすぐの数か月はかかりやすさが2〜3倍ほどに増えます。100万人以上を調べたデンマークの研究では、早く保育園に入った子どもほど、大人になるまでの間にかかった感染症の回数が少し多い傾向も見つかりました。",
+      "general": "保育園・幼稚園への通園開始は上気道感染症(かぜ)・中耳炎・喘鳴性気管支炎のリスクを明確に上げることが複数の前向きコホート研究で示されており、通園開始後の数か月がリスクのピークとなる(かぜのリスク比1.7〜2.4倍、中耳炎1.5〜1.9倍等)。デンマークの全国コホート研究(100万人超、最長20年追跡)では、生後6か月で入園した子どもは1歳時点で感染症の発生率が家庭保育の子どもより約66〜68%高く、この差は年齢が上がっても完全には解消されず、20歳までの累積感染症回数もやや多い傾向が続いた。",
+      "professional": "デンマーク全国出生コホート(n=1,007,448、抗菌薬処方ベースで感染症エピソードを定義、追跡最長20年)では、生後6か月入園群は12か月時点で家庭保育群に対し感染発生率が約66〜68%高く、3歳入園群でも約48%高かった。この差は6歳時点で累積0.5〜0.7エピソード、20歳時点で0.5〜1.1エピソードの超過として持続し、「後年での感染リスク低下による相殺」は認められなかった。個別の感染症では、かぜ(RR 1.7〜2.4)・中耳炎(RR 1.5〜1.9)・喘鳴性気管支炎(RR 1.8〜3.2)が通園開始後数か月以内に有意に増加することが別のコホート研究でも一貫して報告されている。"
+    },
+    "practical_takeaway": "保育園・幼稚園に通い始めた直後(特に最初の数か月)は風邪や中耳炎にかかりやすくなることを想定しておくとよい。これは免疫が未熟なことによる一時的な現象という面もあるが、長期的にも感染症回数がやや多く残る可能性がある点は留意する。",
+    "caution": "感染症のほとんどは軽症の上気道感染であり、これ自体が長期的な健康被害を意味するわけではない。集団保育には認知発達・アレルギー予防など他の利点も報告されており、感染症リスクの増加だけで通園の是非を判断すべきではない。",
+    "sources": [
+      {
+        "name": "Daycare attendance and risk of first infectious disease",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2044595/",
+        "type": "cohort"
+      },
+      {
+        "name": "Childcare attendance and risk of infections in childhood and adolescence",
+        "url": "https://academic.oup.com/ije/article/52/2/466/6839854",
+        "type": "cohort"
+      }
+    ],
+    "date_added": "2026-07-31",
+    "last_reviewed": "2026-07-31"
   }
 ]
