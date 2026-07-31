@@ -1,40 +1,5 @@
 [
   {
-    "id": "yoga-chronic-low-back-pain",
-    "title": "ヨガは慢性腰痛の痛み・機能障害を改善するが、通常の運動療法を上回るわけではない",
-    "category": "musculoskeletal",
-    "tags": [
-      "腰痛",
-      "ヨガ",
-      "運動療法"
-    ],
-    "stars": 3,
-    "status": "well_established",
-    "evidence_level": "システマティックレビューの包括的評価(RCT多数、GRADE中〜非常に低)",
-    "summary": {
-      "basic": "ヨガ(ゆっくり体を動かしながら呼吸を整える運動)を続けると、腰の痛みが長く続いている人の痛みや動きにくさが、何もしないより和らぎやすいことがわかっています。ただしヨガだからといって、普通の体操やストレッチより特別優れているわけではなく、効果は同じくらいです。",
-      "general": "複数のシステマティックレビューをまとめた研究によると、慢性腰痛に対してヨガは何もしない/通常ケアと比べて短期〜中期(4週〜4か月程度)で痛みや機能障害を改善する。ただし通常の運動療法・理学療法と比べると効果に大きな差はなく、12か月後には効果がはっきりしなくなる報告もある。安全性は通常の運動と同程度で、重篤な有害事象の報告は少ない。",
-      "professional": "複数のSRを統合したオーバービューでは、非運動対照群との比較で疼痛VAS平均差-11.05(95%CI -14.22〜-7.88、短期)等の改善を認めたが、運動対照群との比較では有意差なし(MD -0.78, 95%CI -1.62〜0.06)。GRADE評価では中等度30アウトカム・低42・非常に低20と質にばらつきがあり、統合対象のSR自体の方法論的質も10件が「批判的に低い」と評価されている。12か月時点の長期効果は不明瞭。"
-    },
-    "practical_takeaway": "慢性腰痛があり、体を動かす習慣を作りたい人にとって、ヨガは既存の運動療法と並ぶ選択肢の一つになる。ただし「ヨガでなければならない」わけではなく、続けやすい運動療法を選ぶことが大切。",
-    "caution": "効果は通常の運動療法と同程度であり、ヨガ特有の優位性を示す強い根拠はない。長期(12か月以降)の効果は不明瞭。急性の強い痛みがある場合は自己判断で始めず医療者に相談する。",
-    "sources": [
-      {
-        "name": "Yoga compared to non-exercise or physical therapy exercise on pain, disability, and quality of life for patients with chronic low back pain: A systematic review and meta-analysis of RCTs",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7462307/",
-        "type": "meta_analysis"
-      },
-      {
-        "name": "Efficacy and safety of yoga for the management of chronic low back pain: an overview of systematic reviews",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10641484/",
-        "type": "systematic_review"
-      }
-    ],
-    "date_added": "2026-07-20",
-    "last_reviewed": "2026-07-20",
-    "proposed_date": "2026-07-20"
-  },
-  {
     "id": "vitamin-d-supplement-musculoskeletal-pain-mixed-evidence",
     "title": "ビタミンDサプリメントが慢性的な筋骨格系の痛みを和らげる効果は、研究間で結論が一致していない",
     "category": "musculoskeletal",
@@ -73,7 +38,13 @@
     "id": "daycare-attendance-allergy-asthma-mixed-evidence",
     "title": "保育園通園とアレルギー・喘息の関係は年齢によって異なり、結論は一致していない",
     "category": "children",
-    "tags": ["保育園", "幼稚園", "集団保育", "アレルギー予防", "喘息"],
+    "tags": [
+      "保育園",
+      "幼稚園",
+      "集団保育",
+      "アレルギー予防",
+      "喘息"
+    ],
     "stars": 2,
     "status": "under_debate",
     "evidence_level": "システマティックレビュー・大規模コホート研究(結果が年齢・家族歴で分かれる)",
@@ -101,41 +72,15 @@
     "proposed_date": "2026-07-31"
   },
   {
-    "id": "daycare-hours-behavior-development-quality-matters",
-    "title": "長時間保育は幼児期に外向的行動をやや増やす可能性があるが、保育の質の方が影響が大きい",
-    "category": "children",
-    "tags": ["保育園", "幼稚園", "集団保育", "行動発達"],
-    "stars": 3,
-    "status": "well_established",
-    "evidence_level": "大規模縦断コホート研究(米国NICHD Study of Early Child Care)",
-    "summary": {
-      "basic": "長い時間保育園で過ごす子どもは、小さいうちは少し反抗的だったり落ち着きがなかったりすることが増えるという研究結果があります。ただしこの影響は小学校高学年くらいまでには目立たなくなり、それよりも「保育の質の良さ」の方が、子どものその後の行動に大きく関わることがわかっています。",
-      "general": "米国の大規模縦断研究(NICHD Study of Early Child Care)では、保育時間が長いほど幼児期〜小学校低学年での外向的行動(反抗・攻撃性など)がやや増える関連が見られ、15歳時点でのリスクテイキング・衝動性の高さとも関連していた。ただしこの関連は高校卒業時点では見られなくなっており、時間の長さそのものより保育の「質」(保育者の子どもへの関わり方)の方が、行動面への影響としては一貫して大きいことが示されている。",
-      "professional": "NICHD SECCYDの縦断解析では、生後54か月までの保育時間と幼児期・小学校低学年での外向的行動問題・社会的能力低下との間に正の関連が見られたが、これは中学年までに減弱し、高校卒業時点では時間・保育形態と行動アウトカムとの間に有意な関連は認められなかった。経済的困難世帯を対象とした別解析では、保育時間の係数(-0.04, SE 0.06)は非有意であった一方、保育の質1SD上昇は外向的行動問題を0.26SD低下させる関連が認められ、質の効果は就学前から中学年まで一貫して持続した。"
-    },
-    "practical_takeaway": "保育時間の長さを過度に心配するより、保育者が子どもとどう関わっているか(質)を重視して園・保育者を選ぶことの方が、行動発達への影響としては大きい可能性がある。",
-    "caution": "保育時間による行動面への影響は、あっても一時的・小〜中程度であり、思春期以降には見られなくなる。家庭の状況(経済状況・人種等)によって保育の質の効果の大きさが異なるとの報告もあり、単純に一般化はできない。",
-    "sources": [
-      {
-        "name": "Early Child Care and Adolescent Functioning at the End of High School: Results from the NICHD Study of Early Child Care and Youth Development",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5115787/",
-        "type": "cohort"
-      },
-      {
-        "name": "Child Care and the Development of Behavior Problems among Economically Disadvantaged Children in Middle Childhood",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2941232/",
-        "type": "cohort"
-      }
-    ],
-    "date_added": "2026-07-31",
-    "last_reviewed": "2026-07-31",
-    "proposed_date": "2026-07-31"
-  },
-  {
     "id": "daycare-type-childhood-obesity-mixed-evidence",
     "title": "保育園・幼稚園(施設型)の利用自体と子どもの肥満リスクの間に明確な関連は確認されていない",
     "category": "children",
-    "tags": ["保育園", "幼稚園", "集団保育", "肥満予防"],
+    "tags": [
+      "保育園",
+      "幼稚園",
+      "集団保育",
+      "肥満予防"
+    ],
     "stars": 2,
     "status": "under_debate",
     "evidence_level": "システマティックレビュー(観察研究、結果が保育形態によって異なる)",
@@ -151,37 +96,6 @@
         "name": "The association between childcare and risk of childhood overweight and obesity in children aged 5 years and under: a systematic review",
         "url": "https://pubmed.ncbi.nlm.nih.gov/27631590/",
         "type": "systematic_review"
-      }
-    ],
-    "date_added": "2026-07-31",
-    "last_reviewed": "2026-07-31",
-    "proposed_date": "2026-07-31"
-  },
-  {
-    "id": "daycare-entry-age-no-clear-optimal-timing",
-    "title": "保育園・幼稚園に「何歳から」通わせるのが最適かについて、明確な結論は出ていない",
-    "category": "children",
-    "tags": ["保育園", "幼稚園", "集団保育", "入園年齢"],
-    "stars": 2,
-    "status": "under_debate",
-    "evidence_level": "縦断研究・専門家による総説(結果が研究間で一致せず)",
-    "summary": {
-      "basic": "「保育園は何歳から通わせるのがいいか」については、実はまだはっきりした答えがありません。ある研究では0歳から通った子どもの方が学校での成績や態度が良かったという結果が出ていますが、別の研究では2〜3歳から始めた方が学力面で伸びたという結果も出ていて、結論が割れています。多くの専門家は「何歳から始めるか」より「その保育の質が良いかどうか」の方が大事だと考えています。",
-      "general": "保育園・幼稚園への入園開始年齢と発達の関係を調べた研究は結果が一致していない。スウェーデンの縦断研究では1歳未満で入園した子どもの方が8歳・13歳時点で学業・社会性の評価が良かったと報告される一方、米国の研究では2〜3歳で入園した方が就学前年に入園するより認知面の伸びが大きく、2歳未満での入園には追加の認知的な利益が見られなかったとする報告もある。NICHD研究では、入園年齢そのものは母子の愛着の安定性とは関連せず、母親の養育の質の方が重要な要因だった。",
-      "professional": "入園年齢の効果に関するエビデンスは非一貫的である。Andersson(1992, Child Development)のスウェーデン縦断研究では1歳未満入園群で8・13歳時点の学業・教員評定による社会性評価が良好であったのに対し、Loebら(2007)の米国データ解析では2〜3歳入園が最も認知的利得が大きく、2歳未満入園では追加的利益が確認されなかった。NICHD研究では入園年齢は母子アタッチメントの安定性と有意な関連を示さず、母親の養育感受性の方が優位な予測因子であった。専門家によるレビュー(Encyclopedia on Early Childhood Development)も、入園年齢そのものより保育の質・量が発達アウトカムを規定するとの見解で一致している。"
-    },
-    "practical_takeaway": "「何歳から保育園に入れるべきか」という年齢そのものに正解はなく、家庭の状況(復職時期等)に応じて選んで問題ない。年齢選びよりも、通わせる園・保育者の質(丁寧な関わりがあるか)を重視する方が、発達への影響としては根拠が強い。",
-    "caution": "研究間で結果の方向性自体が一致しておらず、国・時代・保育制度の違いも結果に影響している可能性がある。特定の年齢を「推奨」する根拠は現時点で乏しい。",
-    "sources": [
-      {
-        "name": "Effects of Day-Care on Cognitive and Socioemotional Competence of Thirteen-Year-Old Swedish Schoolchildren",
-        "url": "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8624.1992.tb03592.x",
-        "type": "cohort"
-      },
-      {
-        "name": "Child care and development of young children",
-        "url": "https://www.child-encyclopedia.com/child-care-early-childhood-education-and-care/according-experts/child-care-and-development-young",
-        "type": "expert_opinion"
       }
     ],
     "date_added": "2026-07-31",
