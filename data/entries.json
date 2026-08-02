@@ -1515,5 +1515,44 @@
     ],
     "date_added": "2026-07-31",
     "last_reviewed": "2026-07-31"
+  },
+  {
+    "id": "physical-activity-cancer-risk-reduction",
+    "title": "定期的な運動は大腸がん・乳がんなど複数のがん種のリスクを下げる(WHO・米国がん協会ガイドライン)",
+    "category": "cancer",
+    "tags": [
+      "運動",
+      "有酸素運動",
+      "がん予防"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "WHO(2020)・米国がん協会(2020)ガイドライン推奨 + 用量反応メタ解析(コホート研究多数)",
+    "summary": {
+      "basic": "運動をよくしている人は、大腸がんや乳がんなど何種類かのがんになりにくいという研究結果が世界中から出ています。世界保健機関(WHO)や米国のがん専門の団体は、大人は1週間に150〜300分(1日20〜40分くらい)体を動かしましょうと勧めています。息が少し弾むくらいの早歩きでも十分効果があります。",
+      "general": "身体活動量が多い人ほど、大腸がん・乳がん・子宮体がん・腎臓がん・胃がんなど複数のがん種のリスクが低いことが、多数のコホート研究のメタ解析で一貫して示されている。例えば大腸がんでは活動量が多い群でリスクが約24%低い(相対リスク0.76)。WHO(2020年)・米国がん協会(2020年)のガイドラインはいずれも、成人は週150〜300分の中強度、または75〜150分の高強度の有酸素運動を行うことを推奨している。",
+      "professional": "WHO 2020ガイドライン・ACS(American Cancer Society)2020ガイドラインはいずれも成人に週150–300分の中強度(または75–150分の高強度)有酸素運動を推奨。2018年米国身体活動ガイドライン諮問委員会報告は、膀胱・乳房・大腸・子宮内膜・腎臓・胃・食道腺癌において身体活動とリスク低下の関連を「strong」のエビデンスグレードと評価した。大腸がんのメタ解析ではRR 0.76(95%CI 0.72–0.81)、乳がんでは高活動群(≥8000 MET分/週)で低活動群比14%のリスク低下が報告されている。"
+    },
+    "practical_takeaway": "がん予防としては、特別な運動でなくても「週150〜300分の中強度の運動(早歩き等)」を目安に日常的に体を動かす習慣を持つことが推奨される。運動量は多いほど良いが、少しでも運動する方が全くしないより良いとされる。",
+    "caution": "根拠の中心はコホート研究(観察研究)であり、運動量の多い人は他の生活習慣も健康的である可能性(交絡)を完全には排除できない。ただし複数の独立した大規模研究・国際ガイドラインで一貫した関連が見られている。持病がある場合は運動強度について医師に相談することが望ましい。",
+    "sources": [
+      {
+        "name": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33239350/",
+        "type": "guideline"
+      },
+      {
+        "name": "American Cancer Society Guideline for Diet and Physical Activity for Cancer Prevention",
+        "url": "https://www.cancer.org/cancer/risk-prevention/diet-physical-activity/acs-guidelines-nutrition-physical-activity-cancer-prevention.html",
+        "type": "guideline"
+      },
+      {
+        "name": "A meta-analysis of the association of physical activity with reduced risk of colorectal cancer",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15859955/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-08-02",
+    "last_reviewed": "2026-08-02"
   }
 ]

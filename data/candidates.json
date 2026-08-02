@@ -101,5 +101,145 @@
     "date_added": "2026-07-31",
     "last_reviewed": "2026-07-31",
     "proposed_date": "2026-07-31"
+  },
+  {
+    "id": "cbt-migraine-prevention",
+    "title": "認知行動療法(CBT)は片頭痛予防に有効という根拠が蓄積しているが、効果は緩やか",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "心理療法",
+      "認知行動療法"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "米国頭痛学会(AHS)推奨 + システマティックレビュー・メタ解析(RCT50件、エビデンスの強さ: 低)",
+    "summary": {
+      "basic": "「頭が痛くなりそうな考え方のクセ」を見直したり、ストレスへの対処法を身につけたりする心理療法(認知行動療法、CBT)を受けると、片頭痛の回数が少し減ることが複数の研究でわかっています。副作用がほとんどないのも利点です。",
+      "general": "認知行動療法(CBT)は、片頭痛の頻度や生活への支障度を改善することがシステマティックレビュー・メタ解析で示されている。米国頭痛学会(AHS)は慢性片頭痛に対してCBTを推奨しており、改善が長期的に持続するとされる。ただし効果の大きさは1か月あたり頭痛が1日程度減る水準で、個々の研究の質にはばらつきがあり、エビデンスの強さは「低」と評価されている。",
+      "professional": "成人50件のRCTを対象としたシステマティックレビューでは、CBTは片頭痛頻度を月あたり約1.1日減少させると推定され(SOE: 低)、リラクゼーション訓練・マインドフルネス療法もほぼ同程度の効果(月1日程度の減少)を示した。米国頭痛学会は慢性片頭痛に対する非薬物療法としてCBTを推奨し、効果量は薬物療法に匹敵し有害事象がほぼ無いとしている。ただし多くの試験は多成分介入・小規模で高いバイアスリスクを有する。"
+    },
+    "practical_takeaway": "薬による予防効果が不十分な場合や、薬を減らしたい場合の選択肢として、CBTなどの心理療法を医師・臨床心理士に相談する価値がある。単独でも、薬物療法と併用でも効果が期待できる。",
+    "caution": "効果の大きさは1か月あたり頭痛1日程度の減少にとどまり、劇的な改善ではない。個々の研究の質にはばらつきがあり、エビデンスの強さは「低」と評価されている。効果を得るには専門家による複数回のセッションが必要。",
+    "sources": [
+      {
+        "name": "Cognitive Behavioral Therapy for Migraine Headache: A Systematic Review and Meta-Analysis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8777662/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Behavioral interventions for migraine prevention: A systematic review and meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11951403/",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-08-02",
+    "last_reviewed": "2026-08-02",
+    "proposed_date": "2026-08-02"
+  },
+  {
+    "id": "exercise-dose-migraine-prevention",
+    "title": "片頭痛予防に効果的な運動量の目安は見えてきたが、有酸素運動単独の効果については研究間で一致していない",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "運動",
+      "有酸素運動",
+      "筋トレ"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "用量反応メタ解析・ネットワークメタ解析(RCT合計40件超、エビデンスの確実性は非常に低〜低)",
+    "summary": {
+      "basic": "運動が片頭痛の回数や痛みの強さを減らす効果があることは複数の研究でわかってきていて、「週3回・30分ずつを10〜11週間続ける」くらいの量が目安として提案されています。ただし「有酸素運動(ジョギングなど)だけ」で本当に効果があるのかについては研究によって結果が分かれていて、「筋トレや、有酸素運動と筋トレを組み合わせた方が効果的」とする研究もあります。",
+      "general": "片頭痛の頻度・痛みの強さに対する運動の効果を調べた用量反応メタ解析(15研究、253人)では、週3回30分程度を10〜11週間(累積900〜950分)続けると頭痛頻度・痛みの改善効果が最大になるとされた。一方、別のネットワークメタ解析(RCT27件、1,611人)では、有酸素運動単独の効果は統計的に有意でなく、むしろ筋力トレーニング単独や有酸素運動と筋トレの組み合わせの方が効果が大きいという、やや異なる結論が出ている。運動が片頭痛に有効という方向性はおおむね一致しているが、どの運動法・強度が最も効果的かは研究間で一致していない。",
+      "professional": "用量反応メタ解析(RCT15件、n=253)では、疼痛強度はSMD -1.1(累積900分で最大効果 SMD -2.4)、頻度はSMD -0.79(累積950分で最大効果 SMD -1.55)。一方、多層ネットワークメタ解析(RCT27件、n=1,611)では有酸素運動単独の効果量は信頼区間が0をまたぎ有意でなかったのに対し、レジスタンス運動単独(g=-1.45)、有酸素+レジスタンス併用(g=-1.85, SUCRA=0.91)が高いランクを示した。用量としては300-600 MET分/週、強度4.5-5.5 METs、期間8-10週(中強度70-135分/週または高強度45-90分/週相当)が最適域として提案されている。両メタ解析ともエビデンスの確実性は非常に低〜低。"
+    },
+    "practical_takeaway": "片頭痛がある場合、運動習慣自体は予防に役立つ可能性が高い。「週2〜3回・30分程度・8〜11週間続ける」ことを一つの目安にしつつ、有酸素運動だけでなく筋力トレーニングも取り入れると、より効果的な可能性がある。",
+    "caution": "個々の研究の規模が小さく、エビデンスの確実性は全体的に低い。運動が誘因になって頭痛が悪化する人もいるため、症状が悪化する場合は強度・種類を調整し、必要に応じて医師に相談する。",
+    "sources": [
+      {
+        "name": "How much aerobic exercise is needed to reduce migraine? A dose-response meta-analysis of pain intensity and frequency",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41085000/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Efficacy and optimal dosage of various exercises for migraine: a multilevel network and dose-response meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548639/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-08-02",
+    "last_reviewed": "2026-08-02",
+    "proposed_date": "2026-08-02"
+  },
+  {
+    "id": "acupuncture-chronic-low-back-pain-mixed-evidence",
+    "title": "鍼治療は慢性腰痛に対し「何もしないより良い」が「偽の鍼との比較」では効果ははっきりしない",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "鍼治療"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "Cochraneシステマティックレビュー(RCT33件, n=8,270、比較対象により確実性が低〜中)",
+    "summary": {
+      "basic": "鍼治療(はりを体に刺す治療)は、「何も治療をしない場合」と比べると腰の痛みや動きやすさが改善しますが、「本物そっくりの偽の鍼」と比較すると、その差はあまり大きくないことがわかっています。これは、効果の一部が「治療を受けている」という安心感によるものかもしれないことを示しています。",
+      "general": "Cochraneのシステマティックレビュー(RCT33件、参加者8,270人)によると、鍼治療は「治療をしない場合」と比べると腰痛・機能の面で臨床的に意味のある改善をもたらす(中程度の確実性)。しかし「偽の鍼(シャム)」との比較では、痛みの改善はわずかで臨床的に重要とされる基準には届かず、機能や生活の質にも明確な改善は見られなかった(低い確実性)。「通常のケア」との比較でも、改善はみられるが臨床的に重要な差ではなかった。",
+      "professional": "Cochraneレビュー(RCT33件、n=8,270)は鍼治療をsham・no treatment・usual careと比較。sham対照では低確実性のエビデンスで平均差-9.22(0-100スケール)にとどまり、臨床的に意味のある閾値(15点)に届かなかった。no treatment対照では中確実性で臨床的に重要な疼痛・機能改善を認めた。usual care対照では低確実性で統計的には改善したが臨床的に重要な差ではなかった。有害事象の発生率はsham・usual careと同程度で軽度〜中等度(刺入部痛、内出血等)。マスキングの問題等により全体のエビデンスの確実性は非常に低〜中程度に留まる。"
+    },
+    "practical_takeaway": "鍼治療を腰痛対策として試すこと自体のリスクは低いが、「鍼そのものの特異的な効果」なのか「治療を受けている安心感による効果」なのかは、現時点のエビデンスでは判別しにくい。運動療法など、より確実な根拠がある治療法と組み合わせて検討するのが現実的。",
+    "caution": "比較対象(偽の鍼か、何もしないか)によって結果の大きさが大きく変わる。研究の多くはマスキング(盲検化)が難しいという方法論上の限界があり、エビデンスの確実性は全体として低い。",
+    "sources": [
+      {
+        "name": "Acupuncture for chronic non-specific low back pain (LBP)",
+        "url": "https://www.cochrane.org/evidence/CD013814_acupuncture-chronic-non-specific-low-back-pain-lbp",
+        "type": "systematic_review"
+      },
+      {
+        "name": "Acupuncture for chronic nonspecific low back pain - Cochrane Library",
+        "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013814/information",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-08-02",
+    "last_reviewed": "2026-08-02",
+    "proposed_date": "2026-08-02"
+  },
+  {
+    "id": "intermittent-fasting-longevity-mixed-evidence",
+    "title": "「時間を制限した食事(プチ断食)」の健康効果は、多くが単なる摂取カロリー減少で説明できる可能性がある",
+    "category": "antiaging",
+    "tags": [
+      "食事",
+      "間欠的断食",
+      "体重管理"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "システマティックレビュー・ネットワークメタ解析(RCT複数、代謝指標の短期改善は確認済み。ヒトでの長寿効果は未確立)",
+    "summary": {
+      "basic": "「決まった時間の中だけご飯を食べる」ダイエット法(プチ断食、間欠的断食)には体重を減らす効果がありますが、それは「食べる時間を短くした結果、食べる量そのものが減っている」からだという可能性が高いことがわかってきました。「食べる時間帯」自体に特別な長生き効果があるかどうかは、まだはっきりしていません。また、食べる時間を極端に短くしすぎる(1日10時間未満など)と、かえって体に良くない可能性も指摘されています。",
+      "general": "時間制限食(TRE、例: 16時間断食・8時間の間に食事)や間欠的断食は、体重の3〜5%減少やHbA1cの改善など、短期的な代謝指標の改善が複数のRCTで確認されている。しかし、摂取カロリーを揃えた比較試験では、食事のタイミングを変えるだけの効果は通常のカロリー制限と比べて上乗せの効果を示さないことが多く、体重減少の多くは結果的な摂取カロリー減少によって説明できる可能性が高い。さらに、食事時間を1日10時間以下に極端に制限したり、空腹時間が長すぎたりすると、認知機能の低下や心血管死亡リスクの上昇と関連したとする観察研究の報告もある。",
+      "professional": "TRE(16:8等)や間欠的断食のRCTでは体重3-5%減、HbA1c 0.3-0.5%改善、総コレステロール6-7%低下等の代謝改善が報告されているが、isocaloric RCTでは食事タイミング単独の効果は通常のカロリー制限と有意差がないとする報告が複数ある。前臨床(動物)研究では寿命延長効果が一貫して示される一方、ヒトでの長期的な寿命・慢性疾患予防アウトカムを検証した大規模長期RCTは存在せず、長期的な健康アウトカムへの真の影響は「未解決の課題」とされる。観察研究では、摂食時間窓≤10時間や空腹時間の延長が心血管死亡リスク58%増加や認知スコア低下と関連したとする報告もあり、極端な制限には注意が必要。"
+    },
+    "practical_takeaway": "間欠的断食・時間制限食を試すこと自体は減量目的では選択肢の一つになりうるが、「タイミングそのものに特別な長寿効果がある」と過信せず、総摂取カロリーやバランスの取れた栄養素も同様に重視すべき。食事時間を極端に短く(10時間未満)しすぎないよう注意する。",
+    "caution": "「長寿・アンチエイジング効果」を裏付けるヒトでの長期RCTはまだ存在しない。極端な断食時間は健康リスクとの関連も報告されており、万人に適した方法ではない。持病がある場合は事前に医療者に相談することが望ましい。",
+    "sources": [
+      {
+        "name": "Time-restricted eating as a potential strategy for healthy lifespan: an evaluation of current evidence",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12833465/",
+        "type": "review"
+      },
+      {
+        "name": "Intermittent Fasting and Healthy Aging in Older Adults: A Systematic Review of Cardiometabolic, Mental Health and Cognitive Outcomes with a Network Meta-Analysis of Anthropometric Measures",
+        "url": "https://www.mdpi.com/2072-6643/18/9/1450",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-08-02",
+    "last_reviewed": "2026-08-02",
+    "proposed_date": "2026-08-02"
   }
 ]
