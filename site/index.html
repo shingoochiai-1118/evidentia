@@ -27,6 +27,11 @@
 </header>
 
 <main>
+  <div class="search-row search-row-sticky">
+    <label for="search" class="visually-hidden">キーワードで検索</label>
+    <input id="search" type="search" placeholder="キーワードで検索 (例: 運動, サプリ, 頭痛)" autocomplete="off">
+  </div>
+
   <section class="controls">
     <div class="level-row">
       <span class="level-label" id="level-label">解説レベル</span>
@@ -37,10 +42,6 @@
       </div>
     </div>
 
-    <div class="search-row">
-      <label for="search" class="visually-hidden">キーワードで検索</label>
-      <input id="search" type="search" placeholder="キーワードで検索 (例: 運動, サプリ, 頭痛)" autocomplete="off">
-    </div>
     <div class="filter-row">
       <label for="star-filter" class="visually-hidden">信頼度で絞り込み</label>
       <select id="star-filter">

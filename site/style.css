@@ -8,11 +8,11 @@
   --accent: #4fd1c5;
   --star: #f0b429;
   --warn-bg: #2a2013;
-  --warn-border: #5c4419;
-  --warn-text: #e8c877;
+  --warn-border: #7a5a22;
+  --warn-text: #f2d38f;
   --myth-bg: #2a1a1f;
-  --myth-border: #5c2436;
-  --myth-text: #f2a3b5;
+  --myth-border: #7a3049;
+  --myth-text: #f6b8c9;
   --radius: 14px;
   font-size: 16px;
 }
@@ -126,10 +126,15 @@ main {
 }
 
 .controls {
+  padding: 0.75rem 0 1rem;
+}
+
+.search-row-sticky {
   position: sticky;
   top: 0;
-  background: linear-gradient(var(--bg) 85%, transparent);
-  padding: 0.75rem 0 1rem;
+  background: linear-gradient(var(--bg) 92%, transparent);
+  padding-top: 0.4rem;
+  padding-bottom: 0.6rem;
   z-index: 10;
 }
 
@@ -223,7 +228,18 @@ main {
 .chip-row {
   display: flex;
   gap: 0.5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+
+.chip-row::-webkit-scrollbar {
+  display: none;
+}
+
+.chip-row .chip {
+  flex: 0 0 auto;
 }
 
 .chip {
@@ -372,9 +388,16 @@ main {
   line-height: 1.6;
   background: var(--warn-bg);
   border: 1px solid var(--warn-border);
+  border-left: 3px solid var(--warn-text);
   color: var(--warn-text);
   padding: 0.55rem 0.75rem;
   border-radius: 6px;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .myth-badge {
@@ -398,6 +421,18 @@ main {
   background: rgba(79, 209, 197, 0.12);
   border: 1px solid var(--accent);
   color: var(--accent);
+  width: fit-content;
+}
+
+.stale-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  color: var(--text-muted);
   width: fit-content;
 }
 

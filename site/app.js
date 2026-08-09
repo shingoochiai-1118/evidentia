@@ -105,6 +105,14 @@ function categoryById(id) {
   return state.categories.find((c) => c.id === id);
 }
 
+function isStale(entry) {
+  if (!entry.last_reviewed) return false;
+  const reviewed = new Date(entry.last_reviewed);
+  if (Number.isNaN(reviewed.getTime())) return false;
+  const days = (Date.now() - reviewed.getTime()) / (1000 * 60 * 60 * 24);
+  return days > 365;
+}
+
 function starString(n) {
   return "★".repeat(n) + "☆".repeat(5 - n);
 }
@@ -217,16 +225,29 @@ function renderCard(entry) {
   top.append(tag, stars);
   card.appendChild(top);
 
+  const badges = [];
   if (entry.status === "myth_revised") {
     const badge = document.createElement("span");
     badge.className = "myth-badge";
     badge.textContent = "⚠️ 定説の見直し";
-    card.appendChild(badge);
+    badges.push(badge);
   } else if (entry.status === "under_debate") {
     const badge = document.createElement("span");
     badge.className = "debate-badge";
     badge.textContent = "🔀 評価が分かれている";
-    card.appendChild(badge);
+    badges.push(badge);
+  }
+  if (isStale(entry)) {
+    const badge = document.createElement("span");
+    badge.className = "stale-badge";
+    badge.textContent = "🕓 更新確認から1年以上経過";
+    badges.push(badge);
+  }
+  if (badges.length) {
+    const badgeRow = document.createElement("div");
+    badgeRow.className = "badge-row";
+    badges.forEach((b) => badgeRow.appendChild(b));
+    card.appendChild(badgeRow);
   }
 
   const h2 = document.createElement("h2");
