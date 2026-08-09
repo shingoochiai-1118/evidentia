@@ -1553,5 +1553,44 @@
     ],
     "date_added": "2026-08-02",
     "last_reviewed": "2026-08-02"
+  },
+  {
+    "id": "hpv-vaccine-cervical-cancer-prevention",
+    "title": "HPVワクチンは子宮頸がん・前がん病変を大幅に減らす(接種世代で発生率8割超減少)",
+    "category": "cancer",
+    "tags": [
+      "予防接種",
+      "子宮頸がん",
+      "HPVワクチン"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "WHOガイドライン推奨 + 大規模住民ベース観察研究(英国、総観察期間231万女性年)",
+    "summary": {
+      "basic": "子宮頸がんの多くは、HPVというウイルスの感染がきっかけで起こります。12〜13歳ごろにHPVワクチンを受けた人たちを何年も追跡した大規模な調査では、ワクチンを受けていない人たちに比べて、子宮頸がんになる人がおよそ8割以上少なかったことがわかりました。世界保健機関(WHO)も、この年齢での接種を強く勧めています。",
+      "general": "HPV(ヒトパピローマウイルス)ワクチンは、子宮頸がんの主な原因となる高リスク型HPV(16型・18型)への感染を防ぐワクチン。イングランドの大規模な住民データを用いた研究では、12〜13歳で定期接種を受けた世代は、未接種世代に比べて子宮頸がんの発生率が83.9%、前がん病変(CIN3)の発生率が94.3%低かった。WHOは9〜14歳の女児を対象に1〜2回の接種を推奨しており、複数の国での実績データがこの効果を裏付けている。",
+      "professional": "英国のレジストリベース観察研究(2006年1月〜2020年6月、女性年231万人年相当・子宮頸がん29,968例・CIN3 335,228例)では、12-13歳時にHPVワクチン接種を受けた世代の子宮頸がん発生率は非接種の参照コホートと比べ83.9%(95%CI 63.8-92.8%)、CIN3発生率は94.3%(95%CI 92.6-95.7%)低下した。WHOは9-14歳女児への1〜2回接種を推奨(pre-qualified各社ワクチンはHPV16/18に対応、子宮頸がんの約76%をカバー)。スコットランドの別コホートでも同世代でCIN2/3の50-55%減少、浸潤子宮頸がんゼロ症例が報告されている。"
+    },
+    "practical_takeaway": "日本では小学6年〜高校1年相当の女子が定期接種の対象(2026年度からは9価ワクチン「シルガード9」に一本化)。対象年齢を過ぎた場合も、自治体によっては経過措置があるため、対象かどうか・受け忘れがないかを確認する価値がある。",
+    "caution": "ワクチンの効果は感染前の接種で最大化されるため、性交渉開始前の接種が推奨される。すでに感染しているHPV型には効果がない。日本では2013年に積極的勧奨が一時中止された経緯があるが、その後の安全性データの蓄積を経て2022年に勧奨が再開されている。ワクチン接種後も、子宮頸がん検診(細胞診・HPV検査)は引き続き必要。",
+    "sources": [
+      {
+        "name": "Cervical cancer - WHO Fact Sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer",
+        "type": "guideline"
+      },
+      {
+        "name": "Effect of the HPV vaccination programme on incidence of cervical cancer and grade 3 cervical intraepithelial neoplasia by socioeconomic deprivation in England: population based observational study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11094700/",
+        "type": "cohort"
+      },
+      {
+        "name": "HPVワクチンに関するQ&A",
+        "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou/hpv_qa.html",
+        "type": "government_summary"
+      }
+    ],
+    "date_added": "2026-08-09",
+    "last_reviewed": "2026-08-09"
   }
 ]
