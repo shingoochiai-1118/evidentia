@@ -1592,5 +1592,40 @@
     ],
     "date_added": "2026-08-09",
     "last_reviewed": "2026-08-09"
+  },
+  {
+    "id": "botulinum-toxin-chronic-migraine-prevention",
+    "title": "ボツリヌス毒素A型(オナボツリヌストキシンA)注射は慢性片頭痛の予防治療として確立している",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "慢性片頭痛",
+      "ボツリヌス毒素",
+      "医療の専門知識"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "FDA承認(2010年) + 欧州頭痛連盟(EHF)コンセンサスガイドライン + PREEMPT第III相RCT(2試験統合、n=1,384)",
+    "summary": {
+      "basic": "月に15日以上頭が痛む「慢性片頭痛」という重い片頭痛に対して、ボツリヌス毒素(しわ取り注射で知られる薬)を頭や首のまわりに注射する治療法があります。大規模な研究で、注射を受けた人は受けなかった人に比べて頭痛の日数がより多く減ることが確認されていて、正式な治療法として広く認められています。",
+      "general": "オナボツリヌストキシンA(ボツリヌス毒素A型)は、月に15日以上頭痛がある慢性片頭痛に対する予防治療として、大規模な二重盲検プラセボ対照試験(PREEMPT試験)で効果が確認されている。頭皮・首・肩の31〜39か所に3か月おきに注射する方法(PREEMPT法)が標準とされ、頭痛日数が50%以上減った人の割合は注射群で約47%、偽注射群で約22%だった。欧州頭痛連盟は「他の予防薬を2〜3種類試して効果不十分だった場合」の選択肢として推奨している。",
+      "professional": "PREEMPT試験(2試験統合、n=1,384)では、24週時点の頭痛日数減少幅はonabotulinumtoxinA群-8.4日/4週 vs プラセボ群-6.6日/4週(P<0.001)、≥50%レスポンダー率は47.1% vs 21.5%。EHFコンセンサスガイドライン(2018)はGRADE中等度(有効性)・高(安全性)のエビデンスに基づき、PREEMPT法(155-195単位、31-39部位、12週毎)での使用を推奨。2-3サイクル後に頭痛日数30%未満の改善であればnon-responderとして中止を検討する。"
+    },
+    "practical_takeaway": "月15日以上頭痛がある慢性片頭痛で、内服薬による予防治療を複数試しても効果不十分な場合、頭痛専門医にボツリヌス毒素注射の適応を相談する価値がある。",
+    "caution": "適応は「月15日以上」の慢性片頭痛に限られ、月頭痛日数が少ない一般的な片頭痛には保険適応外。専門医による定期的な注射(3か月毎)が必要で、費用・通院負担がかかる。稀に注射部位の痛み・筋力低下等の副作用がある。",
+    "sources": [
+      {
+        "name": "Guideline on the use of onabotulinumtoxinA in chronic migraine: a consensus statement from the European Headache Federation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6755553/",
+        "type": "guideline"
+      },
+      {
+        "name": "OnabotulinumtoxinA for treatment of chronic migraine: PREEMPT 24-week pooled subgroup analysis of patients without medication overuse",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3620307/",
+        "type": "RCT"
+      }
+    ],
+    "date_added": "2026-08-17",
+    "last_reviewed": "2026-08-17"
   }
 ]

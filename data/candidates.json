@@ -241,5 +241,76 @@
     "date_added": "2026-08-02",
     "last_reviewed": "2026-08-02",
     "proposed_date": "2026-08-02"
+  },
+  {
+    "id": "motor-control-exercise-low-back-pain-not-superior",
+    "title": "体幹深部筋を鍛える『体幹安定化エクササイズ』は、腰痛への効果が一般的な運動療法より優れているわけではない",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "運動療法",
+      "体幹トレーニング"
+    ],
+    "stars": 3,
+    "status": "under_debate",
+    "evidence_level": "Cochraneシステマティックレビュー(RCT29件、n=2,431、エビデンスの確実性は低〜中)",
+    "summary": {
+      "basic": "「お腹や背中の奥にある筋肉(体幹の深いところの筋肉)を鍛えて姿勢を安定させる」という腰痛体操(体幹安定化エクササイズ)があります。何もしない場合と比べると腰の痛みが減ることは分かっていますが、「ウォーキングや普通の筋トレなど、他の運動と比べて特別優れている」というわけではないことが、大規模な研究のまとめで分かっています。",
+      "general": "慢性腰痛に対する体幹安定化エクササイズ(motor control exercise)は、Cochraneのシステマティックレビュー(RCT29件、参加者2,431人)により、何もしない・最小限の介入と比べると痛み・機能の面で中程度の改善効果があることが示されている。しかし、ウォーキングや一般的な筋力トレーニングなど「他の種類の運動療法」と比べた場合には、明確に優れているというエビデンスはない。著者らは、運動の種類は本人や治療者の好み・費用・安全性で選んでよいとしている。",
+      "professional": "Cochraneレビュー(RCT29件、n=2,431)では、motor control exerciseは最小介入と比較して長期の疼痛改善(MD -12.97, 95%CI -18.51〜-7.42、低〜中確実性)を示した。一方、他の運動療法との比較では臨床的に意味のある差は認められず(低〜中確実性)、著者は「運動の種類の選択は患者・治療者の好み、トレーナーの訓練内容、コスト、安全性に基づくべき」と結論している。"
+    },
+    "practical_takeaway": "体幹安定化エクササイズは腰痛対策の選択肢の一つだが、「特別に優れた腰痛体操」として過大評価する必要はない。ウォーキングや一般的な筋トレなど、続けやすい運動を選ぶ方が現実的。",
+    "caution": "研究間で治療法の詳細(指導者・回数・期間)にばらつきがあり、エビデンスの確実性は全体的に低〜中程度。急性腰痛への効果は今回のレビューの対象外。",
+    "sources": [
+      {
+        "name": "Motor control exercise for chronic non-specific low-back pain (Cochrane Evidence)",
+        "url": "https://www.cochrane.org/evidence/CD012004_motor-control-exercise-chronic-non-specific-low-back-pain",
+        "type": "systematic_review"
+      },
+      {
+        "name": "Motor control exercise for chronic non-specific low-back pain - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26742533/",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-08-17",
+    "last_reviewed": "2026-08-17",
+    "proposed_date": "2026-08-17"
+  },
+  {
+    "id": "omega-3-cognitive-decline-prevention-modest",
+    "title": "オメガ3脂肪酸サプリメントは認知機能低下の予防に「控えめ」な効果、軽度認知障害では恩恵が大きい可能性",
+    "category": "antiaging",
+    "tags": [
+      "サプリメント",
+      "オメガ3",
+      "認知機能",
+      "DHA・EPA"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "システマティックレビューのオーバービュー(RCT14件、n=26,881、統合効果量は小さい)",
+    "summary": {
+      "basic": "「魚の油(オメガ3脂肪酸)を摂ると頭の働きの衰えを防げる」とよく言われますが、40歳以上の2万人以上を対象にした研究をまとめて調べたところ、効果は「あるにはあるが、とても小さい」ことが分かりました。すでに物忘れが増えている人ではもう少し効果がはっきりする可能性がありますが、健康な人が「認知症予防」として飲む場合の効果は、まだはっきりしていません。",
+      "general": "40歳以上の成人を対象とした14件のRCT(合計26,881人)をまとめたレビューでは、オメガ3脂肪酸サプリメントによる認知機能の改善は統計的には有意だが、効果量は小さかった。軽度認知障害(MCI)や早期アルツハイマー病がある人ではDHAを中心に記憶などで一定の効果が報告される一方、進行したアルツハイマー病ではほとんど効果が見られなかった。健康な高齢者全体への「認知症予防」効果としては、まだ確立した結論に至っていない。",
+      "professional": "システマティックレビューのオーバービュー(RCT14件、n=26,881、40歳以上)では、認知機能への統合効果量はSMD 0.16(95%CI 0.01-0.32、I²=42.8%)と有意だが小さく、出版バイアスは検出されなかった。MCI・早期AD患者を対象とした別のSRでは、DHA優位の補充で記憶・海馬体積に関するmodestな効果が報告される一方、進行AD例では効果が乏しい。用量・期間によらず一定の効果がみられ閾値効果を示唆するとの報告もあるが、APOE ε4保有等の遺伝的背景により反応性が異なる可能性が指摘されている。健常高齢者における一次予防効果を確立した大規模長期RCTはまだ不足している。"
+    },
+    "practical_takeaway": "魚由来のオメガ3脂肪酸を食事や必要に応じてサプリメントで摂ることは、認知機能維持の観点からも害は少なく理にかなった選択肢だが、「これを飲めば認知症を防げる」というほど強い根拠はまだない。すでに物忘れが気になる場合は、自己判断のサプリメント摂取ではなく専門医に相談することが望ましい。",
+    "caution": "効果量は全体として小さく、進行した認知症には効果が乏しい。高用量摂取時の出血リスク等、抗凝固薬との相互作用に注意が必要な場合がある。",
+    "sources": [
+      {
+        "name": "Omega-3 Polyunsaturated Fatty Acids and Cognitive Decline in Adults with Non-Dementia or Mild Cognitive Impairment: An Overview of Systematic Reviews",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12472900/",
+        "type": "systematic_review"
+      },
+      {
+        "name": "The Role of Omega-3 Fatty Acid Supplementation in Slowing Cognitive Decline Among Elderly Patients With Alzheimer's Disease: A Systematic Review of Randomized Controlled Trials",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11630619/",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-08-17",
+    "last_reviewed": "2026-08-17",
+    "proposed_date": "2026-08-17"
   }
 ]
