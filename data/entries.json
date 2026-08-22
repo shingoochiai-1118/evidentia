@@ -1627,5 +1627,74 @@
     ],
     "date_added": "2026-08-17",
     "last_reviewed": "2026-08-17"
+  },
+  {
+    "id": "live-interaction-necessary-infant-language-learning",
+    "title": "乳幼児の言語習得には、動画や音声だけでなく生身の人との関わりが欠かせない",
+    "category": "children",
+    "tags": [
+      "言語発達",
+      "乳幼児",
+      "第二言語",
+      "スクリーンタイム"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "実験的研究(ランダム割付による比較実験)、複数の独立した追試あり",
+    "summary": {
+      "basic": "赤ちゃんは、テレビや動画を見せるだけでは新しい言葉の音を覚えられないことが実験でわかっています。生後9か月の赤ちゃんに外国語(中国語)を聞かせた実験では、実際に人が目の前で話しかけた場合はその言葉の音を聞き分けられるようになりましたが、同じ内容を録画した映像や音声だけを聞かせても、ほとんど効果がありませんでした。",
+      "general": "乳児の言語学習に関する実験的研究では、生後9か月児に母語にない外国語音(中国語)を聞かせる際、生身の人が直接話しかけた条件では音の聞き分け能力が向上したが、同一内容を録画した映像や音声のみの条件ではほとんど学習効果が見られなかった。視線を合わせる・相手の反応を見るといった対人的なやり取り(アイコンタクト・視線移動)自体が言語音学習に関わる脳活動と関連することも別の研究で確認されている。画面越しでも仲間(他の乳児)と一緒に視聴すると学習効果が改善するという追試結果もある。",
+      "professional": "Kuhl, Tsao, Liu(2003, PNAS)の実験では、生後9〜10か月児を対象に、中国語音声への曝露を「ライブの対面提示」「同一内容の映像提示」「音声のみ提示」の3条件に割り付けたところ、ライブ条件でのみ中国語音素の弁別学習が成立し、映像・音声条件では統計的に有意な学習効果が認められなかった。追試研究(Conboy et al., Developmental Neuropsychology)では、対面セッション中の視線移動(gaze shifting)頻度が音韻学習を反映する脳反応(ERP mismatch response)の強さと有意に相関することが示されている。"
+    },
+    "practical_takeaway": "乳幼児に言葉(特に外国語)を身につけさせたい場合、動画教材や音声教材だけに頼るのではなく、実際に話しかけたり一緒に遊んだりする「生身のやり取り」の時間を優先することが、現時点のエビデンスからは効果的と考えられる。",
+    "caution": "これらの研究は主に音韻(発音の聞き分け)学習を対象とした実験室研究であり、語彙・文法など言語発達の他の側面すべてに同じ結論が当てはまるとは限らない。サンプルサイズは各研究数十人規模と比較的小さい。",
+    "sources": [
+      {
+        "name": "Foreign-language experience in infancy: Effects of short-term exposure and social interaction on phonetic learning",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.1532872100",
+        "type": "cohort"
+      },
+      {
+        "name": "Social Interaction in Infants' Learning of Second-Language Phonetics: An Exploration of Brain-Behavior Relations",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26179488/",
+        "type": "cohort"
+      }
+    ],
+    "date_added": "2026-08-22",
+    "last_reviewed": "2026-08-22"
+  },
+  {
+    "id": "excessive-screen-time-language-development-delay",
+    "title": "乳幼児期の過度なスクリーンタイムは、言語発達の遅れと関連する",
+    "category": "children",
+    "tags": [
+      "言語発達",
+      "乳幼児",
+      "スクリーンタイム"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "メタ解析(観察研究多数を統合)+ 大規模前向きコホート研究(日本、7,097組)",
+    "summary": {
+      "basic": "テレビやスマホの動画を見る時間が長い赤ちゃん・幼児ほど、言葉の発達がゆっくりになりやすいことが、複数の研究をまとめた調査でわかっています。日本で7000組以上の親子を調べた研究でも、1歳の時点で1日4時間以上画面を見ていた子どもは、2歳の時点でことばの発達の遅れが見られる割合が、ほとんど見ない子どもの約5倍でした。",
+      "general": "画面視聴時間と子どもの言語スキルに関する複数の研究をまとめたメタ解析では、視聴時間が長いほど言語スキルが低い傾向(相関係数r=-0.14)が示された一方、教育的な内容や親と一緒に見る「共視聴」はむしろ良い方向に関連していた。日本の大規模出生コホート研究(7,097組の母子)でも、1歳時点のスクリーンタイムが長いほど2歳・4歳時点でのコミュニケーション発達の遅れリスクが明確な用量反応関係で上昇し、1日4時間以上の群では2歳時点のリスクが約4.8倍だった。",
+      "professional": "Madiganら(2020, JAMA Pediatrics)のメタ解析では、スクリーンタイムの量と言語スキルとの間に負の関連(r=-0.14, 95%CI -0.18〜-0.10)が認められ、視聴開始年齢が遅いほど言語スキルが良好であった一方、教育的コンテンツ・共視聴は正の関連を示した。日本の東北メディカル・メガバンク出生コホート(n=7,097、JAMA Pediatrics 2023)では、生後1歳時のスクリーンタイムと2歳・4歳時のコミュニケーション発達遅延(ASQ-3評価)との間に明確な用量反応関係が認められ、1日4時間以上群の調整オッズ比は2歳時点で4.78(95%CI 3.24-7.06)、4歳時点でも2.68(95%CI 1.68-4.27)であった。"
+    },
+    "practical_takeaway": "乳幼児期は、スクリーンタイムをできるだけ短くし、見せる場合も教育的な内容を選んで親が一緒に見る(共視聴する)ことが、言語発達の観点からは望ましい。特に1歳前後で1日数時間以上の視聴は避けた方がよい。",
+    "caution": "いずれも観察研究であり、「画面を見せたから遅れた」という直接の因果関係を完全に証明したものではない(スクリーンタイムが長い家庭は親子の対話時間自体が少ない可能性など、交絡の余地がある)。ただし複数の独立したコホート・メタ解析で一貫した用量反応関係が確認されている。",
+    "sources": [
+      {
+        "name": "Associations Between Screen Use and Child Language Skills: A Systematic Review and Meta-analysis",
+        "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2762864",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Screen Time at Age 1 Year and Communication and Problem-Solving Developmental Delay at 2 and 4 Years",
+        "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2808593",
+        "type": "cohort"
+      }
+    ],
+    "date_added": "2026-08-22",
+    "last_reviewed": "2026-08-22"
   }
 ]
