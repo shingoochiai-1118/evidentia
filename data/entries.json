@@ -1696,5 +1696,70 @@
     ],
     "date_added": "2026-08-22",
     "last_reviewed": "2026-08-22"
+  },
+  {
+    "id": "protein-intake-sarcopenia-prevention-older-adults",
+    "title": "65歳以上は一般成人より多めのタンパク質摂取(体重1kgあたり1.0〜1.2g/日)が筋肉量・筋力の維持に役立つ",
+    "category": "antiaging",
+    "tags": [
+      "食事",
+      "たんぱく質",
+      "サルコペニア",
+      "筋力"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "国際専門家会議ポジションペーパー(PROT-AGE)+ RCTメタ解析(49研究・1863人)",
+    "summary": {
+      "basic": "年をとると、若い人と同じ量のタンパク質を食べても筋肉が付きにくくなる体の変化が起こる。だから65歳以上の人は、肉・魚・卵・大豆製品などのタンパク質を、一般的な目安より少し多めに摂ると、筋肉と筋力を保ちやすいことが研究でわかっている。目安は体重1kgあたり1日1.0〜1.2グラム(体重60kgの人なら1日60〜72g程度)。",
+      "general": "加齢に伴い、同じ量のタンパク質を摂っても筋肉を作る働きが弱くなる「アナボリック抵抗性」という現象が起こる。国際的な専門家会議(PROT-AGE)は、65歳以上の高齢者に対し、一般成人の推奨量(体重1kgあたり0.8g/日)より多い、1.0〜1.2g/kg/日のタンパク質摂取を提案しており、運動習慣がある人はさらに多めが目安となる。実際にタンパク質摂取と筋力トレーニングを組み合わせたRCT49件のメタ解析でも、筋力・除脂肪量の有意な増加が確認されている。",
+      "professional": "高齢者では骨格筋のアナボリック抵抗性により、同量のタンパク質摂取に対する筋タンパク質合成刺激が低下する。PROT-AGE Study Group(JAMDA, 2013)はRDA(0.8g/kg/day)を上回る1.0〜1.2g/kg/dayの摂取を65歳以上に推奨し、運動習慣者にはさらに高い摂取を提案している。Morton ら(BJSM, 2018)による49研究・1863例のメタ解析・メタ回帰では、レジスタンストレーニングと併用したタンパク質補給により1RM筋力+2.49kg、除脂肪量+0.30kgの有意な増加が示された一方、加齢とともに効果量が減弱する傾向、および総タンパク質摂取1.62g/kg/day以上では追加効果が頭打ちになることも報告されている。"
+    },
+    "practical_takeaway": "65歳以上は、肉・魚・卵・大豆製品・乳製品を毎食に取り入れ、1日の摂取量の目安を体重1kgあたり1.0〜1.2gにする。筋力トレーニングを併用するとより効果的。",
+    "caution": "腎機能が低下している人にとって高タンパク食は負担になる場合があるため、腎疾患など持病がある場合は摂取量について医師・管理栄養士に相談する。効果は加齢とともに小さくなる傾向があり、タンパク質摂取だけで筋力低下を防げるわけではない(運動との併用が前提)。",
+    "sources": [
+      {
+        "name": "Bauer et al. Evidence-Based Recommendations for Optimal Dietary Protein Intake in Older People: A Position Paper From the PROT-AGE Study Group (JAMDA, 2013)",
+        "url": "https://www.jamda.com/article/s1525-8610(13)00326-5/fulltext",
+        "type": "guideline"
+      },
+      {
+        "name": "Morton et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults (Br J Sports Med, 2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-08-23",
+    "last_reviewed": "2026-08-23"
+  },
+  {
+    "id": "soluble-fiber-supplement-weight-loss",
+    "title": "水溶性食物繊維サプリメントの継続摂取は体重減少に有意な効果(平均1.25kg減、確実性の高いエビデンス)",
+    "category": "obesity",
+    "tags": [
+      "食事",
+      "食物繊維",
+      "サプリメント",
+      "減量"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "メタ解析(RCT27件・1428人、GRADE評価で確実性「高い」)",
+    "summary": {
+      "basic": "海藻・オートミール・こんにゃくなどに多い「水に溶けるタイプの食物繊維」を毎日サプリメントの形でとり続けると、平均して体重が約1.25kg減ったという、たくさんの研究をまとめた調査結果が出ている。劇的な効果ではないが、信頼度の高い結果として報告されている。",
+      "general": "水溶性食物繊維(グルコマンナン、サイリウム、ベータグルカンなど)のサプリメントを12週間以上続けた27件のランダム化比較試験(合計1428人)をまとめたメタ解析では、対照群と比べて体重が平均1.25kg多く減り、BMI・ウエスト周囲径・空腹時インスリンも有意に改善した。エビデンスの確実性は「高い」と評価されており、摂取量が多いほど、また食事制限と併用するほど効果が大きい傾向も示されている。",
+      "professional": "Huwiler ら(Nutrients, 2022)によるメタ解析では、過体重・肥満成人を対象に単離水溶性食物繊維(平均11g/日、範囲2.6〜29g/日、平均介入期間17週)を投与した27 RCT(n=1428)を統合し、対照群比較で体重減少MD −1.25kg(95%CI −2.24, −0.25; p=0.01)、BMI・ウエスト周囲径・空腹時インスリン・HOMA-IRの有意な改善を認めた。GRADE評価による確実性は「高い」(バイアスリスク低、非一貫性なし、直接性・精確性あり)。用量反応関係(p=0.03)およびエネルギー制限食併用時の効果増強(1.9kg)も報告されている。"
+    },
+    "practical_takeaway": "野菜・海藻・オートミール・こんにゃくなど食物繊維の多い食品を意識的に摂り、不足分をグルコマンナンやサイリウムなどの水溶性食物繊維サプリメントで補うと、体重管理の助けになりうる。少量(数g程度)から始めて徐々に増やす。",
+    "caution": "効果量は平均1.25kgで、劇的な減量効果ではない。急に大量に摂取すると腹部膨満感・ガス・下痢などの消化器症状が出やすいため、少量から漸増する。糖尿病治療薬などを服用中の場合は血糖への影響もあるため医師に相談する。",
+    "sources": [
+      {
+        "name": "Huwiler et al. Prolonged Isolated Soluble Dietary Fibre Supplementation in Overweight and Obese Patients: A Systematic Review with Meta-Analysis of Randomised Controlled Trials (Nutrients, 2022)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9268533/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-08-23",
+    "last_reviewed": "2026-08-23"
   }
 ]

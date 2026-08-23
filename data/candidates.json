@@ -354,5 +354,72 @@
     "date_added": "2026-08-17",
     "last_reviewed": "2026-08-17",
     "proposed_date": "2026-08-17"
+  },
+  {
+    "id": "nsaids-modest-effect-chronic-low-back-pain",
+    "title": "慢性腰痛に対するNSAIDs(消炎鎮痛薬)の効果はプラセボよりわずかに勝る程度で、単独では過大評価しない方がよい",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "薬物治療",
+      "NSAIDs",
+      "通説の検証"
+    ],
+    "stars": 2,
+    "status": "myth_revised",
+    "evidence_level": "Cochraneレビュー(低い確実性のエビデンス)",
+    "summary": {
+      "basic": "腰の痛みに「痛み止め(NSAIDs)」を使う人は多いが、慢性的な腰痛(3か月以上続く腰痛)に対しては、たくさんの研究をまとめて調べても、偽の薬(プラセボ)と比べてほんの少ししか痛みが軽くならないことがわかった。全く効かないわけではないが、「痛み止めさえ飲めば治る」と過信しない方がよい。",
+      "general": "変形性腰痛などの慢性腰痛に対するNSAIDsの効果を調べたCochraneレビュー(まとめ調査)では、プラセボと比較した痛みの軽減効果は0〜100点のスケールでわずか7点程度と小さく、エビデンスの確実性も「低い」と評価されている。アセトアミノフェン(パラセタモール)については慢性腰痛での有効性を示すデータ自体がほとんど無い。運動療法など他の効果がより確立された治療法と組み合わせる考え方が重要。",
+      "professional": "Cashinら(Cochrane Overview, 2023)による慢性腰痛薬物治療のオーバービューでは、NSAIDsは中間期(介入後3〜12か月)のフォローアップにおいて対照群比較でMD −6.97(0-100スケール, 95%CI −10.74〜−3.19)と統計学的には有意だが臨床的には小さい効果を示し、エビデンスの確実性は低い(low-certainty)。有害事象リスク増加のエビデンスは同定されなかった。パラセタモールについては慢性腰痛を対象としたエビデンスが確認されていない。オピオイドは中等度〜非常に低い確実性で一定の鎮痛効果を示すが、悪心・便秘等の有害事象増加が伴う。"
+    },
+    "practical_takeaway": "慢性腰痛でNSAIDsを使う場合、痛みが劇的に消えることは期待しすぎず、運動療法など効果がより確立された治療と組み合わせて考える。漫然とした長期連用は避け、必要最小限にとどめる。",
+    "caution": "エビデンスの確実性は「低い」ため今後結論が変わる可能性がある。長期使用は消化管出血・腎機能障害などの副作用リスクもあるため、自己判断での長期連用は避け、医師に相談すること。",
+    "sources": [
+      {
+        "name": "Cashin et al. Pharmacological treatments for low back pain in adults: an overview of Cochrane Reviews (Cochrane, 2023)",
+        "url": "https://www.cochrane.org/evidence/CD013815_pharmacological-treatments-low-back-pain-adults-overview-cochrane-reviews",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-08-23",
+    "last_reviewed": "2026-08-23",
+    "proposed_date": "2026-08-23"
+  },
+  {
+    "id": "medication-overuse-headache-frequent-painkiller-use",
+    "title": "頭痛薬をトリプタン等は月10日以上、市販の単純鎮痛薬は月15日以上使い続けると「薬剤の使用過多による頭痛」を招くことがある",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "緊張型頭痛",
+      "薬物治療",
+      "避けるべき習慣"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "国際頭痛分類ICHD-3の診断基準・欧州神経学会(EAN)ガイドライン(専門家合意ベース)",
+    "summary": {
+      "basic": "頭痛薬は「効くから」といって毎日のように飲み続けていると、逆に頭痛が増えてしまう「薬剤の使用過多による頭痛」という状態になることがある。目安として、トリプタンなど片頭痛の専用薬や複数の成分が入った鎮痛薬は月10日以上、市販の一般的な痛み止め(ロキソニンやアセトアミノフェンなど)は月15日以上を、3か月を超えて続けている場合は注意が必要。",
+      "general": "国際頭痛分類(ICHD-3)では、トリプタン・エルゴタミン・オピオイド・複合鎮痛薬を月10日以上、NSAIDsやアセトアミノフェンなどの単純鎮痛薬を月15日以上、それぞれ3か月を超えて定期的に使用し、かつ月15日以上の頭痛がある場合を「薬剤の使用過多による頭痛(MOH)」と定義している。頭痛薬の使い過ぎがかえって頭痛を慢性化させるという臨床的に広く受け入れられた概念だが、具体的な日数の閾値そのものは大規模RCTではなく専門家合意に基づく。",
+      "professional": "ICHD-3診断基準では、triptan/ergotamine/opioid/複合鎮痛薬は≥10日/月、単純鎮痛薬(NSAIDs, acetaminophen, aspirin)は≥15日/月の使用を3か月超継続し、かつ月15日以上の頭痛日数を有する場合にmedication-overuse headache(MOH)と診断する。EAN 2020ガイドラインも同様の閾値を採用している。ただし日数閾値自体はRCTではなくエキスパートオピニオンに基づく点、および1日あたりの用量は診断基準に含まれない点が既知の限界である。トリプタン・オピオイドはMOH発症までの期間が単純鎮痛薬より短い(平均1.7〜2.2年 vs 4.8年)とされる。"
+    },
+    "practical_takeaway": "頭痛薬を「効くから」と毎日・ほぼ毎日使うのではなく、月の使用日数を意識する。トリプタン・複合鎮痛薬は月10日未満、NSAIDs・アセトアミノフェンなど単純鎮痛薬は月15日未満を目安にし、それ以上に増えている、または頭痛薬が手放せないと感じる場合は頭痛外来などで相談する。",
+    "caution": "具体的な「月何日以上」という数値そのものは質の高いRCTではなく専門家合意に基づくため、個人差がある。目安を超えたからといって必ずMOHになるわけではなく、自己判断で急に薬をやめるのも危険なため、疑わしい場合は医師に相談すること。",
+    "sources": [
+      {
+        "name": "Medication-Overuse Headache - StatPearls (NCBI Bookshelf)",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK538150/",
+        "type": "guideline"
+      },
+      {
+        "name": "New EAN guidelines for the treatment of medication overuse headache (MOH) - European Academy of Neurology",
+        "url": "https://www.eanpages.org/2020/07/13/new-ean-guidelines-for-the-treatment-of-medication-overuse-headache-moh/",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-08-23",
+    "last_reviewed": "2026-08-23",
+    "proposed_date": "2026-08-23"
   }
 ]
