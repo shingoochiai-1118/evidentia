@@ -1761,5 +1761,45 @@
     ],
     "date_added": "2026-08-23",
     "last_reviewed": "2026-08-23"
+  },
+  {
+    "id": "knee-osteoarthritis-exercise-weight-loss",
+    "title": "変形性膝関節症には運動療法と減量の併用が第一選択の治療",
+    "category": "musculoskeletal",
+    "tags": [
+      "変形性膝関節症",
+      "運動療法",
+      "減量",
+      "関節痛"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "学会ガイドライン(ACR/Arthritis Foundation, NICE)+ネットワークメタ解析・システマティックレビュー",
+    "summary": {
+      "basic": "膝の軟骨がすり減って痛む「変形性膝関節症」は、体重が重いほど膝への負担が増えて悪化しやすい病気です。体重を5%くらい減らし、水中運動や自転車こぎなど膝に優しい運動を無理のない範囲で続けると、痛みが和らぐことが多くの研究でわかっています。体重を1ポンド(約0.45kg)減らすだけで、歩くときに膝にかかる負担は約4ポンド分も減ると言われています。",
+      "general": "変形性膝関節症では体重が重いほど膝関節への負荷が増し、症状が進みやすいとされています。米国リウマチ学会(ACR)/Arthritis Foundationのガイドラインは、過体重・肥満を伴う患者に対し運動療法(監視下・非監視下・水中運動を問わず)と減量の併用を第一選択として推奨しています。5%程度の減量でも痛みの改善がみられ、7〜10%減らすとより明確な効果が期待できます。週150分程度の中強度の運動に筋トレを組み合わせるとさらに効果的です。",
+      "professional": "ACR/Arthritis FoundationガイドラインおよびNICEガイドラインは、変形性膝関節症(膝OA)に対し運動療法・tai chi・自己管理教育を第一選択治療とし、過体重・肥満例では減量の併用を推奨している。ネットワークメタ解析(PubMed 39233046ほか)では運動+減量の併用が単独介入より疼痛・機能スコアの改善に優れ、体重5%減で有意な症状改善、7〜10%減でより大きな効果量が示されている。1ポンドの減量で歩行時膝関節荷重が約4ポンド軽減するという生体力学的知見も、減量介入の意義を裏づける。週150分の中強度有酸素運動+週2回の筋力トレーニングが目安として提示されている。"
+    },
+    "practical_takeaway": "膝の痛みがある場合、安静にしすぎず、水中運動や自転車こぎなど膝に負担の少ない有酸素運動を続け、体重が重ければ5〜10%程度の減量を目標にすると、痛みと機能の改善が期待できます。",
+    "caution": "急性の腫れ・熱感が強い場合や、運動によって痛みが著しく悪化する場合は自己判断で運動を継続せず、整形外科を受診してください。減量は食事制限単独より運動との併用の方が効果的とされています。",
+    "sources": [
+      {
+        "name": "Osteoarthritis Management: Updated Guidelines from the American College of Rheumatology and Arthritis Foundation (AAFP, 2021)",
+        "url": "https://www.aafp.org/pubs/afp/issues/2021/0115/p120.html",
+        "type": "guideline"
+      },
+      {
+        "name": "Comparison of weight loss interventions in overweight and obese adults with knee osteoarthritis: a systematic review and network meta-analysis (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39233046/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "The Critical Role of Physical Activity and Weight Management in Knee and Hip Osteoarthritis: A Narrative Review (J Rheumatol)",
+        "url": "https://www.jrheum.org/content/51/3/224",
+        "type": "expert_opinion"
+      }
+    ],
+    "date_added": "2026-09-05",
+    "last_reviewed": "2026-09-05"
   }
 ]
