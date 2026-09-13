@@ -1829,5 +1829,39 @@
     ],
     "date_added": "2026-09-05",
     "last_reviewed": "2026-09-05"
+  },
+  {
+    "id": "vitamin-d-supplement-cancer-mortality-under-debate",
+    "title": "ビタミンDサプリメントでがん死亡リスクが下がるかどうかは、メタ解析間で結論が割れている",
+    "category": "cancer",
+    "tags": [
+      "サプリメント",
+      "ビタミンD",
+      "がん"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "メタ解析(RCT複数, 結果不一致)+ VITAL試験(大規模RCT)",
+    "summary": {
+      "basic": "「ビタミンDのサプリを飲むとがんで亡くなるリスクが下がる」と言われることがありますが、これまでの大規模な研究をまとめてみると、「下がる」と出た研究と「変わらない」と出た研究があり、まだはっきりした答えは出ていません。ただし、肺がんについては下がる可能性を示すデータもあります。",
+      "general": "ビタミンDサプリメントとがん死亡リスクの関係を調べた複数のメタ解析では結論が分かれている。あるメタ解析(RCT5件)では総死亡ではなくがん死亡リスクが13%低下したと報告した一方、より新しく大規模なメタ解析(RCT12件、参加者7万人超)では全体のがん死亡リスクに有意な低下は見られなかった。ただし肺がんによる死亡だけを見ると低下との関連が示されており、部位によって結果が異なる可能性がある。",
+      "professional": "ビタミンD補充とがん死亡に関する複数のメタ解析で結果が一致しない。早期の解析(RCT5件, 死亡1591件)ではsummary RR 0.87(95%CI 0.79-0.96)とがん死亡リスクの有意な低下を報告したが、より大規模な解析(RCT12件, n=72,669)ではRR 0.96(95%CI 0.80-1.16)と有意差なし(中等度の確実性、研究間の非一貫性あり)。同解析では肺がん死亡のみRR 0.63(95%CI 0.45-0.90)と有意な低下。がん死亡を主要評価項目とした唯一の大規模試験であるVITAL試験でも、全体では非有意(RR 0.83, 95%CI 0.67-1.02)だが投与開始2年以内の死亡を除外するとRR 0.75(95%CI 0.59-0.96)に達するなど、解析方法によって結論が変動する。"
+    },
+    "practical_takeaway": "がん死亡リスクを下げる目的だけでビタミンDサプリメントを新たに始める根拠は、現時点では確立していない。骨の健康など別の目的でビタミンD不足が指摘されている場合は、その目的での補充を医療者と相談するのが妥当。",
+    "caution": "研究によって結果が一致しておらず、特に「がん死亡を減らす」という強い主張は時期尚早。過剰摂取は高カルシウム血症などのリスクがあるため、自己判断での高用量摂取は避ける。",
+    "sources": [
+      {
+        "name": "Vitamin D supplementation and total cancer incidence and mortality: a meta-analysis of randomized controlled trials (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6821324/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Association between Vitamin D Supplementation and Cancer Mortality: A Systematic Review and Meta-Analysis (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9367315/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-09-13",
+    "last_reviewed": "2026-09-13"
   }
 ]
