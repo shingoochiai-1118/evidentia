@@ -421,5 +421,135 @@
     "date_added": "2026-08-23",
     "last_reviewed": "2026-08-23",
     "proposed_date": "2026-08-23"
+  },
+  {
+    "id": "coq10-migraine-prevention-limited-evidence",
+    "title": "コエンザイムQ10は片頭痛予防に「おそらく効果がある」が、まだ根拠は限定的",
+    "category": "headache",
+    "tags": [
+      "サプリメント",
+      "コエンザイムQ10",
+      "片頭痛"
+    ],
+    "stars": 2,
+    "status": "well_established",
+    "evidence_level": "学会ガイドライン(AAN/AHS, Level C)+ メタ解析(RCT6件, n=371, GRADE低〜中)",
+    "summary": {
+      "basic": "コエンザイムQ10(CoQ10)というサプリメントを飲むと、片頭痛が起きる回数や、痛みが続く時間が少し減るという研究があります。ただし、痛みそのものの強さが軽くなるとは言えず、まだ小さな研究しかないので「効きそう」ではあるものの、確実に効くとまでは言い切れません。",
+      "general": "コエンザイムQ10サプリメントは、複数のランダム化比較試験(RCT)をまとめたメタ解析で、片頭痛の発作頻度と持続時間を減らす効果が示されている。ただし発作の重症度への効果ははっきりせず、研究の数・規模も限られているため確実性は「低〜中程度」にとどまる。米国神経学会(AAN)などのガイドラインでも「おそらく効果がある」レベル(Level C)の位置づけ。",
+      "professional": "RCT6件(n=371)を統合したメタ解析で、CoQ10投与群は月間片頭痛頻度(WMD -1.5〜-1.9回/月程度)および頭痛持続時間の有意な減少を示したが、重症度への効果は非有意でheterogeneityも高い。AAN/AHSガイドラインではLevel C(possibly effective)相当。用量は30〜800mg/日と幅があり、効果発現には3か月以上の継続投与が推奨されるが最適用量・投与期間は未確立。"
+    },
+    "practical_takeaway": "片頭痛予防薬の追加・代替の選択肢として検討し得るが、劇的な効果は期待しすぎない。開始前に主治医に相談し、効果判定には少なくとも3か月の継続摂取を目安にする。",
+    "caution": "重症度そのものへの効果ははっきりしないため、発作が重い・頻度が非常に多い場合の唯一の対策にはしない。サプリメントの品質は製品によって差があり、他の片頭痛予防薬との比較データも乏しい。",
+    "sources": [
+      {
+        "name": "Coenzyme Q10 supplementation for prophylaxis in adult patients with migraine—a meta-analysis (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7786797/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Nutraceuticals and Headache 2024: Riboflavin, Coenzyme Q10, Feverfew, Magnesium, Melatonin, and Butterbur (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39853578/",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-09-13",
+    "last_reviewed": "2026-09-13",
+    "proposed_date": "2026-09-13"
+  },
+  {
+    "id": "heat-wrap-therapy-acute-low-back-pain",
+    "title": "温熱パック(ヒートラップ)は急性〜亜急性の腰痛に短期的な痛み軽減効果がある",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "温熱療法",
+      "セルフケア"
+    ],
+    "stars": 2,
+    "status": "well_established",
+    "evidence_level": "Cochraneシステマティックレビュー(RCT2件, n=258, 中程度のエビデンス)",
+    "summary": {
+      "basic": "腰が痛いとき、お腹や腰に貼るホットパック(温熱シート)を使うと、5日後くらいまでは痛みが少し楽になるという研究結果があります。ただし効果は小さく、長くは続きません。運動と組み合わせるとさらに楽になりやすいです。",
+      "general": "急性・亜急性の腰痛に対して、ヒートラップ(温熱パック)を使うと、使わない場合やプラセボと比べて、数日間は痛みや動きにくさが小さく改善するという中程度の質のエビデンスがある。ただし効果の大きさは小さく持続も短期的で、運動療法と併用するとさらに改善するとされる。",
+      "professional": "Cochraneレビュー(RCT2件, n=258, 急性〜亜急性腰痛)にて、ヒートラップ療法はプラセボ内服と比較し5日時点の疼痛を有意に軽減(WMDベースで小〜中等度の効果量)。別の1試験(n=90)では温熱ブランケットが適用直後の急性腰痛を有意に軽減。エビデンスベースは小規模かつ試験数が少なく、運動療法併用で追加の改善が得られるとされるが、長期効果や亜急性を超えた慢性腰痛への外挿には限界がある。"
+    },
+    "practical_takeaway": "急な腰痛が出たときの一時的なセルフケアとして、市販の温熱パックや蒸しタオルを試す価値はある。ただし痛みが長引く・悪化する場合は温熱だけに頼らず、運動療法など他の対策も併用し、必要なら受診する。",
+    "caution": "エビデンスの元になった試験数は少なく、効果は小さく短期的。急性期を過ぎた慢性腰痛や、神経症状(しびれ・脱力)を伴う腰痛への効果を保証するものではない。皮膚に直接長時間当てると低温やけどのリスクがある。",
+    "sources": [
+      {
+        "name": "Superficial heat or cold for low back pain (Cochrane)",
+        "url": "https://www.cochrane.org/evidence/CD004750_superficial-heat-or-cold-low-back-pain",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-09-13",
+    "last_reviewed": "2026-09-13",
+    "proposed_date": "2026-09-13"
+  },
+  {
+    "id": "resveratrol-supplement-limited-human-evidence",
+    "title": "レスベラトロールサプリメントの「抗老化」効果は、ヒトでの確証がまだ乏しい",
+    "category": "antiaging",
+    "tags": [
+      "サプリメント",
+      "レスベラトロール",
+      "定説の見直し"
+    ],
+    "stars": 2,
+    "status": "myth_revised",
+    "evidence_level": "系統的レビュー(ヒト臨床試験約200件, 24以上の対象疾患を横断)",
+    "summary": {
+      "basic": "赤ワインに含まれる「レスベラトロール」という成分は、長生き遺伝子を活性化させると話題になり、サプリとしても売られています。でも、これまで200近い人での実験が行われた結果、「体に良い」とはっきり言えるほどの証拠はまだ見つかっていません。",
+      "general": "レスベラトロールは赤ワインなどに含まれるポリフェノールの一種で、「長寿遺伝子(サーチュイン)を活性化する」として話題になり、抗老化サプリとして広く売られている。しかし、これまでの約200件のヒト臨床試験を横断した系統的レビューでは、特定の疾患・目的についてサプリメントとしての使用を推奨できるだけの一貫した証拠はまだ得られていない。炎症マーカーの改善など一部の生化学的効果は繰り返し確認されているが、老化そのものを防ぐ・寿命を延ばすという臨床的な効果は証明されていない。",
+      "professional": "レスベラトロールに関する臨床試験(約200件, 24以上の適応)を横断したシステマティックレビューでは、抗炎症マーカーや代謝指標の改善が一部で再現される一方、心血管・認知機能・老化バイオマーカーへの臨床的に意味のある効果は研究間で一貫せず、用量・剤形も標準化されていない。1g/日程度までは忍容性は良好。ある小規模RCTでは高齢者の記憶機能・海馬機能的結合の改善が報告された一方、別のRCTでは運動と併用した場合に運動による心血管系への好影響を減弱させる結果も報告されており、単純な「善玉サプリ」とは言えない状況。"
+    },
+    "practical_takeaway": "「赤ワイン由来の抗老化成分」という宣伝文句に過度な期待をせず、現時点では運動・食事・睡眠などエビデンスの確立した生活習慣を優先するのが妥当。摂るとしても過大な効果を期待しない。",
+    "caution": "運動と同時に摂取すると運動の心血管系への好影響を打ち消す可能性を示す試験もあり、「運動の代わり」や「運動と併用すれば良い」とは限らない。長期・高用量摂取の安全性データも限定的。",
+    "sources": [
+      {
+        "name": "Resveratrol for the Management of Human Health: How Far Have We Come? A Systematic Review of Resveratrol Clinical Trials (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10815776/",
+        "type": "systematic_review"
+      }
+    ],
+    "date_added": "2026-09-13",
+    "last_reviewed": "2026-09-13",
+    "proposed_date": "2026-09-13"
+  },
+  {
+    "id": "vitamin-d-supplement-cancer-mortality-under-debate",
+    "title": "ビタミンDサプリメントでがん死亡リスクが下がるかどうかは、メタ解析間で結論が割れている",
+    "category": "cancer",
+    "tags": [
+      "サプリメント",
+      "ビタミンD",
+      "がん"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "メタ解析(RCT複数, 結果不一致)+ VITAL試験(大規模RCT)",
+    "summary": {
+      "basic": "「ビタミンDのサプリを飲むとがんで亡くなるリスクが下がる」と言われることがありますが、これまでの大規模な研究をまとめてみると、「下がる」と出た研究と「変わらない」と出た研究があり、まだはっきりした答えは出ていません。ただし、肺がんについては下がる可能性を示すデータもあります。",
+      "general": "ビタミンDサプリメントとがん死亡リスクの関係を調べた複数のメタ解析では結論が分かれている。あるメタ解析(RCT5件)では総死亡ではなくがん死亡リスクが13%低下したと報告した一方、より新しく大規模なメタ解析(RCT12件、参加者7万人超)では全体のがん死亡リスクに有意な低下は見られなかった。ただし肺がんによる死亡だけを見ると低下との関連が示されており、部位によって結果が異なる可能性がある。",
+      "professional": "ビタミンD補充とがん死亡に関する複数のメタ解析で結果が一致しない。早期の解析(RCT5件, 死亡1591件)ではsummary RR 0.87(95%CI 0.79-0.96)とがん死亡リスクの有意な低下を報告したが、より大規模な解析(RCT12件, n=72,669)ではRR 0.96(95%CI 0.80-1.16)と有意差なし(中等度の確実性、研究間の非一貫性あり)。同解析では肺がん死亡のみRR 0.63(95%CI 0.45-0.90)と有意な低下。がん死亡を主要評価項目とした唯一の大規模試験であるVITAL試験でも、全体では非有意(RR 0.83, 95%CI 0.67-1.02)だが投与開始2年以内の死亡を除外するとRR 0.75(95%CI 0.59-0.96)に達するなど、解析方法によって結論が変動する。"
+    },
+    "practical_takeaway": "がん死亡リスクを下げる目的だけでビタミンDサプリメントを新たに始める根拠は、現時点では確立していない。骨の健康など別の目的でビタミンD不足が指摘されている場合は、その目的での補充を医療者と相談するのが妥当。",
+    "caution": "研究によって結果が一致しておらず、特に「がん死亡を減らす」という強い主張は時期尚早。過剰摂取は高カルシウム血症などのリスクがあるため、自己判断での高用量摂取は避ける。",
+    "sources": [
+      {
+        "name": "Vitamin D supplementation and total cancer incidence and mortality: a meta-analysis of randomized controlled trials (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6821324/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Association between Vitamin D Supplementation and Cancer Mortality: A Systematic Review and Meta-Analysis (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9367315/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-09-13",
+    "last_reviewed": "2026-09-13",
+    "proposed_date": "2026-09-13"
   }
 ]
