@@ -27,6 +27,11 @@
 </header>
 
 <main>
+  <section class="new-strip" id="new-strip" aria-label="新着記事">
+    <h2 class="new-strip-title">🆕 最近追加された記事</h2>
+    <div class="new-strip-row" id="new-strip-row"></div>
+  </section>
+
   <div class="search-row search-row-sticky">
     <label for="search" class="visually-hidden">キーワードで検索</label>
     <input id="search" type="search" placeholder="キーワードで検索 (例: 運動, サプリ, 頭痛)" autocomplete="off">
@@ -52,8 +57,8 @@
       </select>
       <label for="sort" class="visually-hidden">並び替え</label>
       <select id="sort">
+        <option value="date_desc" selected>新着順</option>
         <option value="stars_desc">信頼度が高い順</option>
-        <option value="date_desc">新着順</option>
         <option value="stars_asc">信頼度が低い順</option>
       </select>
       <button type="button" class="chip" id="myth-toggle" aria-pressed="false">⚠️ 定説の見直しのみ</button>

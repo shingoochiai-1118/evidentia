@@ -3,7 +3,7 @@ const state = {
   categories: [],
   activeCategory: "all",
   query: "",
-  sort: "stars_desc",
+  sort: "date_desc",
   starFilter: 0,
   mythOnly: false,
   tagFilter: null,
@@ -23,11 +23,22 @@ async function init() {
   const params = new URLSearchParams(window.location.search);
   const tagParam = params.get("tag");
   if (tagParam) state.tagFilter = tagParam;
+  const categoryParam = params.get("category");
+  if (categoryParam && state.categories.some((c) => c.id === categoryParam)) {
+    state.activeCategory = categoryParam;
+  }
 
   renderChips();
   setupLevelToggle();
   syncLevelButtons();
-  render();
+  renderNewStrip();
+
+  if (window.location.hash) {
+    scrollToHashEntry();
+  } else {
+    render();
+  }
+  window.addEventListener("hashchange", scrollToHashEntry);
 
   document.getElementById("search").addEventListener("input", (e) => {
     state.query = e.target.value.trim().toLowerCase();
@@ -77,7 +88,7 @@ function renderChips() {
   const container = document.getElementById("category-chips");
   const all = document.createElement("button");
   all.type = "button";
-  all.className = "chip active";
+  all.className = "chip" + (state.activeCategory === "all" ? " active" : "");
   all.textContent = `すべて (${state.entries.length})`;
   all.dataset.id = "all";
   container.appendChild(all);
@@ -86,7 +97,7 @@ function renderChips() {
     const count = state.entries.filter((e) => e.category === cat.id).length;
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.className = "chip";
+    btn.className = "chip" + (state.activeCategory === cat.id ? " active" : "");
     btn.textContent = `${cat.label} (${count})`;
     btn.dataset.id = cat.id;
     container.appendChild(btn);
@@ -97,12 +108,133 @@ function renderChips() {
     if (!btn) return;
     state.activeCategory = btn.dataset.id;
     [...container.children].forEach((c) => c.classList.toggle("active", c === btn));
+    updateCategoryQueryParam(state.activeCategory);
     render();
   });
 }
 
+function updateCategoryQueryParam(catId) {
+  const url = new URL(window.location.href);
+  if (catId === "all") {
+    url.searchParams.delete("category");
+  } else {
+    url.searchParams.set("category", catId);
+  }
+  history.replaceState(null, "", url.pathname + url.search + url.hash);
+}
+
+function syncControlsUI() {
+  document.getElementById("search").value = state.query;
+  document.getElementById("star-filter").value = String(state.starFilter);
+  document.getElementById("myth-toggle").setAttribute("aria-pressed", String(state.mythOnly));
+  const chipsContainer = document.getElementById("category-chips");
+  [...chipsContainer.children].forEach((c) => c.classList.toggle("active", c.dataset.id === state.activeCategory));
+}
+
+function resetFiltersForEntry() {
+  state.activeCategory = "all";
+  state.query = "";
+  state.starFilter = 0;
+  state.mythOnly = false;
+  state.tagFilter = null;
+}
+
+function scrollToHashEntry() {
+  const id = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+  if (!id) return;
+  const entry = state.entries.find((e) => e.id === id);
+  if (!entry) return;
+  resetFiltersForEntry();
+  syncControlsUI();
+  history.replaceState(null, "", `${window.location.pathname}#${id}`);
+  render();
+  requestAnimationFrame(() => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+    el.classList.add("highlight");
+    setTimeout(() => el.classList.remove("highlight"), 1600);
+  });
+}
+
+function renderNewStrip() {
+  const container = document.getElementById("new-strip-row");
+  if (!container) return;
+  const top = [...state.entries]
+    .sort((a, b) => b.date_added.localeCompare(a.date_added))
+    .slice(0, 5);
+  container.innerHTML = "";
+  for (const entry of top) {
+    const cat = categoryById(entry.category) || { label: entry.category };
+    const a = document.createElement("a");
+    a.href = `#${entry.id}`;
+    a.className = "new-strip-item";
+    const catSpan = document.createElement("span");
+    catSpan.className = "cat";
+    catSpan.textContent = cat.label;
+    const ttl = document.createElement("div");
+    ttl.className = "ttl";
+    ttl.textContent = entry.title;
+    const stars = document.createElement("span");
+    stars.className = "stars";
+    stars.textContent = starString(entry.stars);
+    a.append(catSpan, ttl, stars);
+    container.appendChild(a);
+  }
+}
+
+function copyTextFallback(text) {
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.style.position = "fixed";
+  ta.style.left = "-9999px";
+  document.body.appendChild(ta);
+  ta.select();
+  try {
+    document.execCommand("copy");
+  } catch (e) {
+    /* no-op: clipboard unavailable */
+  }
+  document.body.removeChild(ta);
+}
+
+function flashCopied(btn) {
+  const original = btn.textContent;
+  btn.textContent = "✓";
+  btn.classList.add("copied");
+  setTimeout(() => {
+    btn.textContent = original;
+    btn.classList.remove("copied");
+  }, 1300);
+}
+
+function copyEntryLink(id, btn) {
+  const url = `${window.location.origin}${window.location.pathname}#${id}`;
+  history.replaceState(null, "", `${window.location.pathname}#${id}`);
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard
+      .writeText(url)
+      .then(() => flashCopied(btn))
+      .catch(() => {
+        copyTextFallback(url);
+        flashCopied(btn);
+      });
+  } else {
+    copyTextFallback(url);
+    flashCopied(btn);
+  }
+}
+
 function categoryById(id) {
   return state.categories.find((c) => c.id === id);
+}
+
+function isNew(entry) {
+  if (!entry.date_added) return false;
+  const added = new Date(entry.date_added);
+  if (Number.isNaN(added.getTime())) return false;
+  const days = (Date.now() - added.getTime()) / (1000 * 60 * 60 * 24);
+  return days >= 0 && days <= 14;
 }
 
 function isStale(entry) {
@@ -209,6 +341,7 @@ function renderCard(entry) {
   const cat = categoryById(entry.category) || { label: entry.category, color: "#888" };
   const card = document.createElement("article");
   card.className = "card";
+  card.id = entry.id;
 
   const top = document.createElement("div");
   top.className = "card-top";
@@ -216,16 +349,31 @@ function renderCard(entry) {
   tag.className = "category-tag";
   tag.style.background = cat.color;
   tag.textContent = cat.label;
+  const topRight = document.createElement("div");
+  topRight.className = "card-top-right";
   const stars = document.createElement("span");
   stars.className = "stars";
   stars.title = entry.evidence_level;
   stars.setAttribute("role", "img");
   stars.setAttribute("aria-label", `信頼度 5段階中${entry.stars}`);
   stars.textContent = starString(entry.stars);
-  top.append(tag, stars);
+  const linkBtn = document.createElement("button");
+  linkBtn.type = "button";
+  linkBtn.className = "link-btn";
+  linkBtn.setAttribute("aria-label", "この記事のリンクをコピー");
+  linkBtn.textContent = "🔗";
+  linkBtn.addEventListener("click", () => copyEntryLink(entry.id, linkBtn));
+  topRight.append(stars, linkBtn);
+  top.append(tag, topRight);
   card.appendChild(top);
 
   const badges = [];
+  if (isNew(entry)) {
+    const badge = document.createElement("span");
+    badge.className = "new-badge";
+    badge.textContent = "🆕 新着";
+    badges.push(badge);
+  }
   if (entry.status === "myth_revised") {
     const badge = document.createElement("span");
     badge.className = "myth-badge";
