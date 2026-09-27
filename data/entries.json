@@ -1863,5 +1863,39 @@
     ],
     "date_added": "2026-09-13",
     "last_reviewed": "2026-09-13"
+  },
+  {
+    "id": "acupuncture-migraine-prevention",
+    "title": "鍼治療は片頭痛の予防に有効な選択肢となりうる(偽の鍼との比較でも有意差あり)",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "鍼治療",
+      "非薬物療法"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "Cochrane系統的レビュー(RCT22件, 4985人)",
+    "summary": {
+      "basic": "鍼(はり)を体のツボに刺す治療を、片頭痛の予防のために少なくとも6回くらい受けると、頭痛の起こる回数がだいぶ減ることが、世界中の研究をまとめた調査でわかった。本物のツボではない場所に刺す「にせの鍼」と比べても、本物のほうが少しだけ効果が高かった。",
+      "general": "22件のランダム化比較試験(合計約5000人)をまとめたコクラン・レビューによると、鍼治療を6回以上受けた片頭痛患者は、何もしなかった人に比べて頭痛の頻度が半分以下になる割合が約2.4倍高かった(41% vs 17%)。本物の鍼と偽の鍼(ツボを外した鍼)を比べても、本物のほうがわずかだが統計的に有意に効果が高かった。予防薬と比べても同程度以上の効果で、副作用は少ない傾向にあった。",
+      "professional": "Cochrane SR(Linde 2016, CD001218, RCT 22件, n=4985)では、鍼治療群は無治療/通常ケア群と比較し頭痛頻度50%以上減少者が有意に多かった(41% vs 17%, NNT 4)。sham鍼との比較でも有意差を認めた(50% vs 41%, NNT 11)が効果量は小さい。3ヶ月時点での改善率は予防薬群を上回り(57% vs 46%)、有害事象・脱落率は薬物治療群より少なかった。GRADE評価はmoderate certainty。"
+    },
+    "practical_takeaway": "薬による予防治療が合わない場合や副作用が心配な場合、鍼治療は片頭痛予防の選択肢になりうる。効果を期待するなら6回以上、継続的に施術を受けることが目安。",
+    "caution": "偽の鍼との比較では効果差は小さく(NNT 11)、プラセボ効果の関与も指摘されている。日本の健康保険で鍼灸が適用されるのは神経痛・腰痛症など限られた6疾患で、頭痛(片頭痛)は対象外のため基本的に自費診療となる。施術者の技術・経験によって効果が変わりうる。",
+    "sources": [
+      {
+        "name": "Cochrane: Acupuncture for preventing migraine attacks(平易な言葉での要約)",
+        "url": "https://www.cochrane.org/evidence/CD001218_acupuncture-preventing-migraine-attacks",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Linde K, et al. Acupuncture for the prevention of episodic migraine. Cochrane Database Syst Rev. 2016.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4977344/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-09-26",
+    "last_reviewed": "2026-09-26"
   }
 ]

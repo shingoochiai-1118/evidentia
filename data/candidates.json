@@ -421,5 +421,113 @@
     "date_added": "2026-08-23",
     "last_reviewed": "2026-08-23",
     "proposed_date": "2026-08-23"
+  },
+  {
+    "id": "heat-therapy-acute-low-back-pain",
+    "title": "温熱療法(ホットパック等)は急性腰痛の痛みを短期的に和らげる、運動と併用するとさらに効果的",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "温熱療法",
+      "セルフケア"
+    ],
+    "stars": 3,
+    "status": "well_established",
+    "evidence_level": "Cochrane系統的レビュー(RCT9件, 1117人)",
+    "summary": {
+      "basic": "腰が痛いとき、温かいシートやカイロでお腹や腰を温めると、痛みが少し和らぐことが研究でわかっている。運動もいっしょにすると、もっと効果が高まる。ただし効果は「少しだけ」で、長く続くわけではない。",
+      "general": "急性〜亜急性の腰痛に対して、ホットパック等の温熱療法(heat wrap)を使うと、5日後の痛みが偽の治療(プラセボ)より小さく改善することがコクランのレビューで示されている。温熱療法に運動を組み合わせると、7日後の痛み・機能がさらに改善する。ただし効果の大きさは小さく、長期効果を示す質の高い研究はまだ少ない。",
+      "professional": "Cochrane SR(French SD et al, CD004750)では9試験・1117人を対象に検討。急性〜亜急性腰痛に対しheat wrap therapyはプラセボ対比で有意な短期鎮痛効果(WMD約1.06/0〜5スケール)を示し、運動併用でさらなる改善を認めた(中等度のエビデンス)。ただし試験数・質は限定的で、cold therapyの効果や長期(3ヶ月超)の効果については結論できない。"
+    },
+    "practical_takeaway": "急な腰痛には、市販の温感シートやカイロで腰を温めつつ、無理のない範囲で軽い運動を続けるのが効果的。温熱だけに頼らず運動を組み合わせる方がよい。",
+    "caution": "効果は「小さく短期的」であり、温めるだけで根本的に治るわけではない。急性の炎症・腫れを伴う怪我の直後は温めるとかえって悪化することがあるため注意。研究の質・件数はまだ限定的。",
+    "sources": [
+      {
+        "name": "Cochrane: Superficial heat or cold for low back pain(平易な言葉での要約)",
+        "url": "https://www.cochrane.org/evidence/CD004750_superficial-heat-or-cold-low-back-pain",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "French SD, et al. A Cochrane review of superficial heat or cold for low back pain. Spine. 2006.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16641776/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-09-26",
+    "last_reviewed": "2026-09-26",
+    "proposed_date": "2026-09-26"
+  },
+  {
+    "id": "sedentary-sitting-low-back-pain-debate",
+    "title": "「座りすぎ」が腰痛の原因かどうかは、研究間で結論が割れている",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "座りすぎ",
+      "デスクワーク",
+      "通説の検証"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "系統的レビュー間で結果が相反(観察研究)",
+    "summary": {
+      "basic": "「長い時間座っていると腰が痛くなる」とよく言われるが、実はいろいろな研究を集めて調べても意見が分かれている。「座る時間そのものは腰痛の直接の原因ではなさそう」という調査結果と、「座りすぎ・運転時間が長いと腰痛になりやすい」という調査結果の両方がある。",
+      "general": "仕事中の「座っていること」自体と腰痛の関係を調べた系統的レビュー(2010年)は、「職業上の座位時間と腰痛の間に明確な関連はない」と結論づけた。一方、2021〜2022年の系統的レビュー・メタ解析では、座りっぱなしの生活習慣(オッズ比1.24)、長時間の座位(オッズ比1.42)、運転時間(オッズ比2.03)がいずれも腰痛のリスク上昇と関連していた。研究間で結論が分かれているため、現時点では「座ること自体が腰痛の直接原因」と断定はできない。",
+      "professional": "Roffey/Kwonら(Spine J 2010)の系統的レビューは職業性座位とLBPの間に「強く一貫した無関連のエビデンス」があるとした(高質研究5件を含む24件)。一方、別の系統的レビュー・メタ解析(Health Promot Perspect 2021)は座位ライフスタイル(OR 1.24, 95%CI 1.02-1.50)、長時間座位(OR 1.42, 1.09-1.85)、運転時間(OR 2.03, 1.22-3.36)とLBPの有意な関連を報告。エビデンスの多くは自己申告による座位時間の測定に依存し、交絡因子の調整も研究間で一貫しないため、因果関係の証明には至っていない。"
+    },
+    "practical_takeaway": "「座りすぎ=即腰痛の原因」と断定はできないが、長時間同じ姿勢を続けること自体は避けたほうが無難。1時間に1回程度は立ち上がって体を動かす習慣は、腰痛予防以外の健康面でも支持されている。",
+    "caution": "観察研究が中心で座位時間の測定は自己申告に頼るものが多く、交絡因子(運動不足、肥満、職業ストレス等)の影響を十分に除去できていない可能性がある。系統的レビュー間で結論が一致していない点に注意。",
+    "sources": [
+      {
+        "name": "Roffey DM, et al. Causal assessment of occupational sitting and low back pain: results of a systematic review. Spine J. 2010.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20097618/",
+        "type": "cohort"
+      },
+      {
+        "name": "Association between sedentary behavior and low back pain; A systematic review and meta-analysis. Health Promot Perspect. 2021.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8767074/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-09-26",
+    "last_reviewed": "2026-09-26",
+    "proposed_date": "2026-09-26"
+  },
+  {
+    "id": "mind-diet-rct-null-result",
+    "title": "「MIND食」の認知機能低下予防効果は、大規模RCTでは明確な差が確認できなかった",
+    "category": "antiaging",
+    "tags": [
+      "食事",
+      "MIND食",
+      "地中海式食事",
+      "認知機能",
+      "通説の検証"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "RCT(604人, 3年間)は陰性、観察研究は陽性",
+    "summary": {
+      "basic": "「MIND食」という、野菜や魚、ナッツなどを多く食べる食事法が、もの忘れを防ぐとして話題になった。最初は「MIND食を続けている人ほど記憶力の低下が遅い」という調査結果がきっかけだったが、実際に604人を3年間、MIND食を食べるグループと普通の食事(カロリーを少し減らしただけ)のグループに分けて比べる本格的な実験をしたところ、記憶力の変化に大きな差は出なかった。",
+      "general": "MIND食(地中海食とDASH食を組み合わせた食事法)は、2015年の大規模な観察研究で「続けている人ほど認知機能の低下が緩やかだった」と報告され、広く注目された。しかし2023年にNEJMで発表された3年間・604人のランダム化比較試験(Barnesら)では、MIND食群と対照食群(軽いカロリー制限のみ)の間で、認知機能・脳MRI所見に統計的に有意な差は見られなかった。観察研究と介入試験で結果が食い違っており、現時点では「MIND食が認知機能低下を防ぐ」と断定するのは時期尚早と考えられている。",
+      "professional": "Morrisら(2015, Alzheimers Dement)の前向きコホートではMIND食スコア上位群で認知機能低下速度が緩やか(観察研究)と報告されたが、Barnesら(2023, NEJM, n=604, 3年間RCT)のITT解析では、MIND食群と対照食(軽度カロリー制限)群との間でglobal cognitionの変化に有意差なし、脳MRI(全脳容積・海馬容積・white matter hyperintensity)も同様に有意差なし。COVID-19パンデミックによる介入中断・評価への影響も指摘されており、解釈には注意を要する。"
+    },
+    "practical_takeaway": "MIND食に含まれる野菜・魚・ナッツ・ベリー類を中心とした食事パターン自体は、心血管疾患等の観点からは引き続き推奨できる健康的な食事だが、「認知症・もの忘れを防ぐ」効果を過度に期待しすぎないほうがよい。",
+    "caution": "RCTの対照群も「軽いカロリー制限」という一定の健康的介入を受けていたため、両群の差が縮まった可能性がある。またCOVID-19パンデミックが試験の実施・評価に影響した。今後さらなる大規模・長期のRCTでの検証が必要。",
+    "sources": [
+      {
+        "name": "Barnes LL, et al. Trial of the MIND Diet for Prevention of Cognitive Decline in Older Persons. N Engl J Med. 2023.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37466280/",
+        "type": "RCT"
+      },
+      {
+        "name": "Morris MC, et al. MIND diet slows cognitive decline with aging. Alzheimers Dement. 2015.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26086182/",
+        "type": "cohort"
+      }
+    ],
+    "date_added": "2026-09-26",
+    "last_reviewed": "2026-09-26",
+    "proposed_date": "2026-09-26"
   }
 ]
