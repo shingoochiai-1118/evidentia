@@ -1897,5 +1897,85 @@
     ],
     "date_added": "2026-09-26",
     "last_reviewed": "2026-09-26"
+  },
+  {
+    "id": "tirzepatide-dual-gip-glp1-weight-management",
+    "title": "チルゼパチド(GIP/GLP-1デュアルアゴニスト)は肥満症治療でセマグルチドを上回る体重減少効果を示す",
+    "category": "obesity",
+    "tags": [
+      "肥満治療薬",
+      "GLP-1",
+      "GIP",
+      "医療の専門知識"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "複数の大規模RCT(SURMOUNT試験プログラム、NEJM)+ セマグルチドとの頭同士比較試験(SURMOUNT-5)",
+    "summary": {
+      "basic": "チルゼパチドという週1回の注射薬は、体の中でGIPとGLP-1という2種類のホルモンの働きを真似ることで、食欲を抑え体重を減らします。大規模な実験では、使った人は使わなかった人より平均で体重の15〜20%以上も減りました。似た薬であるセマグルチド(オゼンピック・ウゴービ)と直接比べた実験でも、チルゼパチドの方が体重がより多く減ることが分かっています。",
+      "general": "チルゼパチドはGIP受容体とGLP-1受容体の両方に作用するデュアルアゴニストで、肥満症治療薬として日本でも保険適用がある(ゼップバウンド、BMI27以上かつ肥満に関連する健康障害2つ以上等の条件)。大規模RCT(SURMOUNT-1)では72週間で最大22.5%の体重減少が確認され、セマグルチドとの頭同士比較試験(SURMOUNT-5)でも体重減少率・血圧・中性脂肪などの指標でチルゼパチドの方が優れていた。",
+      "professional": "SURMOUNT-1(NEJM, N=2539)では72週で15mg群-22.5%(placebo-2.4%)の体重減少、5%以上減量達成率は96%(placebo 28%)。head-to-head試験SURMOUNT-5(N=751, open-label)ではチルゼパチドがセマグルチドに対し体重減少率・10/15/20/25%減量達成率、収縮期・拡張期血圧、HbA1c、中性脂肪、HDL-Cで有意に優れた改善を示した。日本では2024年12月に厚労省がゼップバウンド皮下注(チルゼパチド)を肥満症適応で承認(BMI≥27+関連健康障害2つ以上等が対象)。"
+    },
+    "practical_takeaway": "既存のGLP-1受容体作動薬(セマグルチド等)で効果不十分、またはより大きな体重減少を目指す場合の選択肢として、医師と相談する価値がある。ただし自己判断での入手・使用(いわゆる「痩せ薬」としての適応外使用)は避けるべき。",
+    "caution": "処方薬であり、肥満症治療の適応(BMI基準・合併症の有無等)を満たすかを医師が判断する。悪心・下痢等の消化器症状が高頻度に見られ、膵炎・胆嚢疾患等のリスクにも注意が必要。セマグルチドのSELECT試験のような大規模心血管アウトカムデータはまだ蓄積途中で、長期(数年以上)の安全性・心血管アウトカム試験は現在進行中。",
+    "sources": [
+      {
+        "name": "Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1)",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038",
+        "type": "RCT"
+      },
+      {
+        "name": "Improved health-related quality of life with tirzepatide versus semaglutide in adults with obesity (SURMOUNT-5)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12673425/",
+        "type": "RCT"
+      },
+      {
+        "name": "最適使用推進ガイドライン チルゼパチド(ゼップバウンド皮下注)",
+        "url": "https://www.mhlw.go.jp/content/10808000/001440799.pdf",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-09-27",
+    "last_reviewed": "2026-09-27"
+  },
+  {
+    "id": "oral-cgrp-antagonist-gepant-migraine-prevention",
+    "title": "経口CGRP受容体拮抗薬(ゲパント)は片頭痛予防薬として確立し、2025〜2026年に日本でも承認された",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "薬物治療",
+      "予防薬",
+      "ゲパント"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "複数の大規模RCT(NEJM/Lancet)+ 日本頭痛学会 暫定ガイドライン",
+    "summary": {
+      "basic": "片頭痛(ズキズキする強い頭痛)を防ぐための飲み薬の新しいタイプ「ゲパント」が登場しました。注射で使うCGRP関連抗体薬と似た仕組みですが、飲み薬なので使いやすいのが特徴です。実験では、飲んだ人は頭痛の日数が月に1〜2日ほど減ることが分かっています。日本でも2025年末から2026年にかけて使えるようになりました。",
+      "general": "アトゲパント・リメゲパントといった経口CGRP受容体拮抗薬(ゲパント)は、既存の注射薬(CGRP関連抗体薬)と同じCGRPの働きを飲み薬で抑える片頭痛予防薬。大規模RCTで月間片頭痛日数を有意に減らすことが確認され、副作用も比較的少ない。リメゲパントは2025年9月、アトゲパントは2026年2月に日本で承認され、いずれも発売済み。",
+      "professional": "atogepantの第3相ADVANCE試験(NEJM, N=873)では60mg群で月間片頭痛日数がプラセボ比-1.72日(統計学的に有意、投与1週目から効果発現)。慢性片頭痛対象のPROGRESS試験でも有効性を確認。rimegepant 75mg隔日投与の第2/3相試験(Lancet)でもプラセボ比で有意な片頭痛日数減少と良好な忍容性を確認。日本では2025年9月にリメゲパント(ナルティークOD錠、急性期治療・発症抑制の両適応)、2026年2月にアトゲパント(アクイプタ錠、発症抑制)が厚労省承認され、日本頭痛学会の暫定ガイドラインでも位置づけが整理されている。"
+    },
+    "practical_takeaway": "従来の飲み薬(β遮断薬等)で効果不十分な場合や、注射薬(CGRP関連抗体薬)に抵抗がある場合の新しい選択肢として、頭痛専門医に相談する価値がある。",
+    "caution": "処方薬であり自己判断での使用はできない。妊娠中の安全性データは限られる。悪心などの消化器症状が報告されており、既存薬との相互作用(CYP3A4阻害薬等)にも注意が必要。日本では保険適用の対象患者・用法用量が薬剤ごとに定められており、詳細は医師の判断に従うこと。",
+    "sources": [
+      {
+        "name": "Atogepant for the Preventive Treatment of Migraine (ADVANCE trial)",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2035908",
+        "type": "RCT"
+      },
+      {
+        "name": "Oral rimegepant for preventive treatment of migraine: a phase 2/3, randomised, double-blind, placebo-controlled trial",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)32624-6/fulltext",
+        "type": "RCT"
+      },
+      {
+        "name": "日本で初めて、片頭痛の急性期治療および発症抑制の両方を適応とする経口薬「ナルティークOD錠75mg」製造販売承認取得",
+        "url": "https://www.pfizer.co.jp/pfizer/company/press/2025/2025-09-19",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-09-27",
+    "last_reviewed": "2026-09-27"
   }
 ]

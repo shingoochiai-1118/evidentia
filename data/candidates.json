@@ -529,5 +529,110 @@
     "date_added": "2026-09-26",
     "last_reviewed": "2026-09-26",
     "proposed_date": "2026-09-26"
+  },
+  {
+    "id": "coenzyme-q10-migraine-prevention-level-c",
+    "title": "コエンザイムQ10は片頭痛予防に「おそらく効果がある」(Level C)、月の頭痛回数を1.5回ほど減らす可能性",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "サプリメント",
+      "コエンザイムQ10"
+    ],
+    "stars": 2,
+    "status": "well_established",
+    "evidence_level": "学会ガイドライン(AAN/AHS, Level C)+ RCT6件のメタ解析",
+    "summary": {
+      "basic": "コエンザイムQ10というサプリメントを飲むと、片頭痛(ズキズキする強い頭痛)が起きる回数が少し減るかもしれない、という研究結果があります。ただ、マグネシウムやビタミンB2ほど「効く」という証拠の強さは無く、「たぶん効くかもしれない」くらいの位置づけです。",
+      "general": "コエンザイムQ10は、片頭痛予防薬に関する米国のガイドライン(AAN/AHS)で「Level C:おそらく効果がある」に分類されているサプリメント。6件のRCTを統合したメタ解析では、月間片頭痛日数がプラセボと比べて平均1.5回程度減少したと報告されている。マグネシウムやビタミンB2(Level B)と比べると、エビデンスの強さは一段階低い。",
+      "professional": "AAN/AHS(2012年版)及びEFNSガイドラインではCoQ10をLevel C(nutraceuticalとしてpossibly effective)に分類。RCT6件を統合したメタ解析では月間片頭痛頻度の有意な減少(約1.5発作/月)を報告しているが、個々の試験は小規模(n=42〜80程度)で、用量・投与期間も試験間で異なる。安全性は良好で重篤な有害事象の報告は少ない。"
+    },
+    "practical_takeaway": "マグネシウムやビタミンB2高用量を試して効果不十分な場合の追加選択肢として検討してもよいが、効果はマイルドで即効性は期待しにくい。",
+    "caution": "エビデンスの強さはLevel C(Level B のマグネシウム・ビタミンB2より一段階低い)。小規模試験が中心で、大規模RCTによる再現確認が望まれる。妊娠中・授乳中の安全性データは限られる。",
+    "sources": [
+      {
+        "name": "Coenzyme Q10 supplementation for prophylaxis in adult patients with migraine—a meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7786797/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Effectiveness of coenzyme Q10 in prophylactic treatment of migraine headache: an open-label, add-on, controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27670440/",
+        "type": "RCT"
+      }
+    ],
+    "date_added": "2026-09-27",
+    "last_reviewed": "2026-09-27",
+    "proposed_date": "2026-09-27"
+  },
+  {
+    "id": "metformin-longevity-healthspan-preliminary",
+    "title": "メトホルミンの「抗老化」効果は観察研究止まりで、ヒトでの無作為化試験(TAME試験)は現在進行中",
+    "category": "antiaging",
+    "tags": [
+      "医療の専門知識",
+      "メトホルミン"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "2型糖尿病患者を対象とした観察研究・target trial emulation(ヒトRCTは進行中で未発表)",
+    "summary": {
+      "basic": "メトホルミンは糖尿病の薬ですが、「老化を防ぎ長生きできるかもしれない」と話題になっています。糖尿病の人がこの薬を飲むと、飲んでいない人より長生きする傾向があるという調査結果があるからです。ただ、これは「糖尿病でない健康な人が飲んでも同じ効果があるか」を確かめた、きちんとした比較実験(ランダムに分けて調べる試験)ではありません。その大規模な実験(TAME試験)は現在進行中で、まだ結果は出ていません。",
+      "general": "メトホルミンは2型糖尿病治療薬だが、糖尿病患者を対象とした観察研究で、非糖尿病者と比べて全死亡率や一部のがんの発症率が低い傾向が報告され、「抗老化薬」として注目されている。しかし、これは糖尿病患者どうしの比較や後方視的な比較研究にとどまり、健康な非糖尿病高齢者を対象に加齢関連疾患の発症を無作為化して検証する試験(TAME試験、3000人規模)は現在進行中で、結果はまだ発表されていない。動物実験では寿命延長効果が報告されているが、ヒトでの再現性は不確実。",
+      "professional": "メトホルミンの抗老化仮説はAMPK活性化・mTOR阻害等の機序に基づくが、ヒトでのエビデンスは主に2型糖尿病患者を対象とした観察研究・target trial emulation(例: メトホルミン使用者 vs. スルホニル尿素使用者の比較)にとどまる。健康な非糖尿病高齢者(65-79歳、n=3000)を対象に心血管疾患・がん・認知症・死亡の複合エンドポイントを検証するTAME試験(Targeting Aging with Metformin)は進行中で、2026年9月時点で主要評価項目の結果は未発表。専門家もTAME試験の結果が出るまで、抗老化目的でのオフラベル処方には慎重な立場を取っている。"
+    },
+    "practical_takeaway": "糖尿病でない健康な人が「老化予防」目的でメトホルミンを自己判断で使用することは推奨されない。TAME試験など質の高いヒト試験の結果を待つべき段階。",
+    "caution": "メトホルミンは処方薬であり、糖尿病以外の目的での使用(オフラベル使用)は日本では承認されていない。乳酸アシドーシス等の副作用リスクもあり、自己判断での入手・使用は避けるべき。",
+    "sources": [
+      {
+        "name": "Trials of geroscience-based therapeutics – the Targeting Aging with Metformin (TAME) example",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6230116/",
+        "type": "expert_opinion"
+      },
+      {
+        "name": "A Critical Review of the Evidence That Metformin Is a Putative Anti-Aging Drug That Enhances Healthspan and Extends Lifespan",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8374068/",
+        "type": "expert_opinion"
+      }
+    ],
+    "date_added": "2026-09-27",
+    "last_reviewed": "2026-09-27",
+    "proposed_date": "2026-09-27"
+  },
+  {
+    "id": "menopausal-hormone-therapy-timing-hypothesis-cardiovascular",
+    "title": "更年期ホルモン療法(HRT)の心血管への影響は開始時期による「タイミング仮説」が支持されつつあるが結論は割れている",
+    "category": "antiaging",
+    "tags": [
+      "更年期",
+      "ホルモン療法",
+      "定説の見直し",
+      "医療の専門知識"
+    ],
+    "stars": 2,
+    "status": "under_debate",
+    "evidence_level": "大規模RCT(WHI試験)の長期追跡解析+複数のレビュー・メタ解析(結果一部不一致)",
+    "summary": {
+      "basic": "以前は「更年期のホルモン療法(HRT)は心臓病を防ぐのに良い」と考えられていましたが、2002年の大規模な実験(WHI試験)で、むしろ心臓病や脳卒中のリスクを上げる可能性が示され、大きく評価が変わりました。その後の研究では、「更年期になってすぐ(50代前半など)に始めた場合は影響が異なるかもしれない」という考え方(タイミング仮説)が出てきていますが、専門家の間でもまだ結論は一致していません。",
+      "general": "更年期ホルモン療法(HRT)は、かつて心血管疾患予防に有効と考えられていたが、2002年のWHI試験で心血管イベント・脳卒中・乳がんリスクの増加が示され、評価が大きく見直された(通説の見直し)。その後の再解析やWHIの長期追跡データから、更年期開始後10年以内・60歳以下で開始した場合はリスクがより小さく、場合によっては心血管保護的である可能性を示す「タイミング仮説」が提唱されている。しかし、これはHRTを心血管疾患の一次予防目的で推奨する根拠にはならず、主要な学会は現時点でも心血管予防目的でのHRT単独処方は推奨していない。",
+      "professional": "WHI試験(CEE単独・CEE+MPA)の11年長期追跡解析では、50-59歳で開始したCEE単独群でCVD・心筋梗塞・全死亡リスクがプラセボ比で有意に低下し、Timing Hypothesis(Hodis & Mack)を支持する結果となった。閉経後10年以内・60歳以下開始群ではCHDリスクがプラセボ比32%減少との報告もある一方、閉経後10年超・高齢での開始群では心血管イベント増加が一貫して観察される。ただしメタ解析間で対象集団・製剤(エストロゲン単独 vs 複合)・観察期間が異なり結果は一致しておらず、NAMS/ACOG等もHRTの適応は血管運動神経症状の緩和等が中心であり、心血管疾患の一次予防を適応症とすることには慎重な立場を維持している。"
+    },
+    "practical_takeaway": "更年期症状(ほてり等)の治療目的でHRTを検討する際、「心臓病予防にもなるかもしれない」という情報だけを根拠に開始・継続を判断すべきではない。開始年齢・閉経からの経過年数・個々のリスク(血栓症・乳がん既往等)を含めて医師と相談することが重要。",
+    "caution": "タイミング仮説は主に観察的な再解析・サブグループ解析に基づく部分が大きく、心血管疾患の一次予防を目的とした前向きRCTで確立された結論ではない。乳がん・血栓症等のリスクは製剤・使用期間により異なり、個々のリスク評価が必須。",
+    "sources": [
+      {
+        "name": "The Timing Hypothesis: Hormone Therapy for Treating Symptomatic Women During Menopause and Its Relationship to Cardiovascular Disease",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30484736/",
+        "type": "expert_opinion"
+      },
+      {
+        "name": "From discovery to debate: The history of menopausal hormone therapy and its impact on cardiovascular health",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13231390/",
+        "type": "expert_opinion"
+      }
+    ],
+    "date_added": "2026-09-27",
+    "last_reviewed": "2026-09-27",
+    "proposed_date": "2026-09-27"
   }
 ]
