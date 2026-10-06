@@ -1977,5 +1977,131 @@
     ],
     "date_added": "2026-09-27",
     "last_reviewed": "2026-09-27"
+  },
+  {
+    "id": "potassium-salt-substitute-stroke-cvd-prevention",
+    "title": "普通の食塩をカリウム入りの「減塩塩(塩代替品)」に替えると、血圧・脳卒中・心血管疾患のリスクが下がる",
+    "category": "cardio",
+    "tags": [
+      "食塩",
+      "減塩",
+      "高血圧",
+      "脳卒中",
+      "調味料"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "大規模クラスターRCT(NEJM, N=20,995)+ WHOガイドライン(2025, 条件付き推奨)",
+    "summary": {
+      "basic": "いつも使う塩を、塩の一部を「カリウム」という別の成分に置きかえた「減塩塩」に変えるだけで、血圧が下がり、脳の血管が詰まったり破れたりする病気(脳卒中)が減ることがわかりました。中国の約2万人を5年ほど調べた大きな実験では、脳卒中が約14%、亡くなる人も約12%減りました。WHO(世界保健機関)も2025年に、多くの大人にこの置きかえをすすめています。ただし、腎臓の病気がある人には向きません。",
+      "general": "食塩(塩化ナトリウム)の一部を塩化カリウムに置き換えた「低ナトリウム塩代替品」を使うと、ナトリウム摂取が減りカリウム摂取が増えることで血圧が下がる。脳卒中既往または60歳以上の高血圧の約2万人を対象とした中国の大規模試験(SSaSS)では、約5年で脳卒中が14%、主要心血管イベントが13%、全死亡が12%減少した。WHOは2025年1月、腎機能障害のない一般成人に対し、普通の食塩をカリウム含有の減塩塩に替えることを条件付きで推奨した。",
+      "professional": "SSaSS(NEJM 2021, 中国農村600村のクラスターRCT, N=20,995, 平均年齢65.4歳, 平均追跡4.74年)で塩代替品(NaCl 75%/KCl 25%)群は脳卒中 rate ratio 0.86(95%CI 0.77–0.96)、主要心血管イベント 0.87(0.80–0.94)、全死亡 0.88(0.82–0.95)と有意に低下し、高カリウム血症関連の重篤有害事象は有意な増加なし。WHOガイドライン(2025年1月)は妊婦・小児・腎機能障害等のカリウム排泄が障害される者を除く成人一般集団に対し、カリウム含有低ナトリウム塩代替品への置換を条件付き推奨(収縮期血圧 約-4.8mmHg, 中等度の確実性)としている。"
+    },
+    "practical_takeaway": "家庭で使う食塩を、塩化カリウム入りの「減塩塩」に置き換えるのは手軽な対策。ただし減塩塩を使っても「たくさん使えば同じ」なので、量を控える意識(日本の目標: 男性7.5g・女性6.5g/日未満)と併用する。",
+    "caution": "腎臓病(腎機能低下)のある人、カリウムを上げる薬(ACE阻害薬・ARB・カリウム保持性利尿薬など)を飲んでいる人は高カリウム血症の危険があるため、使用前に必ず医師に相談すること。WHOの推奨は妊婦・小児を対象外としている。根拠となった大規模RCTは中国の高リスク高齢者が中心で、塩分摂取が比較的多い集団での結果である点にも留意。",
+    "sources": [
+      {
+        "name": "Use of lower-sodium salt substitutes: WHO guideline (2025)",
+        "url": "https://www.who.int/publications/i/item/9789240105591",
+        "type": "guideline"
+      },
+      {
+        "name": "Neal B, et al. Effect of Salt Substitution on Cardiovascular Events and Death (SSaSS). N Engl J Med. 2021.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34459569/",
+        "type": "RCT"
+      },
+      {
+        "name": "国立がん研究センター がん情報サービス「科学的根拠に基づくがん予防」(食塩摂取の目標量)",
+        "url": "https://ganjoho.jp/public/pre_scr/cause_prevention/evidence_based.html",
+        "type": "patient_guideline"
+      }
+    ],
+    "date_added": "2026-10-06",
+    "last_reviewed": "2026-10-06"
+  },
+  {
+    "id": "helicobacter-pylori-eradication-gastric-cancer-prevention",
+    "title": "ピロリ菌の除菌は、胃がんの発生を約半分に、胃がん死亡を約4割減らす",
+    "category": "cancer",
+    "tags": [
+      "胃がん",
+      "ピロリ菌",
+      "除菌治療",
+      "感染症"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "コクランレビュー(RCT 7件, N=8,323, 中等度の確実性)+ 国立がん研究センター・厚労省の推奨",
+    "summary": {
+      "basic": "「ピロリ菌」という、胃の中にすみつく細菌は、胃がんの大きな原因です。症状がなくてもピロリ菌がいる人が、薬で菌を退治(除菌)すると、胃がんになる人がおよそ半分に減ることが、たくさんの実験をまとめた研究でわかりました。日本では中高年の多くがこの菌を持っているといわれるので、一度検査を受ける価値があります。",
+      "general": "ヘリコバクター・ピロリ菌の感染は胃がんの主な原因の一つ。症状のない感染者を対象にした7つのランダム化比較試験をまとめたコクランレビュー(2020年)では、除菌治療によって胃がんの発生が46%、胃がんによる死亡が39%減った。国立がん研究センターも、機会があればピロリ菌検査を受け、除菌は医師と相談して決めることを勧めている。",
+      "professional": "Cochrane Database Syst Rev 2020(Ford AC, et al., CD005583):健常無症候性H. pylori感染者を対象としたRCT 7件(N=8,323, うち6件がアジア, 追跡4〜22年)のメタ解析で、除菌は胃癌発生 RR 0.54(95%CI 0.40–0.72, NNT 72)、胃癌死亡 RR 0.61(0.40–0.92, 4試験, N=6,301)を低下させたが、全死亡は RR 0.97(0.85–1.12)で有意差なし(いずれも中等度の確実性)。国立がん研究センター「科学的根拠に基づくがん予防」でもピロリ菌検査の受検と医師との相談による除菌を推奨。"
+    },
+    "practical_takeaway": "機会があればピロリ菌の検査(血液・便・呼気など)を受け、陽性なら除菌治療について医師と相談する。除菌に成功した後も、胃がん検診(内視鏡等)は定期的に続ける。",
+    "caution": "除菌しても胃がんのリスクがゼロになるわけではなく(特にすでに萎縮性胃炎が進んだ人)、除菌後も定期的な検診が必要。全死亡の減少は示されていない。根拠となったRCTの大半はアジア(胃がん多発地域)で行われたもので、他地域への一般化には限界がある。除菌治療は抗菌薬を使う医療行為で、下痢・味覚異常・薬疹などの副作用や耐性菌の問題があり、医師の判断が前提。",
+    "sources": [
+      {
+        "name": "Ford AC, et al. Helicobacter pylori eradication for the prevention of gastric neoplasia. Cochrane Database Syst Rev. 2020.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7389270/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Cochrane: Helicobacter pylori eradication for the prevention of gastric neoplasia (平易な要約)",
+        "url": "https://www.cochrane.org/evidence/CD005583",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "国立がん研究センター がん情報サービス「科学的根拠に基づくがん予防」",
+        "url": "https://ganjoho.jp/public/pre_scr/cause_prevention/evidence_based.html",
+        "type": "patient_guideline"
+      },
+      {
+        "name": "厚生労働省 がん検診50%推進サイト「胃がんについて」",
+        "url": "https://www.gankenshin50.mhlw.go.jp/cancer/basic/stomach_1.html",
+        "type": "patient_guideline"
+      }
+    ],
+    "date_added": "2026-10-06",
+    "last_reviewed": "2026-10-06"
+  },
+  {
+    "id": "sugar-sweetened-beverages-weight-gain",
+    "title": "砂糖入り飲料(清涼飲料水・加糖ジュース等)の習慣的な摂取は、子どもも大人も体重増加につながる",
+    "category": "obesity",
+    "tags": [
+      "飲料",
+      "砂糖",
+      "清涼飲料水",
+      "避けるべきもの"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "WHOガイドライン(2015, 強い推奨)+ コホート研究とRCTを含むメタ解析",
+    "summary": {
+      "basic": "ジュースや炭酸飲料など、砂糖がたくさん入った飲み物を毎日飲むと、子どもも大人も太りやすくなることがわかっています。飲み物の砂糖は「食べた」という満足感が少ないので、ついとりすぎてしまうのです。WHO(世界保健機関)も、砂糖のとりすぎを減らすよう呼びかけています。のどがかわいたら、水やお茶を選ぶのがおすすめです。",
+      "general": "砂糖入り飲料(SSB)の摂取と体重増加の関係を調べた32研究のメタ解析では、子ども・大人ともにSSBが体重増加を促すことが示され、子どもでSSBを減らす介入をすると体重(BMI)の増加が抑えられた。WHOは2015年のガイドラインで、飲料などに加えられる「遊離糖類」を総エネルギーの10%未満(できれば5%未満=1日約25g)に抑えるよう強く推奨しており、その主な根拠の一つが体重増加・肥満のリスクである。",
+      "professional": "Malik VS, et al.(Am J Clin Nutr 2013)の系統的レビュー・メタ解析(32報: 小児コホート15件/N=25,745・RCT 5件/N=2,772、成人コホート7件/N=174,252・RCT 5件/N=292)で、SSB 1サービング/日増加ごとに1年あたり小児でBMI +0.06、成人で体重 +0.12〜0.22kgと関連し、小児RCTではSSB削減でBMI増加が抑制、成人RCTではSSB追加で体重が増加した。WHO Guideline: Sugars intake for adults and children(2015)は遊離糖類を総エネルギーの10%未満に制限することを強く推奨(5%未満は条件付き推奨)。"
+    },
+    "practical_takeaway": "日常の飲み物は水・無糖のお茶・無糖コーヒーなどを基本にし、清涼飲料水や加糖ジュースは「たまの嗜好品」にとどめる。500mLの加糖炭酸飲料1本には50g前後の砂糖が含まれることがあり、それだけでWHOの目安(1日25g)を大きく超える。",
+    "caution": "100%果汁ジュースもWHOの定義では「遊離糖類」に含まれる。一方、果物そのもの・牛乳に含まれる糖は対象外。1サービングあたりの体重増加は小さいが、毎日の積み重ねで差が出る点が重要。人工甘味料(非糖質甘味料)飲料への置き換えについては、WHOが2023年に体重管理目的での使用を推奨しない指針を出しており(他の学会との間で議論あり)、まずは水・無糖飲料を優先する。",
+    "sources": [
+      {
+        "name": "Malik VS, et al. Sugar-sweetened beverages and weight gain in children and adults: a systematic review and meta-analysis. Am J Clin Nutr. 2013.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23966427/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "WHO calls on countries to reduce sugars intake among adults and children (Guideline: Sugars intake for adults and children, 2015)",
+        "url": "https://www.who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children",
+        "type": "guideline"
+      },
+      {
+        "name": "WHO advises not to use non-sugar sweeteners for weight control (Use of non-sugar sweeteners: WHO guideline, 2023)",
+        "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-10-06",
+    "last_reviewed": "2026-10-06"
   }
 ]
