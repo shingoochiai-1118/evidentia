@@ -2134,5 +2134,162 @@
     ],
     "date_added": "2026-10-06",
     "last_reviewed": "2026-10-06"
+  },
+  {
+    "id": "paracetamol-acute-low-back-pain-no-benefit",
+    "title": "急性腰痛にアセトアミノフェン(カロナール等)を飲んでも、偽薬と比べて治りは早くならない",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "鎮痛薬",
+      "アセトアミノフェン",
+      "薬"
+    ],
+    "stars": 4,
+    "status": "myth_revised",
+    "evidence_level": "大規模RCT(PACE試験, Lancet 2014)+コクランレビュー(2016, 高い確実性)",
+    "summary": {
+      "basic": "ぎっくり腰のような急な腰痛には、昔から「まずは痛み止めのアセトアミノフェン」と言われてきました。ところが、オーストラリアで約1,600人を3つのグループに分けて調べたところ、アセトアミノフェンを飲んだ人も、見た目が同じ「にせの薬」を飲んだ人も、治るまでの日数は約2週間半でほぼ同じでした。急な腰痛は多くが自然に良くなるので、薬より「なるべく普段どおり動く」ことの方が大切です。",
+      "general": "急性腰痛の第一選択薬とされてきたアセトアミノフェンについて、2014年のPACE試験(1,652人)では、定期内服群・頓用群・プラセボ群のいずれも回復までの中央値は16〜17日で差がなく、痛み・機能・睡眠・生活の質にも差はなかった。この試験を含むコクランレビュー(2016)も「急性腰痛ではプラセボより良い結果をもたらさない」と高い確実性で結論づけ、英国NICEなどのガイドラインは推奨を取り下げた。",
+      "professional": "PACE試験(Williams CM, et al. Lancet 2014; 235施設, n=1,652, 二重盲検)で、アセトアミノフェン定期投与(3,990mg/日)・頓用(最大4g/日)・プラセボの回復までの期間中央値は17/17/16日(定期vsプラセボ HR 0.99, 95%CI 0.87–1.14)。Cochrane(Saragiotto 2016, CD012230)は急性腰痛で1・2・4・12週の疼痛・機能障害に差がないことを高い確実性で示した。慢性腰痛のエビデンスは非常に低い。"
+    },
+    "practical_takeaway": "急な腰痛では、安静にしすぎず可能な範囲で普段の活動を続けることが基本。痛み止めを使う場合も「飲めば早く治る」とは期待しすぎず、必要ならNSAIDsなどを医師・薬剤師と相談する。",
+    "caution": "根拠の大部分は1つの大規模試験(PACE)に依存しており、慢性腰痛や他の痛み(頭痛・発熱など)へのアセトアミノフェンの効果を否定するものではない。NSAIDsが使えない人(胃潰瘍・腎機能低下・妊娠中など)では、医師の判断でアセトアミノフェンが選ばれることもある。足のしびれ・脱力・排尿障害・発熱を伴う腰痛はすぐ受診を。",
+    "sources": [
+      {
+        "name": "Williams CM, et al. Efficacy of paracetamol for acute low-back pain: a double-blind, randomised controlled trial (PACE). Lancet. 2014;384:1586-96.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25064594/",
+        "type": "RCT"
+      },
+      {
+        "name": "Saragiotto BT, et al. Paracetamol for low back pain. Cochrane Database Syst Rev. 2016;CD012230.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6353046/",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-10-18",
+    "last_reviewed": "2026-10-18"
+  },
+  {
+    "id": "opioids-acute-low-back-neck-pain-no-benefit",
+    "title": "急な腰痛・首の痛みにオピオイド(医療用麻薬系の鎮痛薬)を使っても、偽薬より痛みは軽くならない",
+    "category": "musculoskeletal",
+    "tags": [
+      "腰痛",
+      "首の痛み",
+      "鎮痛薬",
+      "オピオイド",
+      "薬"
+    ],
+    "stars": 4,
+    "status": "myth_revised",
+    "evidence_level": "大規模RCT(OPAL試験, Lancet 2023, 三重盲検)",
+    "summary": {
+      "basic": "強い痛み止めである「オピオイド」は、急な腰痛や首の痛みにも使われることがありました。ところが約350人を2つのグループに分けて6週間調べたところ、オピオイドを飲んだ人と、見た目が同じ「にせの薬」を飲んだ人で、痛みの強さに違いはありませんでした。便秘などの副作用は、オピオイドのグループの方が多く見られました。",
+      "general": "2023年のOPAL試験では、発症12週以内の腰痛・首の痛みの成人347人を、ガイドライン通りの治療に加えてオピオイド(オキシコドン・ナロキソン)またはプラセボを最大6週間使う群に分けた。6週時点の痛みはむしろプラセボ群でわずかに低く、オピオイドの有意な効果は認められなかった。便秘などの副作用はオピオイド群で多く、著者らは急性の非特異的腰痛・頸部痛にオピオイドを推奨すべきでないと結論づけた。",
+      "professional": "OPAL試験(Jones CMP, et al. Lancet 2023; 157施設, n=347, 三重盲検RCT)で、ガイドライン推奨ケア+オキシコドン/ナロキソン(最大20mg/日)vs プラセボの6週時BPI疼痛スコアは2.78 vs 2.25(調整平均差0.53, 95%CI −0.00〜1.07, p=0.051)とプラセボ側に傾いた。有害事象全体に差はないが便秘は7.5% vs 3.5%。"
+    },
+    "practical_takeaway": "急な腰痛・首の痛みでは、オピオイド系の強い痛み止めを求めるより、安心して普段どおり動くこと・必要に応じたNSAIDsなど標準的な対応を医師と相談する。",
+    "caution": "単一の大規模RCT(★4の理由)。対象は発症12週以内の「非特異的」な腰痛・頸部痛で、骨折・がん・神経障害による痛み、救急外来の超急性期の激痛、がんの痛みなどには当てはまらない。処方中の薬を自己判断で中止せず、主治医に相談を。",
+    "sources": [
+      {
+        "name": "Jones CMP, et al. Opioid analgesia for acute low back pain and neck pain (the OPAL trial): a randomised placebo-controlled trial. Lancet. 2023;402:304-312.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37392748/",
+        "type": "RCT"
+      },
+      {
+        "name": "Sullivan MD, Ballantyne JC. Randomised trial reveals opioids relieve acute back pain no better than placebo. Lancet. 2023 (Comment).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37392749/",
+        "type": "expert_opinion"
+      }
+    ],
+    "date_added": "2026-10-18",
+    "last_reviewed": "2026-10-18"
+  },
+  {
+    "id": "low-dose-ct-lung-cancer-screening-heavy-smokers",
+    "title": "喫煙歴の長い50〜74歳は、年1回の低線量CT検診で肺がん死亡を2割前後減らせる",
+    "category": "cancer",
+    "tags": [
+      "肺がん",
+      "がん検診",
+      "低線量CT",
+      "喫煙"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "大規模RCT2本(NLST, NELSON)+USPSTF Grade B+国立がん研究センター肺がん検診ガイドライン2025 推奨グレードA",
+    "summary": {
+      "basic": "たばこをたくさん長く吸ってきた人は、肺がんになりやすくなります。そうした人が毎年、放射線の量を少なくしたCT検査を受けると、肺がんで亡くなる人が2割くらい減ることが、アメリカとヨーロッパの大きな研究でわかりました。日本でも2025年に「たくさん吸ってきた50〜74歳の人には、1年に1回のCT検診をすすめる」と決まりました。ただし、たばこを吸わない人にまで勧められるほどの証拠はまだありません。",
+      "general": "米国のNLST(約5万3千人)では低線量CTが胸部X線に比べ肺がん死亡を20%減らし、欧州のNELSONでも10年で約24%の減少が示された。米国予防医学専門委員会(USPSTF)は2021年に50〜80歳・20箱年以上の喫煙歴がある人への年1回検診を推奨。日本でも国立がん研究センターの2025年度版ガイドラインが、喫煙指数600以上の重喫煙者(50〜74歳)への年1回の低線量CTを最高の推奨グレードAとした。一方、非喫煙者への低線量CTは根拠不十分(グレードI)とされている。",
+      "professional": "NLST(NEJM 2011)でLDCTは胸部X線比で肺がん死亡20.0%減(95%CI 6.8–26.7)、全死亡6.7%減。NELSON(NEJM 2020)で男性の10年肺がん死亡率比0.76(95%CI 0.61–0.94)。USPSTF 2021は50〜80歳・20 pack-year以上・禁煙15年以内にGrade B。国立がん研究センター 有効性評価に基づく肺がん検診ガイドライン2025年度版は喫煙指数600以上・50〜74歳への年1回LDCTを推奨グレードA、非重喫煙者へのLDCTはグレードI(対策型では実施しない)。"
+    },
+    "practical_takeaway": "「1日の本数×喫煙年数」が600以上(例: 1日20本×30年)で、今も吸っているか禁煙15年以内の50〜74歳は、年1回の低線量CT検診について自治体・かかりつけ医に相談する。何より禁煙が最大の予防策。",
+    "caution": "偽陽性による追加検査、過剰診断(ガイドラインでは5〜20%程度と推計)、被ばく(1回約1mSv)といった不利益がある。非喫煙者への低線量CT検診は有効性の根拠が不十分で、対策型検診(自治体検診)では勧められていない。日本では従来の胸部X線検査(40〜79歳、年1回)も推奨グレードAのまま。検診を受けても禁煙の代わりにはならない。",
+    "sources": [
+      {
+        "name": "国立がん研究センター 有効性評価に基づく肺がん検診ガイドライン2025年度版 公開(プレスリリース, 2025年4月25日)",
+        "url": "https://www.ncc.go.jp/jp/information/pr_release/2025/0425/index.html",
+        "type": "guideline"
+      },
+      {
+        "name": "US Preventive Services Task Force. Screening for Lung Cancer: Recommendation Statement. JAMA. 2021;325:962-970.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33687470/",
+        "type": "guideline"
+      },
+      {
+        "name": "National Lung Screening Trial Research Team. Reduced lung-cancer mortality with low-dose computed tomographic screening. NEJM. 2011;365:395-409.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21714641/",
+        "type": "RCT"
+      },
+      {
+        "name": "de Koning HJ, et al. Reduced Lung-Cancer Mortality with Volume CT Screening in a Randomized Trial (NELSON). NEJM. 2020;382:503-513.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31995683/",
+        "type": "RCT"
+      }
+    ],
+    "date_added": "2026-10-18",
+    "last_reviewed": "2026-10-18"
+  },
+  {
+    "id": "statin-primary-prevention-cvd",
+    "title": "心臓病・脳卒中を起こしたことがなくても、リスクの高い40〜75歳はスタチン(コレステロールの薬)で発症を減らせる",
+    "category": "cardio",
+    "tags": [
+      "スタチン",
+      "コレステロール",
+      "薬",
+      "心筋梗塞",
+      "脳卒中"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "RCT22本のシステマティックレビュー(約9万人)+USPSTF 2022 Grade B",
+    "summary": {
+      "basic": "「スタチン」はコレステロールを下げる薬です。まだ心臓や脳の病気になったことがない人でも、高血圧・糖尿病・喫煙などがあって将来の危険が高い人は、この薬を飲むと心筋梗塞が約3分の1、脳卒中が約2割減ることが、約9万人分の研究をまとめた調査でわかりました。アメリカの専門家委員会も、こうした40〜75歳の人に勧めています。",
+      "general": "米国予防医学専門委員会(USPSTF)が2022年に行ったレビューでは、心血管疾患の既往がない人を対象にした22のRCT(約9万人)で、スタチンは全死亡を8%、脳卒中を22%、心筋梗塞を33%減らし、重い副作用や筋肉痛の明らかな増加はなかった。USPSTFは、脂質異常症・糖尿病・高血圧・喫煙のいずれかがあり10年間の心血管リスクが10%以上の40〜75歳への処方を推奨(Grade B)、7.5〜10%の人には個別に検討(Grade C)とした。76歳以上は判断材料が不十分とされている。",
+      "professional": "USPSTFのエビデンスレビュー(Chou R, et al. JAMA 2022; RCT 22本, N=90,624)で、一次予防のスタチンは全死亡 RR 0.92(ARD −0.35%)、脳卒中 RR 0.78、MI RR 0.67、複合CVD RR 0.72(ARD −1.28%)。重篤な有害事象・筋痛・ALT上昇は増加せず、糖尿病は全体ではRR 1.04(高強度1試験で1.25)。推奨は40〜75歳・危険因子1つ以上・10年CVDリスク≥10%でGrade B、7.5〜<10%でGrade C、76歳以上はI statement。"
+    },
+    "practical_takeaway": "健診でコレステロールが高いと言われ、高血圧・糖尿病・喫煙などもある40〜75歳は、「症状がないから」と放置せず、かかりつけ医と将来のリスクに応じたスタチンの要否を相談する。食事・運動・禁煙が土台であることは変わらない。",
+    "caution": "処方薬であり、使うかどうかは医師が個別のリスクで判断する。リスク評価の方法は国によって異なり、日本では日本動脈硬化学会のガイドライン(日本人のデータに基づくリスク評価)が使われるため、米国の10%基準をそのまま当てはめない。日本人は欧米人より心筋梗塞の発症率が低く、絶対的な効果(何人に1人が恩恵を受けるか)は小さくなる可能性がある。高強度スタチンでは糖尿病リスクのわずかな上昇が報告されている。",
+    "sources": [
+      {
+        "name": "US Preventive Services Task Force. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Recommendation Statement. JAMA. 2022;328:746-753.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35997723/",
+        "type": "guideline"
+      },
+      {
+        "name": "Chou R, et al. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Updated Evidence Report and Systematic Review for the USPSTF. JAMA. 2022.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35997724/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "USPSTF Final Recommendation Statement: Statin Use for the Primary Prevention of CVD in Adults",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication",
+        "type": "guideline"
+      }
+    ],
+    "date_added": "2026-10-18",
+    "last_reviewed": "2026-10-18"
   }
 ]
