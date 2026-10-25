@@ -529,5 +529,41 @@
     "date_added": "2026-09-26",
     "last_reviewed": "2026-09-26",
     "proposed_date": "2026-09-26"
+  },
+  {
+    "id": "breakfast-weight-loss-myth",
+    "title": "「朝食を食べるとやせる」は根拠が乏しく、朝食を足しても体重は減らなかった",
+    "category": "obesity",
+    "tags": [
+      "朝食",
+      "食事のタイミング",
+      "食事回数",
+      "体重管理"
+    ],
+    "stars": 3,
+    "status": "myth_revised",
+    "evidence_level": "RCTのシステマティックレビュー・メタ解析(13試験、BMJ 2019)、ただし個々の試験の質は低〜不明",
+    "summary": {
+      "basic": "「朝ごはんを抜くと太る」「朝ごはんを食べるとやせる」とよく言われますが、くじ引きで「食べる組」と「抜く組」に分けた実験をまとめると、朝ごはんを食べた組のほうが1日に食べる量がむしろ多く、体重もわずかに(約0.4kg)重くなっていました。やせるために無理に朝ごはんを足す必要はなさそうです。",
+      "general": "朝食を食べる人はやせている、という観察研究の結果から「朝食はダイエットに良い」と言われてきた。しかし、朝食を食べる群と抜く群をランダムに分けた13件の試験をまとめた解析では、朝食を食べた群のほうが1日の総摂取カロリーが約260kcal多く、体重も平均0.44kg重かった。試験の質にはばらつきがあり確定的ではないが、減量目的で朝食を加える根拠は乏しい。",
+      "professional": "Sievertら(BMJ 2019)は高所得国の成人を対象とした13件のRCT(体重7件、エネルギー摂取10件)をメタ解析。朝食摂取群で体重 MD +0.44kg(95%CI 0.07–0.82, I²=43%)、総エネルギー摂取 MD +259.79 kcal/日(78.87–440.71, I²=80%)と、朝食欠食群のほうが有利だった。全試験が少なくとも1領域でバイアスリスク高または不明で、追跡期間も短い。"
+    },
+    "practical_takeaway": "朝食は「食べないと太る」と義務的に考えなくてよい。食べる場合は菓子パンや甘い飲み物でなく、たんぱく質や食物繊維を含むものを選び、1日全体の量で調整する。",
+    "caution": "含まれた試験はいずれも小規模・短期で質が低く、★3にとどめた。成人での体重の話であり、成長期の子ども・学童の朝食や、糖尿病で薬を使っている人の食事は別に考える必要がある。観察研究では朝食欠食と肥満・心血管リスクの関連が報告されており、生活習慣全体の違い(交絡)の影響が指摘されている。",
+    "sources": [
+      {
+        "name": "Sievert K, et al. Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials. BMJ. 2019;364:l42.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30700403/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "BMJ 全文: Effect of breakfast on weight and energy intake",
+        "url": "https://www.bmj.com/content/364/bmj.l42",
+        "type": "meta_analysis"
+      }
+    ],
+    "date_added": "2026-10-25",
+    "last_reviewed": "2026-10-25",
+    "proposed_date": "2026-10-25"
   }
 ]

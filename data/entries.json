@@ -2326,5 +2326,101 @@
     ],
     "date_added": "2026-10-18",
     "last_reviewed": "2026-10-18"
+  },
+  {
+    "id": "blood-pressure-control-cognitive-impairment-dementia",
+    "title": "高血圧をしっかり下げると、軽度認知障害(MCI)・認知症になる人が減る",
+    "category": "antiaging",
+    "tags": [
+      "認知症",
+      "血圧",
+      "高血圧",
+      "脳の健康"
+    ],
+    "stars": 4,
+    "status": "well_established",
+    "evidence_level": "大規模RCT2本(SPRINT MIND、中国CRHCP 約3.4万人)+RCTのメタ解析(14試験・約9.6万人)、日本高血圧学会JSH2025も推奨",
+    "summary": {
+      "basic": "血圧が高い人が薬などで血圧をしっかり下げると、もの忘れが進んだ状態(軽い認知症の手前)や認知症になる人が減ることが、くじ引きで分けた大きな実験で確かめられています。中国の約3万4千人の実験では、血圧を下げたグループは認知症が約15%少なくなりました。血圧は心臓や脳の血管だけでなく、頭の働きを守るためにも大切です。",
+      "general": "高血圧の人を対象にした大規模なランダム化比較試験で、積極的な降圧が認知機能の低下を減らすことが示されている。米国のSPRINT MINDでは、収縮期血圧120未満を目標にした群で軽度認知障害(MCI)が約19%減った(認知症単独では統計的な差に届かず)。中国農村部の約3.4万人の試験では、130/80未満を目標とした降圧で4年間の認知症が15%減った。14試験のメタ解析でも、降圧治療は認知症・認知障害をわずかに減らしていた。",
+      "professional": "SPRINT MIND(JAMA 2019, n=9,361, 目標SBP<120 vs <140 mmHg, 追跡中央値5.11年)では probable dementia HR 0.83(95%CI 0.67–1.04)と有意差なし、MCI HR 0.81(0.69–0.95)、MCI+認知症複合 HR 0.85(0.74–0.97)。CRHCP(Nat Med 2025, 326村のクラスターRCT, n=33,995, 目標<130/80)では48か月でSBP 22.0 mmHg差、全認知症 RR 0.85(0.76–0.95)。Hughesらのメタ解析(JAMA 2020, 14試験・96,158人、主解析12試験)でも認知症・認知障害 OR 0.93(0.88–0.98)、ARR 0.39%。JSH2025・AHA/ACC2025はMCI・認知症予防の観点からも<130/80を推奨。"
+    },
+    "practical_takeaway": "健診で血圧が高めと言われたら放置せず、減塩・運動などの生活習慣の見直しと、必要なら降圧薬で、130/80未満を目安に医師と相談しながら管理する。家庭血圧を測る習慣も役立つ。",
+    "caution": "効果の大きさは控えめで、メタ解析での絶対リスク低下は約0.4%。SPRINT MINDでは主要評価項目の認知症そのものは有意差に届かなかった(早期終了で症例が少なかった)。CRHCPは非盲検(評価者のみ盲検化)で中国農村部が対象。高齢者やふらつき・腎機能低下のある人では下げすぎによる転倒などのリスクもあるため、目標値は主治医と個別に決める。",
+    "sources": [
+      {
+        "name": "Williamson JD, et al. Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia (SPRINT MIND). JAMA. 2019;321:553-561.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30688979/",
+        "type": "RCT"
+      },
+      {
+        "name": "He J, et al. Blood pressure reduction and all-cause dementia in people with uncontrolled hypertension: an open-label, blinded-endpoint, cluster-randomized trial. Nat Med. 2025;31:2054-2061.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40258956/",
+        "type": "RCT"
+      },
+      {
+        "name": "Hughes D, et al. Association of Blood Pressure Lowering With Incident Dementia or Cognitive Impairment: A Systematic Review and Meta-analysis. JAMA. 2020;323:1934-1944.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32427305/",
+        "type": "meta_analysis"
+      },
+      {
+        "name": "Intensive blood pressure control <130/80 mmHg is recommended for prevention of MCI and dementia from the New JSH2025 and AHA/ACC2025 guidelines. Hypertens Res. 2025.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40998987/",
+        "type": "expert_opinion"
+      }
+    ],
+    "date_added": "2026-10-25",
+    "last_reviewed": "2026-10-25"
+  },
+  {
+    "id": "migraine-oral-preventives-propranolol-topiramate",
+    "title": "片頭痛が月4日以上あれば予防薬を検討する価値があり、プロプラノロールなど昔からの飲み薬も効果が確立している",
+    "category": "headache",
+    "tags": [
+      "片頭痛",
+      "予防薬",
+      "プロプラノロール",
+      "トピラマート",
+      "薬"
+    ],
+    "stars": 5,
+    "status": "well_established",
+    "evidence_level": "米国神経学会・米国頭痛学会ガイドライン(2012年Level A、2026年改訂版でも推奨継続)、多数のRCTのシステマティックレビュー",
+    "summary": {
+      "basic": "片頭痛がよく起きる人は、痛くなってから飲む薬だけでなく、毎日飲んで発作の回数そのものを減らす「予防の薬」を使う方法があります。アメリカの専門家の指針では、月に4日以上片頭痛がある人や、仕事や生活に困っている人は予防の薬を考えるとよいとしています。血圧の薬として昔から使われているプロプラノロールなどは、たくさんの実験で効き目が確かめられています。",
+      "general": "米国神経学会(AAN)と米国頭痛学会(AHS)は2026年に片頭痛予防薬のガイドラインを14年ぶりに改訂し、月4日以上の片頭痛日、月4日以上の中等度以上の頭痛日、または生活への支障がある場合に予防薬を検討するよう勧めている。新しいCGRP関連薬に加え、β遮断薬のプロプラノロールや抗てんかん薬のトピラマート・バルプロ酸といった従来薬も、根拠のある選択肢として位置づけられている。2012年版ではこれらの従来薬が最も強い推奨(Level A)を受けていた。効果判定は通常、十分な量で8〜12週続けてから行う。",
+      "professional": "AAN/AHS 2012ガイドライン(Silberstein, Neurology 2012)はdivalproex/バルプロ酸、トピラマート、メトプロロール、プロプラノロール、チモロールを反復性片頭痛予防にLevel Aで推奨。2026年改訂版(Potrebic, Neurology/Headache 2026; 2024年6月までの217研究のSR)は、片頭痛日≥4日/月、中等度以上の頭痛日≥4日/月または機能障害を開始の目安とし、有効性重視の患者には確信度高〜中の薬剤(反復性:CGRP mAb、atogepant、プロプラノロール、トピラマート、バルプロ酸)を、長期安全性を懸念する患者には使用歴の長いプロプラノロール・トピラマートを推奨(各Level B、薬剤別の記載は二次報道による)。単剤間で明確な優劣はなく、効果判定は目標用量で8〜12週(ボツリヌス毒素は24週)。"
+    },
+    "practical_takeaway": "片頭痛が月4日以上ある、または痛み止めを頻繁に飲んでいる場合は、頭痛外来や脳神経内科で予防薬について相談する。いきなり高価な新薬でなくても、持病・妊娠の希望・費用などに合わせて従来薬から選べることが多い。",
+    "caution": "処方薬であり、医師の判断が前提。日本ではプロプラノロールは2013年に「片頭痛発作の発症抑制」の効能が承認されているが、トピラマートは2015年時点で片頭痛予防は国内未承認(学会が適応追加を要望)であり、使用の可否は主治医に確認すること。バルプロ酸は胎児への影響があるため妊娠の可能性がある女性には原則使わない。プロプラノロールは喘息のある人には使えない。2026年版の薬剤ごとの推奨レベルは、本文全文ではなく要旨・学会発表・報道で確認した範囲である。",
+    "sources": [
+      {
+        "name": "Potrebic S, et al. Pharmacologic Treatment for Migraine Prevention in Adults Practice Guideline Recommendations: Report of the AAN Guidelines Subcommittee and the American Headache Society. Neurology. 2026.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42673560/",
+        "type": "guideline"
+      },
+      {
+        "name": "American Headache Society: Updated guideline on migraine prevention medications for adults (2026)",
+        "url": "https://americanheadachesociety.org/news/updated-guideline-on-migraine-prevention-medications-for-adults",
+        "type": "guideline"
+      },
+      {
+        "name": "Silberstein SD, et al. Evidence-based guideline update: pharmacologic treatment for episodic migraine prevention in adults. Neurology. 2012;78:1337-1345.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22529202/",
+        "type": "guideline"
+      },
+      {
+        "name": "PMDA 審査報告書: プロプラノロール塩酸塩(インデラル)片頭痛発作の発症抑制(2013年)",
+        "url": "https://www.pmda.go.jp/drugs/2013/P201300015/670227000_14100AZZ04028_A100_1.pdf",
+        "type": "guideline"
+      },
+      {
+        "name": "厚生労働省 未承認薬・適応外薬の要望: トピラマート(片頭痛発作の発症抑制)(2015年)",
+        "url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/dl/150810_3-3-50.pdf",
+        "type": "expert_opinion"
+      }
+    ],
+    "date_added": "2026-10-25",
+    "last_reviewed": "2026-10-25"
   }
 ]
